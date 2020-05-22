@@ -6,8 +6,8 @@ repository: Git repository where your resume will be hosted, only required if yo
 name: Emanuele Cannizzaro
 title: Technical Team Leader
 email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+phone: +44 7824 833651
+website: emanuelecannizzaro.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
