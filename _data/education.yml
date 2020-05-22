@@ -1,9 +1,10 @@
 # Education Template
 - layout: left
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
+  name: Università degli Studi di Palermo
+  dates: Sep 1992 - Nov 1998
+  qualification: MEng in Aerospace Engineering
   quote: >
-    Short institution or course description (optional)
+    Full Mark First Degree (110/110 cum laude).
+  thesis: Simulation of a Subsonic Wind Tunnel
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    Five year university degree

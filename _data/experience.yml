@@ -1,10 +1,10 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  company: Airbus
+  link: https://www.airbus.com/
+  job_title: Technical Team Leader
+  dates: July 2014 - present
   quote: >
-   Short description of the company (optional)
+   Airbus’ diverse product line includes everything from passenger jetliners to freighters and private jets. With each of the company’s aircraft family boasting cutting-edge design, superior comfort and unparalleled efficiency, they are setting the standard for the modern aviation industry.
   description: | # this will include new lines to allow paragraphs
     Description of role
