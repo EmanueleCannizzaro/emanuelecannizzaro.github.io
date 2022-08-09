@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div id="wrap">
+      {% include header.html %}
+
+      <div class="container-fluid">
+        <div class="row-fluid">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="{{ "/js/vendor/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ "/js/vendor/video.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/flat-ui.min.js" | prepend: site.baseurl }}"></script>
+    
+    <!-- smooth-scroll -->
+    <script src="{{ "/js/vendor/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
+    <script>
+      smoothScroll.init();
+    </script>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
