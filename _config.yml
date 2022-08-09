@@ -1,187 +1,63 @@
-# Site
-
-
-# Personal info
-name: Emanuele Cannizzaro
-
-##title: Emanuele Cannizzaro
-author:
-  name:
-    en: Emanuele Cannizzaro
-  title: Technical Team Leader
-  description:
-    en: Aerospace Engineer, Software Developer, Data Scientist and Business Transformer
-    it: Aerospace Engineer, Software Developer, Data Scientist and Business Transformer
-    fr: Aerospace Engineer, Software Developer, Data Scientist and Business Transformer
-    es: Aerospace Engineer, Software Developer, Data Scientist and Business Transformer
-  emails: 
-   - Emanuele.Cannizzaro@gmail.com
-  phone: +44 7824 833651
-  # Social links
-  #twitter_username: jekyllrb
-  #twitter: masakanai
-  github_username:  emanuelecannizzaro
-  #github: emanuelecannizzaro
-  #stackoverflow_username: "00000001"
-  #dribbble_username: jekyll
-  #facebook_username: jekyll
-  #flickr_username: jekyll
-  #instagram_username: jekyll
-  linkedin_username: emanuele-cannizzaro-0a85961b
-  #xing_username: jekyll
-  #pinterest_username: jekyll
-  #youtube_username: https://www.youtube.com/channel/UCVlpvXTUp3LiQi7o60scunw
-  #googleplus_username: +jekyll
-  #orcid_username: 0000-0000-0000-0000
-  #orcid: 0000-0001-5165-4408
-  #gscholar: https://scholar.google.com/citations?hl=en&user=jb3AUMsAAAAJ
-  #pubmed: https://www.ncbi.nlm.nih.gov/myncbi/masahiro.kanai.1/bibliography/public/
-# gems: ['jekyll/assets']
-# markdown: redcarpet
-# highliter: rouge
-
-baseurl: "" # the subpath of your site, e.g. /blog/
-
-url: "https://emanuelecannizzaro.github.io"
-repository: "https:/github.com/emanuelecannizzaro/emanuelecannizzaro.github.io"
-
-# Dark Mode (true/false/never)
-darkmode: false
-
-
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: https://google.com
-# - title: another link
-#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: img/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hello my name is Emanuele. I am an Aerospace Engineer, a Data Scientist, a Software Developer and a Problem Solver. 
-  My career aspiration is to contribute to the development of advanced engineering solutions based on data driven analyses performed with digital tools in a collaborative and empowered design and manufacturing organisation.
-  
-  I have worked in a range of industries including:
-  
-
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Aerospace (<a href="https://en.wikipedia.org/wiki/Airbus_A350_XWB">A350</a> - <a href="https://en.wikipedia.org/wiki/Airbus_A320_family">A320</a> - <a href="https://en.wikipedia.org/wiki/Airbus_A380">A380</a>)
-    - Automotive
-    - Transportation
-    - Energy
-    - Engineering Consulting such as [Assystem](https://uk.expleogroup.com) and [Atkins](https://www.atkinsglobal.com/en-GB)
-    - Business Administration
-
-  I am most skilled in Python
-
-  My Technical Skills
-    - Application and web development (Python, C, Java, C++, HTML, Javascript, VBA)
-    - Database platforms and query languages (MySQL, SQLite, )
-    - Development process management (DevOps, source control, continuous integration, code branching and merging strategies, test automation, test-driven development)
-    - DevOps platforms (GitLab, Azure DevOps, Git Kraken, Powershell, NuGet)
-    - Tools/Technologies (Microsoft Visual Studio, Eclipse, Sublime Text, Azure, Momentics, Git, Intellij, Junit, Virtual Box)
-    - Cloud platforms (Azure, Docker)
-    - Middleware platforms (RabbitMQ, Consul)
-    - SDLC methodologies (Agile, SCRUM, Waterfall)
-    - Operating Systems - Windows variants, Unix, Linux, OS X    
-
-# Projects Section
-projects_title: Projects #(Use this to override about projects section title)
-
-# Experience Section
-experience_title: Experience #(Use this to override about experience section title)
-
-# Education Section
-education_title: Education #(Use this to override about education section title)
-
-# More Section
-more_title: A Little More About Me #(Use this to override about more section title)
-
-more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
-# Footer
-footer_show_references: true
+# Site settings
+title: "Jekyll Resume Template"
+description: "A resume template for Jekyll and GitHub Pages sites."
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
-#sass:
-#  sass_dir: _sass
-#  style: compressed
-
-#plugins:
-# - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  #"node_modules",
-  #"vendor/bundle/",
-  #"vendor/cache/",
-  #"vendor/gems/",
-  #"vendor/ruby/",
-  #"lib/",
-  #"scripts/",
-  #"docker-compose.yml",
-  #"Rakefile", 
-  #"README.md", 
-  ".DS_Store", 
-  ".jekyll-cache"
-]
-  
-# Site settings
+markdown: kramdown
 sass:
-    sass_dir: ./css
+  sass_dir: _sass
+  style: compressed
 
-# redcarpet settings
-redcarpet:
-  extensions: [
-  tables,
-  autolink,
-  strikethrough,
-  no_intra_emphasis,
-  superscript,
-  highlight,
-  with_toc_data
-]
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Emanuele Cannizzaro"
+resume_title:                   "Aerospace Engineer, Software Developer, Data Scientist and Business Transformer"
 
-# jekyll-scholar settings
-#scholar:
-#  bibtex_filters:
-#    - latex
-    
-#  style: ./_bibliography/custom.csl
-#  locale: en
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "emanuele.cannizzaro@gmail.com"
 
-#  sort_by: none
-#  order: ascending
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "+33 (0) 7 49 49 09 9 22"
+resume_contact_address:         "12 Chemin de Gramont, Villa2, , Colomiers, 31770, , France"
 
-#  source: ./_bibliography
-#  bibliography: publications.bib
-#  bibliography_template: "{{reference}}"
-#   bibliography_list_attributes:
-#     reversed:
+resume_header_contact_info:     "12 Chemin de Gramont, Villa2, , Colomiers, 31770, , France • +33 (0) 7 49 49 09 9 22 • emanuele.cannizzaro@gmail.com"
+display_header_contact_info:    "false"
 
-#  replace_strings: true
-#  join_strings:    true
+resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
 
-#  details_dir:    bibliography
-#  details_layout: bibtex.html
-#  details_link:   Details
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
 
-#  query: "@*"
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_projects:        true
+resume_section_skills:          true
+resume_section_recognition:     true
+resume_section_links:           true
+resume_section_associations:    true
+# resume_section_interests:       true
 
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/emanuelecannizzaro/emanuelecannizzaro.github.io"
+  resume_twitter_url:           "http://twitter.com/emanuele_canna"
+  resume_dribbble_url:          "https://dribbble.com/emanuelecannizzaro"
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/emanuelecannizzaro"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  #resume_website_url:           "http://joelglovier.com"
+  #resume_medium_url:            "https://medium.com/@jglovier"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts

@@ -1,11 +1,8 @@
-source 'https://rubygems.org'
-gem 'jekyll'
-gem 'jekyll-scholar'
-gem 'redcarpet'
-gem 'rouge'
-gem 'nokogiri'
-gem 'rack', '~> 2.1.4'
-gem 'rspec'
-gem 'jekyll-seo-tag'
+source "https://rubygems.org"
+
+gem 'github-pages'
 gem 'webrick'
+
+# this gem provides regeneration support improvements on Windows
+#gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
