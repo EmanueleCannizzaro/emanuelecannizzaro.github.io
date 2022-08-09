@@ -135,7 +135,7 @@ exclude : [
   #"vendor/gems/",
   #"vendor/ruby/",
   #"lib/",
-  "scripts/",
+  #"scripts/",
   #"docker-compose.yml",
   #"Rakefile", 
   #"README.md", 
