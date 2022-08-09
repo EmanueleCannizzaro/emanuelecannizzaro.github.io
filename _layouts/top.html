@@ -1,0 +1,173 @@
+---
+layout: default
+---
+
+    <div>
+      <h1>{{ site.author.name[page.lang] }}</h1>
+      <div class="col-md-7">
+        <p class="lead">{{ site.author.description[page.lang] }}</p>
+      </div>
+      <div class="col-md-5">
+        <dl class="dl-horizontal">
+          {% if site.author.emails %}
+          <dt>
+            <span class="fui-mail"></span>
+            <span class="icon-text">Email</span>
+          </dt>
+          {% for email in site.author.emails %}
+          <dd>
+            <a>{{ email }}</a>
+          </dd>
+          {% endfor %}
+          {% endif %}
+
+          {% if site.author.twitter %}
+          <dt>
+            <span class="fui-twitter"></span>
+            <span class="icon-text">Twitter</span>
+          </dt>
+          <dd><a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener">  @{{ site.author.twitter }} </a></dd>
+          {% endif %}
+
+          {% if site.author.github %}
+          <dt>
+            <span class="fui-github"></span>
+            <span class="icon-text">GitHub</span>
+          </dt>
+          <dd><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">  @{{ site.author.github }} </a></dd>
+          {% endif %}
+
+          {% if site.author.orcid %}
+          <dt>
+            <span class="fui-info-circle"></span>
+            <span class="icon-text">ORCID</span>
+          </dt>
+          <dd><a href="https://orcid.org/{{ site.author.orcid }}" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;">{{ site.author.orcid }}</a></dd>
+          {% endif %}
+
+          <dt>
+            <span class="fui-document"></span>
+            <span class="icon-text">CV</span>
+          </dt>
+          <dd><a class="btn btn-primary btn-xs fui-link" href="{{ "/docs/CV.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" rel="noopener"><span class="icon-text">PDF</span></a></dd>
+
+        </dl>
+      </div>
+    </div>
+
+    {% if site.data.education[page.lang] %}
+    <div id="education">
+      <h2>Education</h2>
+      <dl class="dl-horizontal">
+        {% for school in site.data.education[page.lang] %}
+        <dt>{{ school.period }}</dt>
+        <dd><div class="col-md-9">{{ school.name }}</div><div class="col-md-3 text-muted">{{ school.degree }}</div></dd>
+        {% endfor %}
+      </dl>
+    </div>
+    {% endif %}
+
+    {% if site.data.research[page.lang] %}
+    <div id="research">
+      <h2>Research Experience</h2>
+      <dl class="dl-horizontal">
+        {% for workplace in site.data.research[page.lang] %}
+        <dt>{{ workplace.period }}</dt>
+        <dd>
+          <div class="col-md-9">{{ workplace.name }}</div>
+          <div class="col-md-3 text-muted">{{ workplace.position }}</div>
+          {% if workplace.advisor %}
+          <div class="col-md-12 text-muted">
+            {% if page.lang == 'ja' %}
+              指導教官: {{ workplace.advisor }}
+            {% else %}
+              Advisor: {{ workplace.advisor }}
+            {% endif %}
+          </div>
+          {% endif %}
+        </dd>
+        {% endfor %}
+      </dl>
+    </div>
+    {% endif %}
+
+    {% if site.data.awards[page.lang] %}
+    <div id="awards">
+      <h2>Awards and Fellowships</h2>
+      <dl class="dl-horizontal">
+        {% for award in site.data.awards[page.lang] %}
+        <dt>{{ award.date }}</dt>
+        <dd>
+          {{ award.name }}
+          {% if award.links %}
+          {% for link in award.links %}
+          <a class="btn btn-primary btn-xs fui-link" href="{{ link.url }}" target="_blank" rel="noopener"><span class="icon-text">{{ link.title }}</span></a>
+          {% endfor %}
+          {% endif %}
+        </dd>
+        {% endfor %}
+      </dl>
+    </div>
+    {% endif %}
+
+    {% if site.data.membership[page.lang] %}
+    <div id="membership">
+      <h2>Membership</h2>
+      <dl class="dl-horizontal">
+        {% for society in site.data.membership[page.lang] %}
+        <dt>{{ society.period }}</dt>
+        <dd>{{ society.name }}</dd>
+        {% endfor %}
+      </dl>
+    </div>
+    {% endif %}
+
+    {% if site.data.certification[page.lang] %}
+    <div id="membership">
+      <h2>Certification</h2>
+      <dl class="dl-horizontal">
+        {% for certificate in site.data.certification[page.lang] %}
+        <dt>{{ certificate.date }}</dt>
+        <dd>{{ certificate.name }}</dd>
+        {% endfor %}
+      </dl>
+    </div>
+    {% endif %}
+
+    <div id="software">
+      <h2>Software & Data</h2>
+      <a class="btn btn-primary fui-link" href="{{ "/software/" | prepend: site.baseurl | prepend: site.url }}"><span class="icon-text">Details</span></a>
+    </div>
+
+    <div id="publications">
+      <h2>Publications</h2>
+      <p>&#9702; <a href={{site.author.gscholar}} target="_blank" rel="noopener">Google Scholar</a> &#9702; <a href="https://orcid.org/{{ site.author.orcid }}" target="_blank" rel="noopener">ORCID</a> &#9702; <a href={{site.author.pubmed}} target="_blank" rel="noopener">PubMed</a></p>
+      <h3>Selected Publications and Preprints</h3>
+      <p>(* = co-first)</p>
+      {% bibliography --query @*[keywords=selected] --label split --label start %}
+      <h3>Other Publications and Preprints</h3>
+      {% bibliography --query @*[keywords!=selected] --label split %}
+      {% if page.lang == 'ja' %}
+        <h3>和文総説</h3>
+        {% bibliography -f review.ja.bib %}
+      {% else %}
+        <h3>Reviews (in Japanese)</h3>
+        {% bibliography -f review.en.bib %}
+      {% endif %}
+    </div>
+
+    <div id="presentations">
+      <h2>Presentations</h2>
+      {% if page.lang == 'ja' %}
+        <h3>国際学会</h3>
+        {% bibliography -f international.bib %}
+        <h3>国内学会</h3>
+        {% bibliography -f domestic.ja.bib %}
+      {% else %}
+        <h3>International Conference</h3>
+        {% bibliography -f international.bib %}
+        <h3>Domestic Conference (in Japan)</h3>
+        {% bibliography -f domestic.en.bib %}
+      {% endif %}
+    </div>
+

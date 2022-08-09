@@ -1,0 +1,8 @@
+- name: Education
+  id: education
+- name: Research
+  id: research
+- name: Software
+  id: software
+- name: Publications
+  id: publications

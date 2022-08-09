@@ -1,10 +1,26 @@
-# Education Template
-- layout: left
-  name: Università degli Studi di Palermo
-  dates: Sep 1992 - Nov 1998
-  qualification: MEng in Aerospace Engineering
-  quote: >
-    Full Mark First Degree (110/110 cum laude).
-  thesis: Simulation of a Subsonic Wind Tunnel
-  description: | # this will include new lines to allow paragraphs
-    Five year university degree
+en:
+  - name: Bioinformatics and Integrative Genomics PhD Program, Division of Medical Sciences, Harvard Medical School
+    degree: PhD student
+    period: Aug. 2017 - present
+    location: Boston, USA
+  - name: Department of Biosciences and Informatics, Keio University
+    degree: B.S. in Bioinformatics
+    period: Apr. 2013 - Mar. 2017
+    location: Yokohama, Japan
+  - name: Senior High School at Komaba, University of Tsukuba
+    degree:
+    period: Apr. 2010 - Mar. 2013
+    location: Tokyo, Japan
+ja:
+  - name: Bioinformatics and Integrative Genomics PhD Program, Division of Medical Sciences, Harvard Medical School
+    degree: PhD student
+    period: 2017/08 - 現在
+  - name: 慶應義塾大学 理工学部 生命情報学科
+    degree: B.S. in Bioinformatics
+    period: 2013/04 - 2017/03
+  - name: 筑波大学附属駒場高等学校
+    degree:
+    period: 2010/04 - 2013/03
+  - name: 筑波大学附属駒場中学校
+    degree:
+    period: 2007/04 - 2010/03

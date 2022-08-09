@@ -1,44 +1,33 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<html>
 
-{%- include head.html -%}
+  {% include head.html %}
 
-<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+  <body>
+    <div id="wrap">
+      {% include header.html %}
 
-  {%- include header.html -%}
-
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-
-      {%- if jekyll.environment == 'production' and site.gtm -%}
-        {%- include gtm_body.html -%}
-      {%- endif -%}
-
-      {%- include about.html -%}
-
-      {%- if site.data.projects.size > 0 -%}
-        {%- include projects.html -%}
-      {%- endif -%}
-
-      {%- if site.data.experience.size > 0 -%}
-        {%- include experience.html -%}
-      {%- endif -%}
-
-      {%- if site.data.education.size > 0 -%}
-        {%- include education.html -%}
-      {%- endif -%}
-
-      {%- if site.more_content -%}
-        {%- include more.html -%}
-      {%- endif -%}
-
+      <div class="container-fluid">
+        <div class="row-fluid">
+          {{ content }}
+        </div>
+      </div>
     </div>
-  </main>
 
-  {%- include footer.html -%}
-  {% if site.darkmode == false %}
-    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
-  {% endif %}
-</body>
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="{{ "/js/vendor/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ "/js/vendor/video.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/flat-ui.min.js" | prepend: site.baseurl }}"></script>
+    
+    <!-- smooth-scroll -->
+    <script src="{{ "/js/vendor/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
+    <script>
+      smoothScroll.init();
+    </script>
+
+    {% include footer.html %}
+
+  </body>
 
 </html>
