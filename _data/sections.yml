@@ -12,9 +12,9 @@
   id: events
 - name: Trainings
   id: trainings
-- name: Memberships
-  id: memberships
-- name: Certifications
-  id: certifications
-- name: Awards
-  id: awards
+#- name: Memberships
+#  id: memberships
+#- name: Certifications
+#  id: certifications
+#- name: Awards
+#  id: awards
