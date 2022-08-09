@@ -1,11 +1,10 @@
-source 'https://rubygems.org'
-gem 'jekyll'
-gem 'jekyll-scholar'
-gem 'redcarpet'
-gem 'rouge'
-gem 'nokogiri'
-gem 'rack', '~> 2.1.4'
-gem 'rspec'
-gem 'jekyll-seo-tag'
+source "https://rubygems.org"
+
+# gem "rails"
+gem "jekyll"
+gem 'github-pages'
 gem 'webrick'
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 

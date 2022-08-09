@@ -1,33 +1,25 @@
+---
+#Add "layout: compress" here to compress the html code
+---
 <!DOCTYPE html>
-<html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+{% include head.html %}
 
-  {% include head.html %}
+<body>
+  <div class="wrapper">
+    {% include sidebar.html %}
 
-  <body>
-    <div id="wrap">
-      {% include header.html %}
-
-      <div class="container-fluid">
-        <div class="row-fluid">
-          {{ content }}
-        </div>
-      </div>
+    <div class="main-wrapper">
+        {{ content }}
     </div>
+  </div>
 
-    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
-    <script src="{{ "/js/vendor/jquery.min.js" | prepend: site.baseurl }}"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{{ "/js/vendor/video.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/flat-ui.min.js" | prepend: site.baseurl }}"></script>
-    
-    <!-- smooth-scroll -->
-    <script src="{{ "/js/vendor/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
-    <script>
-      smoothScroll.init();
-    </script>
+  {% include footer.html %}
 
-    {% include footer.html %}
-
-  </body>
+{% include scripts.html %}
+</body>
 
 </html>
+
