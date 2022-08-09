@@ -3,10 +3,6 @@
 .sass-cache
 _site
 *.code-workspace
-vendor
-
-_site
 _backup
-
 .DS_store
 .jekyll-cache
