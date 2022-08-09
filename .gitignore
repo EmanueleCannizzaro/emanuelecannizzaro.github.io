@@ -1,7 +1,5 @@
-*.gem
-.bundle
+_site
 .sass-cache
-*.code-workspace
-_backup
-.DS_store
 .jekyll-cache
+.tweet-cache
+.DS_Store
