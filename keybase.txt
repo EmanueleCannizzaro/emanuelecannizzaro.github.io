@@ -1,11 +1,11 @@
 ==================================================================
-https://keybase.io/bamos
+https://keybase.io/emanuelecannizzaro
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of https://bamos.github.io
-  * I am bamos (https://keybase.io/bamos) on keybase.
+  * I am an admin of https://emanuelecannizzaro.github.io
+  * I am emanuelecannizzaro (https://keybase.io/emanuelecannizzaro) on keybase.
   * I have a public key with fingerprint 9C65 37B9 732B EBAC 744D  8973 E9B7 164C B72D 6B6F
 
 To claim this, I am signing this object:
@@ -17,10 +17,10 @@ To claim this, I am signing this object:
             "host": "keybase.io",
             "key_id": "e9b7164cb72d6b6f",
             "uid": "27a1da8f1a6d811aef2e556735523600",
-            "username": "bamos"
+            "username": "emanuelecannizzaro"
         },
         "service": {
-            "hostname": "bamos.github.io",
+            "hostname": "emanuelecannizzaro.github.io",
             "protocol": "https:"
         },
         "type": "web_service_binding",
@@ -38,7 +38,7 @@ with the aforementioned key, yielding the PGP signature:
 -----BEGIN PGP MESSAGE-----
 Version: GnuPG v1
 Comment: I have signed or encrypted this message with PGP.
-Comment: For more information, see http://bamos.github.io/pgp.
+Comment: For more information, see http://emanuelecannizzaro.github.io/pgp.
 
 owFtUV1IFFEU3t0ymSXB/EXTwCnoh01nZud3S4JMDRFMFKGHdrt35u7uYM7szsxa
 upghUlgWSghC+JCSpkQFItv6kKIIhflSoeBDolAkFP0vRA91xwp66L4czvm+853v
@@ -60,6 +60,6 @@ aCPsb1FuFrdXHFnqrV6ZEJuogTPVj2vGjxNRIrOyvWCx03N7f9H9pbzKNe0X
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/bamos
+View my publicly-auditable identity here: https://keybase.io/emanuelecannizzaro
 
 ==================================================================

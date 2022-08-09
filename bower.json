@@ -1,9 +1,9 @@
 {
-    "name": "bamos.github.io",
-    "version": "0.0.0",
-    "homepage": "https://github.com/bamos/bamos.github.io",
+    "name": "emanuelecannizzaro.github.io",
+    "version": "0.1.0",
+    "homepage": "https://github.com/emanuelecannizzaro/emanuelecannizzaro.github.io",
     "authors": [
-        "Brandon Amos <bamos@cs.cmu.edu>"
+        "Emanuele Cannizzaro <emanuelecannizzaro@gmail.com>"
     ],
     "license": "Apache",
     "ignore": [
