@@ -12,7 +12,7 @@ these systems to represent non-trivial reasoning operations.
 A key theme of my work in this space involves the use of optimization as
 a differentiable building block in larger architectures that are end-to-end learned.
 I believe that science should be open and reproducible and
-freely publish my research code to <a href="https://github.com/bamos" target="_blank">GitHub</a>.
+freely publish my research code to <a href="https://github.com/emanuelecannizzaro" target="_blank">GitHub</a>.
 </p><br>
 
 
@@ -25,7 +25,7 @@ freely publish my research code to <a href="https://github.com/bamos" target="_b
         (0.00/0.00)
       <br>
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
-        <br> Thesis: *<a href="https://github.com/bamos/thesis" target="_blank">Differentiable Optimization-Based Modeling for Machine Learning</a>*
+        <br> Thesis: *<a href="https://github.com/emanuelecannizzaro/thesis" target="_blank">Differentiable Optimization-Based Modeling for Machine Learning</a>*
         <br> Advisor: <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a>
         </p>
     </td>
@@ -62,7 +62,7 @@ freely publish my research code to <a href="https://github.com/bamos" target="_b
 
 ## <i class="fa fa-chevron-right"></i> Publications
 
-<!-- [<a href="https://github.com/bamos/cv/blob/master/publications/all.bib">BibTeX</a>] -->
+<!-- [<a href="https://github.com/emanuelecannizzaro/cv/blob/master/publications/all.bib">BibTeX</a>] -->
 Representative publications that I am a primary author on are
 <span style='background-color: #ffffd0'>highlighted.</span>
 <br>
@@ -76,11 +76,11 @@ Representative publications that I am a primary author on are
 1.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/publications/amos2022tutorial.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/emanuelecannizzaro.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2202.00665' target='_blank'>Tutorial on amortized optimization for learning to optimize over continuous domains</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2022tutorial").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/amortized-optimization-tutorial' target='_blank'>code</a>] <br>
-<strong>Brandon&nbsp;Amos</strong><br>
+<strong>Emanuele&nbsp;Cannizzaro</strong><br>
 arXiv 2022  <br>
 
 <div id="abs_amos2022tutorial" style="text-align: justify; display: none" markdown="1">
@@ -131,7 +131,7 @@ objective-based loss.
 
 ## <i class="fa fa-chevron-right"></i> Invited Talks
 Slides for my major presentations are open-sourced with a CC-BY license at
-[bamos/presentations](https://github.com/bamos/presentations).
+[emanuelecannizzaro/presentations](https://github.com/emanuelecannizzaro/presentations).
 <table class="table table-hover">
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
