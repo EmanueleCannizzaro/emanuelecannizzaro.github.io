@@ -1,194 +1,3275 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
+baseurl: .
+basic:
+  address:
+    city: Colomiers
+    country: France
+    postcode: 31770
+    streetOne: 12 Chemin de Gramont
+    streetTwo: Villa 2
+  avatar: emanuelecannizzaro.png
+  citizenships:
+  - flag: IT
+    name: Italian
+  - flag: UK
+    name: British
+  contact:
+    email: Emanuele.Cannizzaro@gmail.com
+    mobile: +33 7 49 49 09 22
+    phone: null
+  date_of_birth: 4th July 1974
+  name: Emanuele Cannizzaro
+  picture: /home/emanuele/gdrive/eeee/emanuele/CANNIZZARO_Emanuele.jpg
+  social:
+    bitbucket: null
+    codewars: null
+    github: EmanueleCannizzaro
+    gitlab: null
+    goodreads: null
+    linkedin: EmanueleCannizzaro
+    scholarly: null
+    stack-overflow: null
+    telegram: null
+    twitter: emanuele_canna
+    xing: null
+  timezone: Europe/Paris Timezone
+  website: EmanueleCannizzaro.github.io
+educations:
+- country: Italy
+  degree: MEng Aerospace Engineering
+  details: 'Five Year University Degree with Erasmus placement at Nottingham University,
+    United Kingdom
 
-sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-
-    # Profile information
-    name: Emanuele Cannizzaro
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
-    languages:
-      - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
-
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    '
+  duration: 1993 -- 1999
+  enddate: Spring 1999
+  gpa: 110 / 110 cum Laude
+  institution: Universita' degli Studi di Palermo
+  location: Palermo
+  startdate: Fall 1993
+  thesis: "\u201CA Subsonic Wind Tunnel Simulator\u201D"
+  website: https://www.unipa.it
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+  current:
+    company: Airbus
+    details: '- "Responsible of A350 Nose and Center Fuselage Structural Assembly
+      F&DT Team in Toulouse with direct reporting to the Head of"
+
+      '
+    duration: 2019 to Present
+    location: Toulouse, France
+    projects:
+    - A350
+    role: Technical Team Leader
+    summary: ''
+    tags: ''
+    tasks: null
+    website: https://www.airbus.com
+  previous:
+  - company: Airbus
+    details: '- "Responsible of A350 Nose and Center Fuselage Structural Assembly
+      F&DT Team in Toulouse with direct reporting to the Head of"
+
+      '
+    duration: 2015 to 2019
+    location: Bristol, United Kingdom
+    projects:
+    - A350
+    role: Senior F&DT Engineer
+    summary: null
+    tags: null
+    tasks: null
+    website: https://www.airbus.com
+  - company: Assystem UK
+    details: '- "Responsible for supervising the Time, Cost and Quality aspects of
+      the F&DT deliverables to UK customers"
+
+      - "Management of the F&DT Teams in UK and Germany"
+
+      '
+    duration: 2011 to 2015
+    location: Bristol, United Kingdom
+    projects:
+    - A350, A320, A400M
+    role: Head of Fatigue and Damage Tolerance
+    summary: null
+    tags: null
+    tasks: null
+    website: https://www.assystemuk.com
+  - company: Atkins
+    details: '- Direct focal point of the Airbus Team for the Outer Wingbox Work packages
+      delivered produced internally and externally for A400M and A380
+
+      - Project Manager of contracts outsourced to companies in UK, Europe and India
+
+      '
+    duration: '1999 to 2001
+
+      2004 to 2011'
+    location: Bristol, United Kingdom
+    projects:
+    - A350, A320, A400M
+    role: Senior Fatigue and Damage Tolerance Engineer
+    summary: null
+    tags: null
+    tasks: null
+    website: https://www.atkins.com
+  - company: Ricardo
+    details: '- Perform numerical simulation of powertrain units on vehicles including
+      Bugatti Veyron, Chrysler ME 4-12 and Ford GT
+
+      '
+    duration: 2001 to 2004
+    location: Bristol, United Kingdom
+    projects:
+    - Bugatti Veyron, Chrysler ME 4-12 and Ford GT
+    role: Computer Aided Engineer
+    summary: null
+    tags: null
+    tasks: null
+    website: https://www.ricardo.com
+  title: Work Experience
+footer:
+  author: Xiaoying Riley
+  prefix: Template designed by
+languages:
+- flag: UK
+  level: 4
+  name: English
+- flag: IT
+  level: 5
+  name: Italian
+- flag: ES
+  level: 2
+  name: Spanish
+- flag: FR
+  level: 1
+  name: French
+languages_maxlevel: 5
+languages_title: Languages
+libraries:
+- level: 4
+  name: Pandas
+- level: 4
+  name: GeoPandas
+- level: 4
+  name: Dask
+- level: 4
+  name: Bokeh
+- level: 4
+  name: Panel
+- level: 4
+  name: HoloViews
+- level: 4
+  name: Flask
+- level: 4
+  name: SKLearn
+- level: 3
+  name: Tensorflow
+- level: 4
+  name: Keras
+libraries_maxlevel: 5
+libraries_title: Packages
+pdf: http://www.africau.edu/images/default/sample.pdf
+platforms:
+- details:
+  - Lambda
+  - S3
+  level: 3
+  name: GCP
+- details:
+  - Lambda
+  - S3
+  level: 2
+  name: AWS
+- details:
+  - Functions
+  - Blob Storage
+  level: 1
+  name: Azure
+platforms_maxlevel: 5
+platforms_title: Cloud Platforms
+profile:
+  description: "Business-minded engineer that provides data-driven and customer-oriented\
+    \ solutions\nto challenging problems with a demonstrated ability to deliver valuable\
+    \ insights \nvia analytics and advanced big data tools.\n"
+  summary: Aerospace Engineer, Software Developer, Data Scientist and Business Transformer
+  title: Career Profile
+programming_skills:
+- level: 5
+  name: python
+- level: 4
+  name: javascript
+- level: 4
+  name: bash
+- level: 4
+  name: VBA
+- level: 2
+  name: C/C++
+- level: 4
+  name: SQL
+programming_skills_maxlevel: 5
+programming_skills_title: Programming Skills
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  intro: "You can list your side projects or open source libraries in this section.\
+    \ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula\
+    \ in nunc bibendum fringilla a eu lectus. assignments:\n  - title: Velocity\n\
+    \    link: \"#hook\"\n    tagline: \"A responsive website template designed to\
+    \ help startups promote, market and sell their products.\"\n\n  - title: DevStudio\n\
+    \    link: \"#\"\n    tagline: \"A responsive website template designed to help\
+    \ web developers/designers market their services.\"\n\n  - title: Tempo\n    link:\
+    \ \"#\"\n    tagline: \"A responsive website template designed to help startups\
+    \ promote their products or services and to attract users &amp; investors\"\n\n\
+    \  - title: Atom\n    link: \"#\"\n    tagline: \"A comprehensive website template\
+    \ solution for startups/developers to market their mobile apps.\"\n\n  - title:\
+    \ Delta\n    link: \"#\"\n    tagline: \"A responsive Bootstrap one page theme\
+    \ designed to help app developers promote their mobile apps\"\n"
+  title: Projects
+repositories:
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/AFEM.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/contributors
+  created_at: '2021-09-05T21:02:04Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/deployments
+  description: Airframe Finite Element Modeler
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/forks
+  full_name: EmanueleCannizzaro/AFEM
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/AFEM.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/hooks
+  html_url: https://github.com/EmanueleCannizzaro/AFEM
+  id: 403412132
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/languages
+  license:
+    key: lgpl-2.1
+    name: GNU Lesser General Public License v2.1
+    node_id: MDc6TGljZW5zZTEx
+    spdx_id: LGPL-2.1
+    url: https://api.github.com/licenses/lgpl-2.1
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/milestones{/number}
+  mirror_url: null
+  name: AFEM
+  node_id: MDEwOlJlcG9zaXRvcnk0MDM0MTIxMzI=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/pulls{/number}
+  pushed_at: '2020-07-22T13:17:47Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/releases{/id}
+  size: 115504
+  ssh_url: git@github.com:EmanueleCannizzaro/AFEM.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/AFEM
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/git/trees{/sha}
+  updated_at: '2021-09-05T21:02:05Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/AFEM
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/airfare.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/contributors
+  created_at: '2018-08-19T21:48:18Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/deployments
+  description: Air Fare
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/events
+  fork: false
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/forks
+  full_name: EmanueleCannizzaro/airfare
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/airfare.git
+  has_downloads: true
+  has_issues: true
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/hooks
+  html_url: https://github.com/EmanueleCannizzaro/airfare
+  id: 145339931
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/languages
+  license:
+    key: gpl-3.0
+    name: GNU General Public License v3.0
+    node_id: MDc6TGljZW5zZTk=
+    spdx_id: GPL-3.0
+    url: https://api.github.com/licenses/gpl-3.0
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/milestones{/number}
+  mirror_url: null
+  name: airfare
+  node_id: MDEwOlJlcG9zaXRvcnkxNDUzMzk5MzE=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/pulls{/number}
+  pushed_at: '2018-09-05T22:09:23Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/releases{/id}
+  size: 15
+  ssh_url: git@github.com:EmanueleCannizzaro/airfare.git
+  stargazers_count: 1
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/airfare
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/airfare/git/trees{/sha}
+  updated_at: '2019-09-18T06:37:11Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/airfare
+  visibility: public
+  watchers: 1
+  watchers_count: 1
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/aoc-utils.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/contributors
+  created_at: '2021-09-05T21:03:13Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/deployments
+  description: CAD common operations using PythonOCC
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/forks
+  full_name: EmanueleCannizzaro/aoc-utils
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/aoc-utils.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: ''
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/hooks
+  html_url: https://github.com/EmanueleCannizzaro/aoc-utils
+  id: 403412310
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/languages
+  license:
+    key: lgpl-3.0
+    name: GNU Lesser General Public License v3.0
+    node_id: MDc6TGljZW5zZTEy
+    spdx_id: LGPL-3.0
+    url: https://api.github.com/licenses/lgpl-3.0
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/milestones{/number}
+  mirror_url: null
+  name: aoc-utils
+  node_id: MDEwOlJlcG9zaXRvcnk0MDM0MTIzMTA=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/pulls{/number}
+  pushed_at: '2021-08-17T19:52:02Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/releases{/id}
+  size: 1602
+  ssh_url: git@github.com:EmanueleCannizzaro/aoc-utils.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/aoc-utils
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils/git/trees{/sha}
+  updated_at: '2021-09-05T21:03:14Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/aoc-utils
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/aoc-xchange.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/contributors
+  created_at: '2021-09-05T21:01:56Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/deployments
+  description: CAD files read, write and conversions.
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/forks
+  full_name: EmanueleCannizzaro/aoc-xchange
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/aoc-xchange.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: ''
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/hooks
+  html_url: https://github.com/EmanueleCannizzaro/aoc-xchange
+  id: 403412113
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/languages
+  license:
+    key: gpl-2.0
+    name: GNU General Public License v2.0
+    node_id: MDc6TGljZW5zZTg=
+    spdx_id: GPL-2.0
+    url: https://api.github.com/licenses/gpl-2.0
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/milestones{/number}
+  mirror_url: null
+  name: aoc-xchange
+  node_id: MDEwOlJlcG9zaXRvcnk0MDM0MTIxMTM=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/pulls{/number}
+  pushed_at: '2021-08-27T04:47:35Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/releases{/id}
+  size: 46007
+  ssh_url: git@github.com:EmanueleCannizzaro/aoc-xchange.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/aoc-xchange
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange/git/trees{/sha}
+  updated_at: '2021-09-05T21:01:57Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/aoc-xchange
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/armadillo.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/contributors
+  created_at: '2016-08-06T11:14:46Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/deployments
+  description: Armadillo C++ linear algebra library from http://arma.sourceforge.net
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/events
+  fork: false
+  forks: 2
+  forks_count: 2
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/forks
+  full_name: EmanueleCannizzaro/armadillo
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/armadillo.git
+  has_downloads: true
+  has_issues: true
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/hooks
+  html_url: https://github.com/EmanueleCannizzaro/armadillo
+  id: 65079103
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/labels{/name}
+  language: C++
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/languages
+  license:
+    key: mpl-2.0
+    name: Mozilla Public License 2.0
+    node_id: MDc6TGljZW5zZTE0
+    spdx_id: MPL-2.0
+    url: https://api.github.com/licenses/mpl-2.0
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/milestones{/number}
+  mirror_url: null
+  name: armadillo
+  node_id: MDEwOlJlcG9zaXRvcnk2NTA3OTEwMw==
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/pulls{/number}
+  pushed_at: '2016-08-06T11:28:23Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/releases{/id}
+  size: 5809
+  ssh_url: git@github.com:EmanueleCannizzaro/armadillo.git
+  stargazers_count: 11
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/armadillo
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/armadillo/git/trees{/sha}
+  updated_at: '2022-06-02T03:02:15Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/armadillo
+  visibility: public
+  watchers: 11
+  watchers_count: 11
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/awesome-machine-learning.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/contributors
+  created_at: '2019-11-08T01:30:37Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/deployments
+  description: A curated list of awesome Machine Learning frameworks, libraries and
+    software.
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/forks
+  full_name: EmanueleCannizzaro/awesome-machine-learning
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/awesome-machine-learning.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: false
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/hooks
+  html_url: https://github.com/EmanueleCannizzaro/awesome-machine-learning
+  id: 220361809
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/languages
+  license:
+    key: cc0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    node_id: MDc6TGljZW5zZTY=
+    spdx_id: CC0-1.0
+    url: https://api.github.com/licenses/cc0-1.0
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/milestones{/number}
+  mirror_url: null
+  name: awesome-machine-learning
+  node_id: MDEwOlJlcG9zaXRvcnkyMjAzNjE4MDk=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/pulls{/number}
+  pushed_at: '2019-11-07T00:48:52Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/releases{/id}
+  size: 1847
+  ssh_url: git@github.com:EmanueleCannizzaro/awesome-machine-learning.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/awesome-machine-learning
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning/git/trees{/sha}
+  updated_at: '2019-11-08T01:30:38Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/awesome-machine-learning
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/awesome-panel.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/contributors
+  created_at: '2022-01-01T23:15:42Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/deployments
+  description: "Awesome Panel supports Panel  and its users. We provide a live Panel\
+    \ web site with an awesome list and a live gallery of apps with code. Panel makes\
+    \ it easy to build powerful data apps in Python using the tools you know and love.\
+    \ \u2764\uFE0F\U0001F40D\U0001F4C8 "
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/forks
+  full_name: EmanueleCannizzaro/awesome-panel
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/awesome-panel.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: https://awesome-panel.org
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/hooks
+  html_url: https://github.com/EmanueleCannizzaro/awesome-panel
+  id: 443641959
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/labels{/name}
+  language: Jupyter Notebook
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/languages
+  license:
+    key: apache-2.0
+    name: Apache License 2.0
+    node_id: MDc6TGljZW5zZTI=
+    spdx_id: Apache-2.0
+    url: https://api.github.com/licenses/apache-2.0
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/milestones{/number}
+  mirror_url: null
+  name: awesome-panel
+  node_id: R_kgDOGnFwZw
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/pulls{/number}
+  pushed_at: '2022-01-01T23:40:34Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/releases{/id}
+  size: 342207
+  ssh_url: git@github.com:EmanueleCannizzaro/awesome-panel.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/awesome-panel
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel/git/trees{/sha}
+  updated_at: '2022-01-01T23:40:39Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/awesome-panel
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/awesome_topics.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/contributors
+  created_at: '2019-11-08T01:31:58Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/deployments
+  description: null
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/events
+  fork: false
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/forks
+  full_name: EmanueleCannizzaro/awesome_topics
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/awesome_topics.git
+  has_downloads: true
+  has_issues: true
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/hooks
+  html_url: https://github.com/EmanueleCannizzaro/awesome_topics
+  id: 220362033
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/languages
+  license:
+    key: mit
+    name: MIT License
+    node_id: MDc6TGljZW5zZTEz
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/milestones{/number}
+  mirror_url: null
+  name: awesome_topics
+  node_id: MDEwOlJlcG9zaXRvcnkyMjAzNjIwMzM=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/pulls{/number}
+  pushed_at: '2019-11-08T03:30:15Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/releases{/id}
+  size: 5
+  ssh_url: git@github.com:EmanueleCannizzaro/awesome_topics.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/awesome_topics
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics/git/trees{/sha}
+  updated_at: '2019-11-08T03:30:17Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/awesome_topics
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/BayesMadeSimple.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/contributors
+  created_at: '2019-08-11T14:37:48Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/deployments
+  description: Code for a tutorial on Bayesian Statistics by Allen Downey.
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/forks
+  full_name: EmanueleCannizzaro/BayesMadeSimple
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/BayesMadeSimple.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/hooks
+  html_url: https://github.com/EmanueleCannizzaro/BayesMadeSimple
+  id: 201776242
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/labels{/name}
+  language: Jupyter Notebook
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/languages
+  license: null
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/milestones{/number}
+  mirror_url: null
+  name: BayesMadeSimple
+  node_id: MDEwOlJlcG9zaXRvcnkyMDE3NzYyNDI=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/pulls{/number}
+  pushed_at: '2019-07-15T16:20:45Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/releases{/id}
+  size: 13396
+  ssh_url: git@github.com:EmanueleCannizzaro/BayesMadeSimple.git
+  stargazers_count: 1
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/BayesMadeSimple
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple/git/trees{/sha}
+  updated_at: '2019-09-18T06:37:53Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/BayesMadeSimple
+  visibility: public
+  watchers: 1
+  watchers_count: 1
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/blog/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/blog/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/blog/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/blog/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/blog.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/blog/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/blog/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/blog/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/blog/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/blog/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/blog/contributors
+  created_at: '2020-01-04T15:24:57Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/blog/deployments
+  description: https://matthewkudija.com/blog/
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/blog/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/blog/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/blog/forks
+  full_name: EmanueleCannizzaro/blog
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/blog/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/blog/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/blog/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/blog.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: ''
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/blog/hooks
+  html_url: https://github.com/EmanueleCannizzaro/blog
+  id: 231784888
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/blog/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/blog/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/blog/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/blog/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/blog/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/blog/languages
+  license:
+    key: mit
+    name: MIT License
+    node_id: MDc6TGljZW5zZTEz
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/blog/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/blog/milestones{/number}
+  mirror_url: null
+  name: blog
+  node_id: MDEwOlJlcG9zaXRvcnkyMzE3ODQ4ODg=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/blog/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/blog/pulls{/number}
+  pushed_at: '2019-12-30T19:33:56Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/blog/releases{/id}
+  size: 227254
+  ssh_url: git@github.com:EmanueleCannizzaro/blog.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/blog/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/blog/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/blog/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/blog/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/blog
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/blog/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/blog/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/blog/git/trees{/sha}
+  updated_at: '2020-01-04T15:24:58Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/blog
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/blogpost_scraping.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/contributors
+  created_at: '2022-01-02T06:26:56Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/deployments
+  description: null
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/forks
+  full_name: EmanueleCannizzaro/blogpost_scraping
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/blogpost_scraping.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/hooks
+  html_url: https://github.com/EmanueleCannizzaro/blogpost_scraping
+  id: 443697747
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/languages
+  license: null
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/milestones{/number}
+  mirror_url: null
+  name: blogpost_scraping
+  node_id: R_kgDOGnJKUw
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/pulls{/number}
+  pushed_at: '2020-04-19T17:06:52Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/releases{/id}
+  size: 9
+  ssh_url: git@github.com:EmanueleCannizzaro/blogpost_scraping.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/blogpost_scraping
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping/git/trees{/sha}
+  updated_at: '2022-01-02T06:26:56Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/blogpost_scraping
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/cadquery.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/contributors
+  created_at: '2021-09-05T21:01:48Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/deployments
+  description: A python parametric CAD scripting framework based on OCCT
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/forks
+  full_name: EmanueleCannizzaro/cadquery
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/cadquery.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: https://cadquery.readthedocs.io
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/hooks
+  html_url: https://github.com/EmanueleCannizzaro/cadquery
+  id: 403412084
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/languages
+  license:
+    key: other
+    name: Other
+    node_id: MDc6TGljZW5zZTA=
+    spdx_id: NOASSERTION
+    url: null
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/milestones{/number}
+  mirror_url: null
+  name: cadquery
+  node_id: MDEwOlJlcG9zaXRvcnk0MDM0MTIwODQ=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/pulls{/number}
+  pushed_at: '2021-09-03T17:05:48Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/releases{/id}
+  size: 6576
+  ssh_url: git@github.com:EmanueleCannizzaro/cadquery.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/cadquery
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/cadquery/git/trees{/sha}
+  updated_at: '2021-09-05T21:01:49Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/cadquery
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/CalculiX.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/contributors
+  created_at: '2018-06-30T22:05:55Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/deployments
+  description: CalculiX is an OSS package designed to solve field problems. The method
+    used is the finite element method. This package is a native Microsoft Windows
+    64-bit build of CalculiX.
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/forks
+  full_name: EmanueleCannizzaro/CalculiX
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/CalculiX.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/hooks
+  html_url: https://github.com/EmanueleCannizzaro/CalculiX
+  id: 139283270
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/labels{/name}
+  language: C
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/languages
+  license:
+    key: gpl-2.0
+    name: GNU General Public License v2.0
+    node_id: MDc6TGljZW5zZTg=
+    spdx_id: GPL-2.0
+    url: https://api.github.com/licenses/gpl-2.0
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/milestones{/number}
+  mirror_url: null
+  name: CalculiX
+  node_id: MDEwOlJlcG9zaXRvcnkxMzkyODMyNzA=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/pulls{/number}
+  pushed_at: '2016-05-12T13:18:25Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/releases{/id}
+  size: 80683
+  ssh_url: git@github.com:EmanueleCannizzaro/CalculiX.git
+  stargazers_count: 1
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/CalculiX
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX/git/trees{/sha}
+  updated_at: '2019-09-18T06:36:44Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/CalculiX
+  visibility: public
+  watchers: 1
+  watchers_count: 1
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/CQ-editor.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/contributors
+  created_at: '2021-09-05T21:01:52Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/deployments
+  description: CadQuery GUI editor based on PyQT
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/forks
+  full_name: EmanueleCannizzaro/CQ-editor
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/CQ-editor.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: ''
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/hooks
+  html_url: https://github.com/EmanueleCannizzaro/CQ-editor
+  id: 403412102
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/languages
+  license:
+    key: apache-2.0
+    name: Apache License 2.0
+    node_id: MDc6TGljZW5zZTI=
+    spdx_id: Apache-2.0
+    url: https://api.github.com/licenses/apache-2.0
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/milestones{/number}
+  mirror_url: null
+  name: CQ-editor
+  node_id: MDEwOlJlcG9zaXRvcnk0MDM0MTIxMDI=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/pulls{/number}
+  pushed_at: '2021-08-22T01:58:19Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/releases{/id}
+  size: 2640
+  ssh_url: git@github.com:EmanueleCannizzaro/CQ-editor.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/CQ-editor
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor/git/trees{/sha}
+  updated_at: '2021-09-05T21:01:53Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/CQ-editor
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/cq-kit.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/contributors
+  created_at: '2021-09-05T21:02:38Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/deployments
+  description: A python library of CadQuery tools and helpers for building 3D CAD
+    models.
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/forks
+  full_name: EmanueleCannizzaro/cq-kit
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/cq-kit.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/hooks
+  html_url: https://github.com/EmanueleCannizzaro/cq-kit
+  id: 403412211
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/languages
+  license:
+    key: mit
+    name: MIT License
+    node_id: MDc6TGljZW5zZTEz
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/milestones{/number}
+  mirror_url: null
+  name: cq-kit
+  node_id: MDEwOlJlcG9zaXRvcnk0MDM0MTIyMTE=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/pulls{/number}
+  pushed_at: '2021-04-14T03:10:49Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/releases{/id}
+  size: 2127
+  ssh_url: git@github.com:EmanueleCannizzaro/cq-kit.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/cq-kit
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit/git/trees{/sha}
+  updated_at: '2021-09-05T21:02:39Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/cq-kit
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/cv/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/cv/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/cv/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/cv/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/cv.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/cv/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/cv/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/cv/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/cv/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/cv/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/cv/contributors
+  created_at: '2022-01-23T22:14:55Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/cv/deployments
+  description: My YAML cv and resume.
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/cv/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/cv/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/cv/forks
+  full_name: EmanueleCannizzaro/cv
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/cv/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/cv/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/cv/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/cv.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: http://bamos.github.io
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/cv/hooks
+  html_url: https://github.com/EmanueleCannizzaro/cv
+  id: 451244460
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/cv/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/cv/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/cv/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/cv/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/cv/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/cv/languages
+  license:
+    key: mit
+    name: MIT License
+    node_id: MDc6TGljZW5zZTEz
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/cv/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/cv/milestones{/number}
+  mirror_url: null
+  name: cv
+  node_id: R_kgDOGuVxrA
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/cv/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/cv/pulls{/number}
+  pushed_at: '2022-01-22T00:36:05Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/cv/releases{/id}
+  size: 673
+  ssh_url: git@github.com:EmanueleCannizzaro/cv.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/cv/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/cv/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/cv/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/cv/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/cv
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/cv/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/cv/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/cv/git/trees{/sha}
+  updated_at: '2022-01-18T16:11:41Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/cv
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/Data-Science-Tutorials.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/contributors
+  created_at: '2019-08-03T20:23:18Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/deployments
+  description: Code for all my tutorials
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/forks
+  full_name: EmanueleCannizzaro/Data-Science-Tutorials
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/Data-Science-Tutorials.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: https://medium.com/@gilberttanner
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/hooks
+  html_url: https://github.com/EmanueleCannizzaro/Data-Science-Tutorials
+  id: 200417787
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/labels{/name}
+  language: Jupyter Notebook
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/languages
+  license:
+    key: mit
+    name: MIT License
+    node_id: MDc6TGljZW5zZTEz
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/milestones{/number}
+  mirror_url: null
+  name: Data-Science-Tutorials
+  node_id: MDEwOlJlcG9zaXRvcnkyMDA0MTc3ODc=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/pulls{/number}
+  pushed_at: '2019-08-02T11:41:06Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/releases{/id}
+  size: 82247
+  ssh_url: git@github.com:EmanueleCannizzaro/Data-Science-Tutorials.git
+  stargazers_count: 1
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/Data-Science-Tutorials
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials/git/trees{/sha}
+  updated_at: '2019-09-18T06:37:54Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/Data-Science-Tutorials
+  visibility: public
+  watchers: 1
+  watchers_count: 1
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/docx-mailmerge.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/contributors
+  created_at: '2021-08-29T09:02:42Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/deployments
+  description: Mail merge for Office Open XML (docx) files without the need for Microsoft
+    Office Word.
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/forks
+  full_name: EmanueleCannizzaro/docx-mailmerge
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/docx-mailmerge.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: ''
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/hooks
+  html_url: https://github.com/EmanueleCannizzaro/docx-mailmerge
+  id: 400996255
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/labels{/name}
+  language: Python
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/languages
+  license:
+    key: mit
+    name: MIT License
+    node_id: MDc6TGljZW5zZTEz
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/milestones{/number}
+  mirror_url: null
+  name: docx-mailmerge
+  node_id: MDEwOlJlcG9zaXRvcnk0MDA5OTYyNTU=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/pulls{/number}
+  pushed_at: '2021-08-29T09:05:50Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/releases{/id}
+  size: 285
+  ssh_url: git@github.com:EmanueleCannizzaro/docx-mailmerge.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/docx-mailmerge
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge/git/trees{/sha}
+  updated_at: '2021-08-29T09:05:53Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/docx-mailmerge
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/emanuelecannizzaro.github.io.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/contributors
+  created_at: '2019-01-29T20:22:04Z'
+  default_branch: source
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/deployments
+  description: Repository of personal website @ https://emanuelecannizzaro.github.io
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/events
+  fork: false
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/forks
+  full_name: EmanueleCannizzaro/emanuelecannizzaro.github.io
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/emanuelecannizzaro.github.io.git
+  has_downloads: true
+  has_issues: true
+  has_pages: true
+  has_projects: true
+  has_wiki: true
+  homepage: https://emanuelecannizzaro.github.io/
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/hooks
+  html_url: https://github.com/EmanueleCannizzaro/emanuelecannizzaro.github.io
+  id: 168222662
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/labels{/name}
+  language: JavaScript
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/languages
+  license:
+    key: mit
+    name: MIT License
+    node_id: MDc6TGljZW5zZTEz
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/milestones{/number}
+  mirror_url: null
+  name: emanuelecannizzaro.github.io
+  node_id: MDEwOlJlcG9zaXRvcnkxNjgyMjI2NjI=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/pulls{/number}
+  pushed_at: '2022-08-09T16:25:14Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/releases{/id}
+  size: 90264
+  ssh_url: git@github.com:EmanueleCannizzaro/emanuelecannizzaro.github.io.git
+  stargazers_count: 1
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/emanuelecannizzaro.github.io
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/teams
+  topics:
+  - github-pages
+  - jekyll
+  - jekyll-theme
+  - resume
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io/git/trees{/sha}
+  updated_at: '2022-08-09T12:15:14Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/emanuelecannizzaro.github.io
+  visibility: public
+  watchers: 1
+  watchers_count: 1
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/etoro-api.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/contributors
+  created_at: '2022-01-02T16:12:14Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/deployments
+  description: A python api for eToro automatically generated via the provided OpenAPI
+    specifications.
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/forks
+  full_name: EmanueleCannizzaro/etoro-api
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/etoro-api.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/hooks
+  html_url: https://github.com/EmanueleCannizzaro/etoro-api
+  id: 443810315
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/labels{/name}
+  language: Python
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/languages
+  license: null
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/milestones{/number}
+  mirror_url: null
+  name: etoro-api
+  node_id: R_kgDOGnQCCw
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/pulls{/number}
+  pushed_at: '2022-01-02T17:26:44Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/releases{/id}
+  size: 288
+  ssh_url: git@github.com:EmanueleCannizzaro/etoro-api.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/etoro-api
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api/git/trees{/sha}
+  updated_at: '2022-01-02T17:26:47Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/etoro-api
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/felyx.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/contributors
+  created_at: '2016-08-06T08:50:06Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/deployments
+  description: Clone of http://felyx.sourceforge.net/
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/events
+  fork: false
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/forks
+  full_name: EmanueleCannizzaro/felyx
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/felyx.git
+  has_downloads: true
+  has_issues: true
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/hooks
+  html_url: https://github.com/EmanueleCannizzaro/felyx
+  id: 65073658
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/labels{/name}
+  language: C++
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/languages
+  license: null
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/milestones{/number}
+  mirror_url: null
+  name: felyx
+  node_id: MDEwOlJlcG9zaXRvcnk2NTA3MzY1OA==
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/pulls{/number}
+  pushed_at: '2016-08-06T09:39:43Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/releases{/id}
+  size: 8061
+  ssh_url: git@github.com:EmanueleCannizzaro/felyx.git
+  stargazers_count: 1
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/felyx
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/felyx/git/trees{/sha}
+  updated_at: '2019-09-18T06:36:49Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/felyx
+  visibility: public
+  watchers: 1
+  watchers_count: 1
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/ferespost.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/contributors
+  created_at: '2016-08-06T12:11:10Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/deployments
+  description: ferespost
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/events
+  fork: false
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/forks
+  full_name: EmanueleCannizzaro/ferespost
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/ferespost.git
+  has_downloads: true
+  has_issues: true
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/hooks
+  html_url: https://github.com/EmanueleCannizzaro/ferespost
+  id: 65080987
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/languages
+  license: null
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/milestones{/number}
+  mirror_url: null
+  name: ferespost
+  node_id: MDEwOlJlcG9zaXRvcnk2NTA4MDk4Nw==
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/pulls{/number}
+  pushed_at: '2016-08-06T12:11:11Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/releases{/id}
+  size: 0
+  ssh_url: git@github.com:EmanueleCannizzaro/ferespost.git
+  stargazers_count: 1
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/ferespost
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/ferespost/git/trees{/sha}
+  updated_at: '2019-09-18T06:36:58Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/ferespost
+  visibility: public
+  watchers: 1
+  watchers_count: 1
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/flight_delays.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/contributors
+  created_at: '2018-12-17T12:57:58Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/deployments
+  description: A bokeh dashboard of Flight Delays
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/events
+  fork: false
+  forks: 1
+  forks_count: 1
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/forks
+  full_name: EmanueleCannizzaro/flight_delays
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/flight_delays.git
+  has_downloads: true
+  has_issues: true
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/hooks
+  html_url: https://github.com/EmanueleCannizzaro/flight_delays
+  id: 162130835
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/labels{/name}
+  language: Python
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/languages
+  license: null
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/milestones{/number}
+  mirror_url: null
+  name: flight_delays
+  node_id: MDEwOlJlcG9zaXRvcnkxNjIxMzA4MzU=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/pulls{/number}
+  pushed_at: '2018-12-17T13:30:24Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/releases{/id}
+  size: 52144
+  ssh_url: git@github.com:EmanueleCannizzaro/flight_delays.git
+  stargazers_count: 2
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/flight_delays
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays/git/trees{/sha}
+  updated_at: '2020-10-31T12:53:51Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/flight_delays
+  visibility: public
+  watchers: 2
+  watchers_count: 2
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/google_colaboratory.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/contributors
+  created_at: '2018-12-09T08:59:28Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/deployments
+  description: Google Colaboratory
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/events
+  fork: false
+  forks: 1
+  forks_count: 1
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/forks
+  full_name: EmanueleCannizzaro/google_colaboratory
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/google_colaboratory.git
+  has_downloads: true
+  has_issues: true
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/hooks
+  html_url: https://github.com/EmanueleCannizzaro/google_colaboratory
+  id: 161021896
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/labels{/name}
+  language: Jupyter Notebook
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/languages
+  license:
+    key: mit
+    name: MIT License
+    node_id: MDc6TGljZW5zZTEz
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/milestones{/number}
+  mirror_url: null
+  name: google_colaboratory
+  node_id: MDEwOlJlcG9zaXRvcnkxNjEwMjE4OTY=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/pulls{/number}
+  pushed_at: '2019-08-15T13:53:29Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/releases{/id}
+  size: 2358
+  ssh_url: git@github.com:EmanueleCannizzaro/google_colaboratory.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/google_colaboratory
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory/git/trees{/sha}
+  updated_at: '2019-08-15T13:53:31Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/google_colaboratory
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/h5nastran.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/contributors
+  created_at: '2018-04-12T20:58:23Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/deployments
+  description: 'a python module for Finite Element  results in HDF5 '
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/events
+  fork: false
+  forks: 2
+  forks_count: 2
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/forks
+  full_name: EmanueleCannizzaro/h5nastran
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/h5nastran.git
+  has_downloads: true
+  has_issues: true
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/hooks
+  html_url: https://github.com/EmanueleCannizzaro/h5nastran
+  id: 129310473
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/labels{/name}
+  language: Python
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/languages
+  license:
+    key: mit
+    name: MIT License
+    node_id: MDc6TGljZW5zZTEz
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/milestones{/number}
+  mirror_url: null
+  name: h5nastran
+  node_id: MDEwOlJlcG9zaXRvcnkxMjkzMTA0NzM=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/pulls{/number}
+  pushed_at: '2018-09-07T05:02:22Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/releases{/id}
+  size: 221
+  ssh_url: git@github.com:EmanueleCannizzaro/h5nastran.git
+  stargazers_count: 2
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/h5nastran
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran/git/trees{/sha}
+  updated_at: '2020-05-26T11:58:03Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran
+  visibility: public
+  watchers: 2
+  watchers_count: 2
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/h5nastran2.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/contributors
+  created_at: '2019-10-20T17:52:22Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/deployments
+  description: A refactored issue of h5Nastran
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/events
+  fork: false
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/forks
+  full_name: EmanueleCannizzaro/h5nastran2
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/h5nastran2.git
+  has_downloads: true
+  has_issues: true
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/hooks
+  html_url: https://github.com/EmanueleCannizzaro/h5nastran2
+  id: 216403170
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/languages
+  license: null
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/milestones{/number}
+  mirror_url: null
+  name: h5nastran2
+  node_id: MDEwOlJlcG9zaXRvcnkyMTY0MDMxNzA=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/pulls{/number}
+  pushed_at: '2019-10-20T17:52:23Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/releases{/id}
+  size: 0
+  ssh_url: git@github.com:EmanueleCannizzaro/h5nastran2.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/h5nastran2
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2/git/trees{/sha}
+  updated_at: '2019-10-20T17:52:24Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/h5nastran2
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/house_property_auction.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/contributors
+  created_at: '2022-05-21T21:41:19Z'
+  default_branch: main
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/deployments
+  description: Web Crawlers for auctions
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/forks
+  full_name: EmanueleCannizzaro/house_property_auction
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/house_property_auction.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/hooks
+  html_url: https://github.com/EmanueleCannizzaro/house_property_auction
+  id: 494900811
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/languages
+  license:
+    key: gpl-3.0
+    name: GNU General Public License v3.0
+    node_id: MDc6TGljZW5zZTk=
+    spdx_id: GPL-3.0
+    url: https://api.github.com/licenses/gpl-3.0
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/milestones{/number}
+  mirror_url: null
+  name: house_property_auction
+  node_id: R_kgDOHX-WSw
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/pulls{/number}
+  pushed_at: '2021-01-09T22:20:24Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/releases{/id}
+  size: 54
+  ssh_url: git@github.com:EmanueleCannizzaro/house_property_auction.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/house_property_auction
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction/git/trees{/sha}
+  updated_at: '2022-05-23T13:41:37Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/house_property_auction
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/intake/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/intake/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/intake/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/intake/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/intake.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/intake/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/intake/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/intake/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/intake/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/intake/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/intake/contributors
+  created_at: '2019-02-02T12:38:58Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/intake/deployments
+  description: A plugin system for loading your data and making data catalogs.
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/intake/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/intake/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/intake/forks
+  full_name: EmanueleCannizzaro/intake
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/intake/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/intake/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/intake/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/intake.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: https://intake.readthedocs.io/en/latest/quickstart.html
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/intake/hooks
+  html_url: https://github.com/EmanueleCannizzaro/intake
+  id: 168830301
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/intake/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/intake/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/intake/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/intake/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/intake/labels{/name}
+  language: Python
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/intake/languages
+  license:
+    key: bsd-2-clause
+    name: BSD 2-Clause "Simplified" License
+    node_id: MDc6TGljZW5zZTQ=
+    spdx_id: BSD-2-Clause
+    url: https://api.github.com/licenses/bsd-2-clause
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/intake/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/intake/milestones{/number}
+  mirror_url: null
+  name: intake
+  node_id: MDEwOlJlcG9zaXRvcnkxNjg4MzAzMDE=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/intake/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/intake/pulls{/number}
+  pushed_at: '2019-02-02T12:39:22Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/intake/releases{/id}
+  size: 4268
+  ssh_url: git@github.com:EmanueleCannizzaro/intake.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/intake/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/intake/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/intake/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/intake/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/intake
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/intake/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/intake/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/intake/git/trees{/sha}
+  updated_at: '2019-02-21T15:17:41Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/intake
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/ipykernel.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/contributors
+  created_at: '2021-09-11T13:08:09Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/deployments
+  description: IPython Kernel for Jupyter
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/forks
+  full_name: EmanueleCannizzaro/ipykernel
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/ipykernel.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: https://ipython.readthedocs.io/en/stable/
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/hooks
+  html_url: https://github.com/EmanueleCannizzaro/ipykernel
+  id: 405381855
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/languages
+  license:
+    key: other
+    name: Other
+    node_id: MDc6TGljZW5zZTA=
+    spdx_id: NOASSERTION
+    url: null
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/milestones{/number}
+  mirror_url: null
+  name: ipykernel
+  node_id: MDEwOlJlcG9zaXRvcnk0MDUzODE4NTU=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/pulls{/number}
+  pushed_at: '2021-09-10T13:08:03Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/releases{/id}
+  size: 2135
+  ssh_url: git@github.com:EmanueleCannizzaro/ipykernel.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/ipykernel
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel/git/trees{/sha}
+  updated_at: '2021-09-11T13:08:10Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/ipykernel
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+- allow_forking: true
+  archive_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/assignees{/user}
+  blobs_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/branches{/branch}
+  clone_url: https://github.com/EmanueleCannizzaro/kodacad.git
+  collaborators_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/comments{/number}
+  commits_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/commits{/sha}
+  compare_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/contents/{+path}
+  contributors_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/contributors
+  created_at: '2021-09-05T21:02:10Z'
+  default_branch: master
+  deployments_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/deployments
+  description: 'A simple Python 3D CAD application '
+  disabled: false
+  downloads_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/downloads
+  events_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/events
+  fork: true
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/forks
+  full_name: EmanueleCannizzaro/kodacad
+  git_commits_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/git/tags{/sha}
+  git_url: git://github.com/EmanueleCannizzaro/kodacad.git
+  has_downloads: true
+  has_issues: false
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/hooks
+  html_url: https://github.com/EmanueleCannizzaro/kodacad
+  id: 403412147
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/issues/events{/number}
+  issues_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/issues{/number}
+  keys_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/keys{/key_id}
+  labels_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/labels{/name}
+  language: null
+  languages_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/languages
+  license:
+    key: gpl-3.0
+    name: GNU General Public License v3.0
+    node_id: MDc6TGljZW5zZTk=
+    spdx_id: GPL-3.0
+    url: https://api.github.com/licenses/gpl-3.0
+  merges_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/merges
+  milestones_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/milestones{/number}
+  mirror_url: null
+  name: kodacad
+  node_id: MDEwOlJlcG9zaXRvcnk0MDM0MTIxNDc=
+  notifications_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/2641576?v=4
+    events_url: https://api.github.com/users/EmanueleCannizzaro/events{/privacy}
+    followers_url: https://api.github.com/users/EmanueleCannizzaro/followers
+    following_url: https://api.github.com/users/EmanueleCannizzaro/following{/other_user}
+    gists_url: https://api.github.com/users/EmanueleCannizzaro/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/EmanueleCannizzaro
+    id: 2641576
+    login: EmanueleCannizzaro
+    node_id: MDQ6VXNlcjI2NDE1NzY=
+    organizations_url: https://api.github.com/users/EmanueleCannizzaro/orgs
+    received_events_url: https://api.github.com/users/EmanueleCannizzaro/received_events
+    repos_url: https://api.github.com/users/EmanueleCannizzaro/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/EmanueleCannizzaro/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EmanueleCannizzaro/subscriptions
+    type: User
+    url: https://api.github.com/users/EmanueleCannizzaro
+  private: false
+  pulls_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/pulls{/number}
+  pushed_at: '2021-04-01T18:21:45Z'
+  releases_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/releases{/id}
+  size: 2272
+  ssh_url: git@github.com:EmanueleCannizzaro/kodacad.git
+  stargazers_count: 0
+  stargazers_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/stargazers
+  statuses_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/subscribers
+  subscription_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/subscription
+  svn_url: https://github.com/EmanueleCannizzaro/kodacad
+  tags_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/tags
+  teams_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/teams
+  topics: []
+  trees_url: https://api.github.com/repos/EmanueleCannizzaro/kodacad/git/trees{/sha}
+  updated_at: '2021-09-05T21:02:11Z'
+  url: https://api.github.com/repos/EmanueleCannizzaro/kodacad
+  visibility: public
+  watchers: 0
+  watchers_count: 0
+  web_commit_signoff_required: false
+repositories_title: Repositories
+roles:
+- color: white
+  enddate: ''
+  startdate: ''
+  title: Google Champion
+- color: black!90
+  enddate: ''
+  startdate: ''
+  title: Airbus Cloud Champion
+- color: black!90
+  enddate: ''
+  startdate: ''
+  title: Apps Script Developer
+- color: black!90
+  enddate: ''
+  startdate: ''
+  title: Appsheet Tester
+- color: black!90
+  enddate: ''
+  startdate: ''
+  title: Connected Sheet Tester
+- color: black!90
+  enddate: ''
+  startdate: ''
+  title: Microsoft Retirement Champion
+show_about: false
+show_analytics: true
+show_education: true
+show_picture: false
+show_publications: false
+version_controls:
+- level: 4
+  name: git
+- level: 3
+  name: github
+- level: 3
+  name: jenkins
+version_controls_maxlevel: 5
+version_controls_title: Version Control

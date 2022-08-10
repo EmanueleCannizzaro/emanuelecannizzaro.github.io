@@ -1,0 +1,244 @@
+
+show_picture: False 
+
+# set to False or comment line if you want to remove the "how to use?" in the sidebar
+show_about: False
+
+# set to False if you want education in main section instead of in sidebar
+show_education: True 
+
+show_publications: False
+
+show_analytics: True
+
+baseurl: .
+
+basic:
+  # Profile information
+  name: Emanuele Cannizzaro
+
+  date_of_birth: 4th July 1974
+  citizenships: 
+  - name: Italian
+  - name: British  
+  timezone: Europe/Paris Timezone
+  address:
+    streetOne: 12 Chemin de Gramont
+    streetTwo: Villa 2
+    city: Colomiers
+    postcode: 31770
+    country: France
+  contact:
+    email: Emanuele.Cannizzaro@gmail.com
+    phone: +33 7 49 49 09 22
+    mobile: +33 7 49 49 09 22
+  social:
+    bitbucket:
+    codewars:
+    github: EmanueleCannizzaro
+    gitlab:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    linkedin: EmanueleCannizzaro
+    stack-overflow: # Number/Username, e.g. 123456/alandoe    
+    telegram: # add your nickname without '@' sign
+    twitter: ''
+    xing: 
+  website: "EmanueleCannizzaro.github.io"
+
+  picture: /home/emanuele/gdrive/eeee/emanuele/CANNIZZARO_Emanuele.jpg  
+  avatar: emanuelecannizzaro.png  
+
+pdf: http://www.africau.edu/images/default/sample.pdf
+
+
+#interests: Machine learning, mobile computing, and distributed systems.
+
+profile:
+  title: Career Profile
+  summary: Aerospace Engineer, Software Developer, Data Scientist and Business Transformer 
+  description: |
+    Business-minded engineer that provides data-driven and customer-oriented solutions
+    to challenging problems with a demonstrated ability to deliver valuable insights 
+    via analytics and advanced big data tools.
+
+experiences:
+  - role: Lead Developer
+    time: 2015 - Present
+    company: Startup Hubs, San Francisco
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+        - Bullet point
+        - Bullet point
+  - role: Senior Software Engineer
+    time: 2014 - 2015
+    company: Google, London
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+        - Bullet point
+
+projects:
+  title: Projects
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+educations:
+  - degree: MSc in Computer Science
+    university: University of London
+    duration: 2011 - 2012
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  - degree: BSc in Applied Mathematics
+    university: Bristol University
+    duration: 2007 - 2011
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+
+programming_skills_maxlevel: 5
+programming_skills_title: Programming Languages
+programming_skills:
+  - name: python
+    level: 5
+  - name: javascript
+    level: 4
+  - name: bash
+    level: 4
+  - name: VBA
+    level: 4
+  - name: C/C++
+    level: 2
+  - name: SQL
+    level: 4
+    
+version_controls_maxlevel: 5
+version_controls_title: Version Control
+version_controls:
+  - name: git
+    level: 4
+  - name: github
+    level: 3
+  - name: jenkins
+    level: 3
+
+libraries_maxlevel: 5
+libraries_title: Packages
+libraries:
+  - name: Pandas
+    level: 4
+  - name: GeoPandas
+    level: 4
+  - name: Dask
+    level: 4
+  - name: Bokeh
+    level: 4
+  - name: Panel
+    level: 4
+  - name: HoloViews
+    level: 4
+  - name: Flask
+    level: 4
+  - name: SKLearn
+    level: 4
+  - name: Tensorflow
+    level: 3
+  - name: Keras
+    level: 4
+
+platforms_maxlevel: 5
+platforms_title: Cloud Platforms
+platforms:
+  - name: GCP
+    level: 3
+    details:
+    - Lambda
+    - S3
+  - name: AWS
+    level: 2
+    details:
+    - Lambda
+    - S3
+  - name: Azure
+    level: 1
+    details:
+    - Functions
+    - Blob Storage
+
+languages_maxlevel: 5
+languages_title: Languages
+languages:
+  - name: English
+    level: 4
+    flag: GB
+  - name: Italian
+    level: 5
+    flag: IT
+  - name: Spanish
+    level: 2
+    flag: ES
+  - name: French
+    level: 1
+    flag: FR
+
+repositories_title: Repositories
+repositories: !include github_repos.yaml
+
+footer: 
+    prefix: Template designed by 
+    author: Xiaoying Riley

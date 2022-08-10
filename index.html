@@ -2,17 +2,33 @@
 layout: default
 ---
 
+{% assign data = site.data.data %}
+{% assign profile = site.data.data.profile %}
 
-{% include career-profile.html %}
+<h1 class="name">{{ site.data.data.basic.name }}</h1><br>
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+{% if profile %}<div class="summary">
+  {{ profile.summary | markdownify }}
+</div><!--//summary-->
+{% endif %}<br>
+
+{% if data.show_about %}
+  {% include about.html %}
+{% endif %}
+
+{% include profile.html %}
 
 {% include experiences.html %}
 
 {% include projects.html %}
 
-{% include publications.html %}
+{% if data.show_education %}
+  {% include education.html %}
+{% endif %}
 
-{% include skills.html %}
+{% if data.show_publications %}
+  {% include publications.html %}
+{% endif %}
+
+
+{% include repos.html %}

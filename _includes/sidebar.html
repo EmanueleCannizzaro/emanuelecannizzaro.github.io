@@ -1,33 +1,12 @@
-{% assign sidebar = site.data.data.sidebar %}
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
 
-    {% if sidebar.name %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
-    {% endif %}
+    {% if site.data.data.show_picture %}<img class="avatar" src="{{ site.data.data.baseurl }}/images/{{ site.data.data.basic.avatar }}" alt="profile picture" />{% endif %}
 
-    {% if sidebar.name %}
-    <h1 class="name">{{ sidebar.name }}</h1>
-    {% endif %}
-
-    {% if sidebar.tagline %}
-    <h3 class="tagline">{{ sidebar.tagline }}</h3>
-    {% endif %}
-
-  </div><!--//profile-container-->
-
-  {% include contact.html %}
-
-  {% if sidebar.education %}
-    {% include education.html %}
-  {% endif %}
-
-  {% include language.html %}
-  {% include interests.html %}
-
-  {% if sidebar.about %}
-    {% include about.html %}
-  {% endif %}
-
-</div><!--//sidebar-wrapper-->
+  </div>
+{% include contact.html %}
+{% include skills.html %}
+{% include language.html %}
+{% if site.data.data.show_interests %}{% include interests.html %}{% endif %}
+</div>

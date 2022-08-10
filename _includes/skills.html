@@ -1,31 +1,130 @@
-{% assign skills = site.data.data.skills %}
-{% if skills %}
+{% assign programming_skills = site.data.data.programming_skills %}
+{% assign libraries = site.data.data.libraries %}
+{% assign platforms = site.data.data.platforms %}
+{% assign version_controls = site.data.data.version_controls %}
+{% assign languages = site.data.data.languages %}
+
+{% if programming_skills %}
 <section class="skills-section section">
 
-  <h2 class="section-title">
+  <h3 class="section-title">
     <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
     </span>
-    {{ skills.title }}
-  </h2>
+    {{ site.data.data.programming_skills_title }}
+  </h3>
 
   <div class="skillset">
-
-    {% for skill in skills.toolset %}
-    <div class="item">
-
-      <h3 class="level-title">{{ skill.name }}</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div><!--//level-bar-->
-
-    </div><!--//item-->
+  <table class="table">
+  <tbody>
+{% for skill in programming_skills %}    <tr>
+      <td width="25%" scope="row">{{ skill.name }}</td>
+      {% assign p = skill.level | times: 100 | divided_by: site.data.data.programming_skills_maxlevel %}
+      <td width="75%"><div class="progress"><div class="progress-bar" role="progressbar" style="width: {{ p }}%;" aria-valuenow="{{ skill.level }}" aria-valuemin="0" aria-valuemax="{{ site.data.data.programming_skills_maxlevel }}">{{ skill.level }} / {{ site.data.data.programming_skills_maxlevel }}</div></div></td>
+    </tr>
     {% endfor %}
+  </tbody>
+</table>
+</section><!--//skills-section-->
+{% endif %}
 
-  </div>
 
+{% if libraries %}
+<section class="skills-section section">
+
+  <h3 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-wrench fa-stack-1x"></i>
+    </span>
+    {{ site.data.data.libraries_title }}
+  </h3>
+
+  <div class="skillset">
+  <table class="table">
+  <tbody>
+{% for skill in libraries %}    <tr>
+      <td width="25%" scope="row">{{ skill.name }}</td>
+      {% assign p = skill.level | times: 100 | divided_by: site.data.data.libraries_maxlevel %}
+      <td width="75%"><div class="progress"><div class="progress-bar" role="progressbar" style="width: {{ p }}%;" aria-valuenow="{{ skill.level }}" aria-valuemin="0" aria-valuemax="{{ site.data.data.libraries_maxlevel }}">{{ skill.level }} / {{ site.data.data.libraries_maxlevel }}</div></div></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</section><!--//skills-section-->
+{% endif %}
+
+
+{% if platforms %}
+<section class="skills-section section">
+
+  <h3 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ site.data.data.platforms_title }}
+  </h3>
+
+  <div class="skillset">
+  <table class="table">
+  <tbody>
+{% for skill in platforms %}    <tr>
+      <td width="25%" scope="row">{{ skill.name }}</td>
+      {% assign p = skill.level | times: 100 | divided_by: site.data.data.platforms_maxlevel %}
+      <td width="75%"><div class="progress"><div class="progress-bar" role="progressbar" style="width: {{ p }}%;" aria-valuenow="{{ skill.level }}" aria-valuemin="0" aria-valuemax="{{ site.data.data.platforms_maxlevel }}">{{ skill.level }} / {{ site.data.data.platforms_maxlevel }}</div></div></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</section><!--//skills-section-->
+{% endif %}
+
+
+{% if version_controls %}
+<section class="skills-section section">
+
+  <h3 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ site.data.data.version_controls_title }}
+  </h3>
+
+  <div class="skillset">
+  <table class="table">
+  <tbody>
+{% for skill in version_controls %}    <tr>
+      <td width="25%" scope="row">{{ skill.name }}</td>
+      {% assign p = skill.level | times: 100 | divided_by: site.data.data.version_controls_maxlevel %}
+      <td width="75%"><div class="progress"><div class="progress-bar" role="progressbar" style="width: {{ p }}%;" aria-valuenow="{{ skill.level }}" aria-valuemin="0" aria-valuemax="{{ site.data.data.version_controls_maxlevel }}">{{ skill.level }} / {{ site.data.data.version_controls_maxlevel }}</div></div></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</section><!--//skills-section-->
+{% endif %}
+
+
+{% if languages %}
+<section class="skills-section section">
+
+  <h3 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ site.data.data.languages_title }}
+  </h3>
+
+  <div class="skillset">
+  <table class="table">
+  <tbody>
+{% for skill in languages %}    <tr>
+      <td width="30%" scope="row">{{ skill.name }}</td>
+      <td width="10%"><img src="./assets/images/flags/{{ skill.flag }}.png" width="20px;"></td>
+      {% assign p = skill.level | times: 100 | divided_by: site.data.data.languages_maxlevel %}
+      <td width="60%"><div class="progress"><div class="progress-bar" role="progressbar" style="width: {{ p }}%;" aria-valuenow="{{ skill.level }}" aria-valuemin="0" aria-valuemax="{{ site.data.data.languages_maxlevel }}">{{ skill.level }} / {{ site.data.data.languages_maxlevel }}</div></div></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 </section><!--//skills-section-->
 {% endif %}

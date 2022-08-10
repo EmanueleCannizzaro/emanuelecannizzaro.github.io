@@ -1,0 +1,292 @@
+
+show_picture: False 
+
+# set to False or comment line if you want to remove the "how to use?" in the sidebar
+show_about: False
+
+# set to False if you want education in main section instead of in sidebar
+show_education: True 
+
+show_publications: False
+
+show_analytics: True
+
+baseurl: .
+
+basic:
+  # Profile information
+  name: Emanuele Cannizzaro
+
+  date_of_birth: 4th July 1974
+  citizenships: 
+  - name: Italian
+    flag: IT
+  - name: British  
+    flag: UK
+  timezone: Europe/Paris Timezone
+  address:
+    streetOne: 12 Chemin de Gramont
+    streetTwo: Villa 2
+    city: Colomiers
+    postcode: 31770
+    country: France
+  contact:
+    email: Emanuele.Cannizzaro@gmail.com
+    phone: 
+    mobile: +33 7 49 49 09 22
+  social:
+    bitbucket:
+    codewars:
+    github: EmanueleCannizzaro
+    gitlab:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    linkedin: EmanueleCannizzaro
+    scholarly: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe    
+    telegram: # add your nickname without '@' sign
+    twitter: 'emanuele_canna'
+    xing: 
+  website: "EmanueleCannizzaro.github.io"
+
+  picture: /home/emanuele/gdrive/eeee/emanuele/CANNIZZARO_Emanuele.jpg  
+  avatar: emanuelecannizzaro.png  
+
+pdf: http://www.africau.edu/images/default/sample.pdf
+
+
+#interests: Machine learning, mobile computing, and distributed systems.
+
+profile:
+  title: Career Profile
+  summary: Aerospace Engineer, Software Developer, Data Scientist and Business Transformer 
+  description: |
+    Business-minded engineer that provides data-driven and customer-oriented solutions
+    to challenging problems with a demonstrated ability to deliver valuable insights 
+    via analytics and advanced big data tools.
+
+experiences:
+  title: Work Experience
+  current: 
+    company: Airbus
+    website: https://www.airbus.com
+    role: Technical Team Leader
+    duration: 2019 to Present
+    tasks:
+    projects:
+    - A350
+    location: Toulouse, France
+    details: |
+      - "Responsible of A350 Nose and Center Fuselage Structural Assembly F&DT Team in Toulouse with direct reporting to the Head of"
+    summary: '' 
+    tags: ''
+  previous:
+    - company: Airbus
+      website: https://www.airbus.com
+      role: Senior F&DT Engineer
+      duration: 2015 to 2019
+      tasks:
+      projects:
+        - A350
+      location: Bristol, United Kingdom
+      details: |
+        - "Responsible of A350 Nose and Center Fuselage Structural Assembly F&DT Team in Toulouse with direct reporting to the Head of"
+      summary: 
+      tags:
+    - company: Assystem UK
+      website: https://www.assystemuk.com
+      role: Head of Fatigue and Damage Tolerance
+      duration: 2011 to 2015
+      tasks:
+      projects:
+        - A350, A320, A400M
+      location: Bristol, United Kingdom
+      details: |
+        - "Responsible for supervising the Time, Cost and Quality aspects of the F&DT deliverables to UK customers"
+        - "Management of the F&DT Teams in UK and Germany"
+      summary: 
+      tags:
+    - company: Atkins
+      website: https://www.atkins.com
+      role: Senior Fatigue and Damage Tolerance Engineer
+      duration: "1999 to 2001\n2004 to 2011"
+      tasks:
+      projects:
+        - A350, A320, A400M
+      location: Bristol, United Kingdom
+      details: |
+        - Direct focal point of the Airbus Team for the Outer Wingbox Work packages delivered produced internally and externally for A400M and A380
+        - Project Manager of contracts outsourced to companies in UK, Europe and India
+      summary: 
+      tags:
+    - company: Ricardo
+      website: https://www.ricardo.com
+      role: Computer Aided Engineer
+      duration: 2001 to 2004
+      tasks:
+      projects:
+        - Bugatti Veyron, Chrysler ME 4-12 and Ford GT
+      location: Bristol, United Kingdom
+      details: |
+        - Perform numerical simulation of powertrain units on vehicles including Bugatti Veyron, Chrysler ME 4-12 and Ford GT
+      summary: 
+      tags:
+  
+
+projects:
+  title: Projects
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+roles:
+  - title: "Google Champion"
+    color: white
+    startdate: ""
+    enddate: ""
+  - title: "Airbus Cloud Champion"
+    color: black!90
+    startdate: ""
+    enddate: ""
+  - title: "Apps Script Developer"
+    color: black!90
+    startdate: ""
+    enddate: ""
+  - title: "Appsheet Tester"
+    color: black!90
+    startdate: ""
+    enddate: ""
+  - title: "Connected Sheet Tester"
+    color: black!90
+    startdate: ""
+    enddate: ""
+  - title: "Microsoft Retirement Champion"
+    color: black!90
+    startdate: ""
+    enddate: ""
+
+educations:
+  - degree: MEng Aerospace Engineering
+    institution: Universita' degli Studi di Palermo
+    website: https://www.unipa.it
+    location: Palermo
+    country: Italy
+    duration: 1993 -- 1999
+    startdate: Fall 1993
+    enddate: Spring 1999
+    details: |
+      Five years University Degree with Erasmus placement at Nottingham University, United Kingdom
+    gpa: 110 / 110 cum Laude
+    thesis: “A Subsonic Wind Tunnel Simulator”
+
+programming_skills_maxlevel: 5
+programming_skills_title: Programming Skills
+programming_skills:
+  - name: python
+    level: 5
+  - name: javascript
+    level: 4
+  - name: bash
+    level: 4
+  - name: VBA
+    level: 4
+  - name: C/C++
+    level: 2
+  - name: SQL
+    level: 4
+    
+version_controls_maxlevel: 5
+version_controls_title: Version Control
+version_controls:
+  - name: git
+    level: 4
+  - name: github
+    level: 3
+  - name: jenkins
+    level: 3
+
+libraries_maxlevel: 5
+libraries_title: Packages
+libraries:
+  - name: Pandas
+    level: 4
+  - name: GeoPandas
+    level: 4
+  - name: Dask
+    level: 4
+  - name: Bokeh
+    level: 4
+  - name: Panel
+    level: 4
+  - name: HoloViews
+    level: 4
+  - name: Flask
+    level: 4
+  - name: SKLearn
+    level: 4
+  - name: Tensorflow
+    level: 3
+  - name: Keras
+    level: 4
+
+platforms_maxlevel: 5
+platforms_title: Cloud Platforms
+platforms:
+  - name: GCP
+    level: 3
+    details:
+    - Lambda
+    - S3
+  - name: AWS
+    level: 2
+    details:
+    - Lambda
+    - S3
+  - name: Azure
+    level: 1
+    details:
+    - Functions
+    - Blob Storage
+
+languages_maxlevel: 5
+languages_title: Languages
+languages:
+  - name: English
+    level: 4
+    flag: UK
+  - name: Italian
+    level: 5
+    flag: IT
+  - name: Spanish
+    level: 2
+    flag: ES
+  - name: French
+    level: 1
+    flag: FR
+
+repositories_title: Repositories
+repositories: !include github_repos.yaml
+
+footer: 
+    prefix: Template designed by 
+    author: Xiaoying Riley
