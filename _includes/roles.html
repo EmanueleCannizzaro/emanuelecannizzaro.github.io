@@ -1,31 +1,32 @@
-{% assign projects = site.data.data.projects %}
-{% if projects %}
-  {% if projects.current %}
-  <section class="section projects-section">
+{% assign roles = site.data.data.roles %}
+{% if roles %}
+  {% if roles.current %}
+  <section class="section roles-section">
     <h2 class="section-title">
       <span class="fa-stack fa-xs">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
       </span>
-       {{ projects.title }}
+       {{ roles.title }}
     </h2>
   
-    {% for project in projects.current %}
+    {% for role in roles.current %}
     <div class="item">
   
       <div class="meta">
   
         <div class="upper-row">
-          <h3 class="job-title">{{ project.name }}</h3>
+          <h3 class="job-title">{{ role.name }}</h3>
+          <div class="time">{{ role.duration }}</div>
         </div><!--//upper-row-->
   
-        <div class="company">{{ project.role }}</div>
+        <div class="company">{{ role.company }}, {{ role.location }}</div>
   
       </div><!--//meta-->
   
-      {% if project.details %}
+      {% if role.details %}
       <div class="details">
-        {{ project.details | markdownify }}
+        {{ role.details | markdownify }}
       </div><!--//details-->
       {% endif %}
   

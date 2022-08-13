@@ -1,0 +1,25 @@
+{% assign trainings = site.data.data.trainings %}
+
+{% if trainings %}
+<section class="skills-section trainings-section">
+
+  <h3 class="section-title">
+    <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ trainings.title }}
+  </h3>
+
+  <div class="skillset">
+  <table class="table">
+  <tbody>
+{% for training in trainings.items %}    <tr>
+      <td width="25%" scope="row"><a href="{{ repo.html_url }}">{{ training.name }}</a></td>
+      <td width="75%">{{ training.description }}</td>
+  </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</section><!--//skills-section-->
+{% endif %}

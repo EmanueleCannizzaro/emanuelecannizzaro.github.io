@@ -33,6 +33,31 @@ p {
   line-height: 1.5;
 }
 
+.name {
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.tagline {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.summary {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.profile {
+  margin-bottom: 15px;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -61,11 +86,21 @@ p {
   .name {
     font-size: 32px;
     font-weight: 900;
+    text-align: center;
     margin-top: 0;
     margin-bottom: 10px;
   }
   .tagline {
     color: rgba(256, 256, 256, 0.6);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .summary {
+    color: rgba(256, 256, 256, 0.6);
+    text-align: justify;
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
@@ -74,13 +109,12 @@ p {
   .profile {
     margin-bottom: 15px;
   }
-
   .avatar {
     //used for profile image
-    max-width: 100px;
-    margin-bottom: 15px;
+    max-width: 200px;
+    margin-bottom: 0px;
     border: 0px solid #fff;
-    border-radius: 100%;
+    border-radius: 10%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
   .contact-list {
@@ -113,6 +147,7 @@ p {
     margin-top: 0;
     margin-bottom: 5px;
   }
+  .qualification-container, 
   .education-container {
     .item {
       margin-bottom: 15px;
@@ -177,7 +212,8 @@ p {
   }
 
   .experiences-section,
-  .educations-section {
+  .educations-section,
+  .qualifications-section {
     .item {
       margin-bottom: 30px;
     }
@@ -215,6 +251,22 @@ p {
     color: darken($theme-color, 15%);
   }
   .projects-section {
+    .intro {
+      margin-bottom: 30px;
+    }
+    .item {
+      margin-bottom: 15px;
+    }
+  }
+
+  .role-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: darken($theme-color, 15%);
+  }
+  .roles-section {
     .intro {
       margin-bottom: 30px;
     }

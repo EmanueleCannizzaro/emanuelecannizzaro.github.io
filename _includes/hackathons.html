@@ -1,0 +1,25 @@
+{% assign hackathons = site.data.data.hackathons %}
+
+{% if hackathons %}
+<section class="skills-section hackathons-section">
+
+  <h3 class="section-title">
+    <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ hackathons.title }}
+  </h3>
+
+  <div class="skillset">
+  <table class="table">
+  <tbody>
+{% for hackathon in hackathons.items %}    <tr>
+      <td width="25%" scope="row"><a href="{{ item.html_url }}">{{ hackathon.name }}</a></td>
+      <td width="75%">{{ hackathon.description }}</td>
+  </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</section><!--//skills-section-->
+{% endif %}

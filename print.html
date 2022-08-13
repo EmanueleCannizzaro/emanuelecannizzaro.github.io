@@ -3,17 +3,16 @@ layout: print
 permalink: /print
 ---
 
+{% assign data = site.data.data %}
+{% assign profile = site.data.data.profile %}
 
-{% include profile.html %}
+{% if data.show_profile %}{% include profile.html %}{% endif %}
+{% if data.show_experiences %}{% include experiences.html %}{% endif %}
+{% if data.show_projects %}{% include projects.html %}{% endif %}
+{% if data.show_roles %}{% include roles.html %}{% endif %}
+{% if data.show_qualifications %}{% include qualifications.html %}{% endif %}
+{% if data.show_education %}{% include education.html %}{% endif %}
+{% if data.show_publications %}{% include publications.html %}{% endif %}
+{% if data.show_repositories %}{% include repositories.html %}{% endif %}
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
-
-{% include experiences.html %}
-
-{% include projects.html %}
-
-{% include publications.html %}
-
-{% include skills.html %}
+{% if data.show_analytics %}{% include analytics.html %}{% endif %}

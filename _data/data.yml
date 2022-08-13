@@ -4,8 +4,7 @@ basic:
     city: Colomiers
     country: France
     postcode: 31770
-    streetOne: 12 Chemin de Gramont
-    streetTwo: Villa 2
+    street: 12 Chemin de Gramont, Villa 2
   avatar: emanuelecannizzaro.png
   citizenships:
   - flag: IT
@@ -14,14 +13,23 @@ basic:
     name: British
   contact:
     email: Emanuele.Cannizzaro@gmail.com
-    mobile: +33 7 49 49 09 22
+    mobiles:
+    - country: United Kingdom
+      flag: UK
+      number: +44 7 824 833 651
+    - country: France
+      flag: FR
+      number: +33 7 49 49 09 22
     phone: null
   date_of_birth: 4th July 1974
+  firstname: Emanuele
+  lastname: Cannizzaro
   name: Emanuele Cannizzaro
   picture: /home/emanuele/gdrive/eeee/emanuele/CANNIZZARO_Emanuele.jpg
   social:
     bitbucket: null
     codewars: null
+    facebook: null
     github: EmanueleCannizzaro
     gitlab: null
     goodreads: null
@@ -31,28 +39,80 @@ basic:
     telegram: null
     twitter: emanuele_canna
     xing: null
-  timezone: Europe/Paris Timezone
+  timezone:
+    name: "CEST \u2014 Central European Summer Time"
+    offset: UTC/GMT +2 hours
+    url: https://www.timeanddate.com/time/zone/france
   website: EmanueleCannizzaro.github.io
+conferences:
+  items:
+  - name: Pycon UK 2018
+  - dates: June 28 - 29, 2022 (Virtual Event)
+    name: Future.AI Hosted by Altair
+  - name: Several PyData (Virtual Event)
+  - name: Several PyData Bristol Meetup
+  - dates: 7th-13th September
+    name: Akademy 2019 - Milan, Italy
+  title: Conferences
+contributions:
+  items:
+  - name: Aero2Stress
+    url: null
+  - name: Airframe Digital Twin Platform and Services
+    url: null
+  - name: Quasar andDigital Stress Dossier
+    url: null
+  - name: 3DExperience One Platform
+    url: null
+  - name: Airframe Fatigue Twin
+    url: null
+  - name: Time-Series Analytics Studio
+    url: null
+  title: Contributions
+dashboards:
+  items:
+  - name: A351 NCF Struct-Assy Fatigue
+    url: null
+  - name: A350 NCF Struct-Assy Team
+    url: null
+  - name: Analysis Tools
+    url: null
+  - name: Double Torque Tightening
+    url: null
+  title: Dashboards
 educations:
 - country: Italy
-  degree: MEng Aerospace Engineering
-  details: 'Five Year University Degree with Erasmus placement at Nottingham University,
+  degree: MEng in Aerospace Engineering
+  details: 'Five years University Degree with Erasmus placement at Nottingham University,
     United Kingdom
 
     '
-  duration: 1993 -- 1999
+  duration: 1992 -- 1998
   enddate: Spring 1999
-  gpa: 110 / 110 cum Laude
-  institution: Universita' degli Studi di Palermo
+  extra_curriculum_activities: Erasmus Student (EU mobility program) at the University
+    of Nottingham from Feb to Jun 96
+  gpa: Full Mark First Degree (110/110 cum laude)
+  institution: "Universit\xE0 degli Studi di Palermo"
+  institution_url: https://www.unipa.it
   location: Palermo
+  relevant_courses: '- Computer Aided Design of Mechanical Structures
+
+    - Aeronautical Structures
+
+    - Aerodynamics
+
+    - Finite Element Analysis
+
+    - Component Analysis and Failure Assessment
+
+    '
   startdate: Fall 1993
-  thesis: "\u201CA Subsonic Wind Tunnel Simulator\u201D"
-  website: https://www.unipa.it
+  thesis: A Virtual Subsonic Wind Tunnel Simulator for educational purposes
 experiences:
   current:
     company: Airbus
-    details: '- "Responsible of A350 Nose and Center Fuselage Structural Assembly
-      F&DT Team in Toulouse with direct reporting to the Head of"
+    details: '- Responsible of A350 Nose and Center Fuselage Structural Assembly F&DT
+      Team in Toulouse with direct reporting to the Head of
 
       '
     duration: 2019 to Present
@@ -60,14 +120,14 @@ experiences:
     projects:
     - A350
     role: Technical Team Leader
-    summary: ''
-    tags: ''
+    summary: null
+    tags: null
     tasks: null
     website: https://www.airbus.com
   previous:
   - company: Airbus
-    details: '- "Responsible of A350 Nose and Center Fuselage Structural Assembly
-      F&DT Team in Toulouse with direct reporting to the Head of"
+    details: '- Responsible of A350 Nose and Center Fuselage Structural Assembly F&DT
+      Team in Toulouse with direct reporting to the Head of
 
       '
     duration: 2015 to 2019
@@ -79,32 +139,40 @@ experiences:
     tags: null
     tasks: null
     website: https://www.airbus.com
-  - company: Assystem UK
-    details: '- "Responsible for supervising the Time, Cost and Quality aspects of
-      the F&DT deliverables to UK customers"
+  - address: 1 The Brooms, Emersons Green, Bristol,  BS16 7FD, United Kingdom
+    company: Assystem UK
+    department: Aerostructures
+    details: '- Responsible for supervising the Time, Cost and Quality aspects of
+      the F&DT deliverables to UK customers
 
-      - "Management of the F&DT Teams in UK and Germany"
+      - Management of the F&DT Teams in UK and Germany
 
       '
     duration: 2011 to 2015
     location: Bristol, United Kingdom
     projects:
     - A350, A320, A400M
-    role: Head of Fatigue and Damage Tolerance
+    role: Head of Fatigue and Damage Tolerance, Principal Engineer
     summary: null
     tags: null
     tasks: null
+    telephone: +44 (0)117 9874000
     website: https://www.assystemuk.com
   - company: Atkins
+    company_description: 'ATKINS is one of the world''s leading engineering and design
+      consultancies. In the aerospace industr ywe work for high-profile clients such
+      as Rolls-Royce and Airbus and the main skills include static and fatigue structural
+      integrity, impact analysis, design and systems.
+
+      '
+    department: Aerospace and Defense System
     details: '- Direct focal point of the Airbus Team for the Outer Wingbox Work packages
       delivered produced internally and externally for A400M and A380
 
       - Project Manager of contracts outsourced to companies in UK, Europe and India
 
       '
-    duration: '1999 to 2001
-
-      2004 to 2011'
+    duration: 2004 to 2011
     location: Bristol, United Kingdom
     projects:
     - A350, A320, A400M
@@ -114,6 +182,13 @@ experiences:
     tasks: null
     website: https://www.atkins.com
   - company: Ricardo
+    company_description: 'RICARDO, one of the world''s foremost independent automotive
+      consultancies, is a leading engineering technology provider, undertaking research,
+      design, development and strategic services to the world''s car manufacturers
+
+      '
+    department: Computer Aided Engineering Department of Driveline and Transmission
+      System
     details: '- Perform numerical simulation of powertrain units on vehicles including
       Bugatti Veyron, Chrysler ME 4-12 and Ford GT
 
@@ -127,103 +202,147 @@ experiences:
     tags: null
     tasks: null
     website: https://www.ricardo.com
+  - company: Atkins
+    company_description: 'ATKINS, one of the world''s leading providers of professional,
+      technologically-based consultancy and support services, works with public and
+      private sector clients in a range of markets, including aerospace, transportation,
+      telecommunication, power and defence
+
+      '
+    department: Science and Technology Division
+    details: ''
+    duration: 1999 to 2001
+    location: Bristol, United Kingdom
+    projects:
+    - A350, A320, A400M
+    role: Senior Fatigue and Damage Tolerance Engineer
+    summary: null
+    tags: null
+    tasks: null
+    website: https://www.atkins.com
   title: Work Experience
 footer:
   author: Xiaoying Riley
   prefix: Template designed by
+hackathons:
+  items:
+  - dates: "1 October \u2013 2 October 2018"
+    name: Product Safety Hackathon
+  - dates: "31 October \u2013 2 November 2019"
+    name: ADS-B Hackathon
+  - name: 'MS Decommissioning Hackathon #1 and #2'
+  - name: AppSheet Workshop with Google
+  title: Hackathons
 languages:
-- flag: UK
-  level: 4
-  name: English
-- flag: IT
-  level: 5
-  name: Italian
-- flag: ES
-  level: 2
-  name: Spanish
-- flag: FR
-  level: 1
-  name: French
-languages_maxlevel: 5
-languages_title: Languages
-libraries:
-- level: 4
-  name: Pandas
-- level: 4
-  name: GeoPandas
-- level: 4
-  name: Dask
-- level: 4
-  name: Bokeh
-- level: 4
-  name: Panel
-- level: 4
-  name: HoloViews
-- level: 4
-  name: Flask
-- level: 4
-  name: SKLearn
-- level: 3
-  name: Tensorflow
-- level: 4
-  name: Keras
-libraries_maxlevel: 5
-libraries_title: Packages
-pdf: http://www.africau.edu/images/default/sample.pdf
-platforms:
-- details:
-  - Lambda
-  - S3
-  level: 3
-  name: GCP
-- details:
-  - Lambda
-  - S3
-  level: 2
-  name: AWS
-- details:
-  - Functions
-  - Blob Storage
-  level: 1
-  name: Azure
-platforms_maxlevel: 5
-platforms_title: Cloud Platforms
+  items:
+  - flag: UK
+    level: 5
+    name: English
+    reference_level: C1
+    reference_level_title: Advanced Proficient User
+  - flag: IT
+    level: 6
+    name: Italian
+    reference_level: C2
+    reference_level_title: Mastery Proficient User
+  - flag: ES
+    level: 3
+    name: Spanish
+    reference_level: B1
+    reference_level_title: Threshold Independent User
+  - flag: FR
+    level: 2
+    name: French
+    reference_level: A2
+    reference_level_title: Waystage Basic User
+  max_level: 6
+  reference_levels: https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages#Common_reference_levels
+  title: Languages
+objectives: "- To contribute to the development and improvement of new advanced airplanes.\n\
+  \  \n"
+pdf: http://EmanueleCannizzaro.github.io/ec_fortysecondscv.pdf
 profile:
   description: "Business-minded engineer that provides data-driven and customer-oriented\
     \ solutions\nto challenging problems with a demonstrated ability to deliver valuable\
     \ insights \nvia analytics and advanced big data tools.\n"
-  summary: Aerospace Engineer, Software Developer, Data Scientist and Business Transformer
+  summary: Aerospace Engineer, Software Developer, Data Analyst, Open-Source Evangelist
+    and Business Transformer
   title: Career Profile
-programming_skills:
-- level: 5
-  name: python
-- level: 4
-  name: javascript
-- level: 4
-  name: bash
-- level: 4
-  name: VBA
-- level: 2
-  name: C/C++
-- level: 4
-  name: SQL
-programming_skills_maxlevel: 5
-programming_skills_title: Programming Skills
 projects:
-  intro: "You can list your side projects or open source libraries in this section.\
-    \ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula\
-    \ in nunc bibendum fringilla a eu lectus. assignments:\n  - title: Velocity\n\
-    \    link: \"#hook\"\n    tagline: \"A responsive website template designed to\
-    \ help startups promote, market and sell their products.\"\n\n  - title: DevStudio\n\
-    \    link: \"#\"\n    tagline: \"A responsive website template designed to help\
-    \ web developers/designers market their services.\"\n\n  - title: Tempo\n    link:\
-    \ \"#\"\n    tagline: \"A responsive website template designed to help startups\
-    \ promote their products or services and to attract users &amp; investors\"\n\n\
-    \  - title: Atom\n    link: \"#\"\n    tagline: \"A comprehensive website template\
-    \ solution for startups/developers to market their mobile apps.\"\n\n  - title:\
-    \ Delta\n    link: \"#\"\n    tagline: \"A responsive Bootstrap one page theme\
-    \ designed to help app developers promote their mobile apps\"\n"
+  current:
+  - details: null
+    name: A350XWB Wingtip and Winglet
+    role: F&DT Lead Engineer
+  - details: '- F&DT Lead Engineer of the Assystem Onsite Work Packages
+
+      - F&DT Lead Engineer of the Airbus Integration Team
+
+      '
+    name: SA NEO MG5
+    role: null
+  - details:
+    - F&DT Lead Engineer of the Atkins Offload Work Packages
+    - F&DT Lead Engineer of the Airbus Integration Team
+    name: A400M Checkstress
+    role: null
+  - details: null
+    name: A400M First Flight
+    role: F&DT Support to Airbus First Flight Engineering Project Manager
+  - details: '- Wing Landing Gear Support Structure
+
+      - Inner Front Spar Root Joint
+
+      - Fixed Trailing Edge Miscellaneous Items
+
+      - Structural Repair Manual
+
+      - Technical Integration Team
+
+      - Centre Spar F&DT Lead Engineer
+
+      - Pylon Attachment F&DT Lead Engineer
+
+      '
+    name: A380-800 MSN7 Checkstress
+    role: null
+  - name: Bugatti Veyron, the world's fastest production car
+  - name: Chrysler ME 4-12, the highest power to weight ratio production car
+  - name: Ford GT, the remake of high successful Le Mans winner
+  - name: WRC and Paris Dakar car
+  - name: Train Accident Injury Prediction
+  - name: "Beagle2 Mars Lander \u2013 Composite Panel Assembly"
+  - name: "Oldbury Power Station \u2013 Masonry Wall Assessment"
+  - name: "Dungeness A Power Station \u2013 Seismic Modifications to Essential Equipment"
+  - name: Offshore Structure Analysis
+  - name: "Sizewell A Power Station \u2013 Lower Duct Restraint"
+  - name: "Hartlepool and Heysham Power Station \u2013 Seismic Modifications to Electrical\
+      \ Cabinets"
+  - details: null
+    name: Turbine Housing Containment Prediction
+    role: null
   title: Projects
+qualifications:
+- duration: 2005 - 2017
+  institution: Engineering Council
+  institution_url: https://www.engc.org.uk/ceng
+  name: CEng
+- duration: 1999 - 2017
+  institution: IMEchE
+  institution_url: https://www.imeche.org/
+  name: Member of IMechE
+- duration: 2010 - 2019
+  institution: Engineering Integrity Society
+  institution_url: https://e-i-s.org.uk/
+  name: Fatigue and Durability Committee Member
+- duration: 2012 - 2019
+  institution: Airbus Operation Ltd
+  institution_url: https://www.airbus.com/en
+  name: Fatigue and Damage Tolerance Signatory (Approver and Authoriser)
+- duration: 2012 - 2019
+  institution: Airbus Operation Ltd
+  institution_url: https://www.airbus.com/en
+  name: Finite Element Signatory (Approver and Authoriser)
+references: available on request
 repositories:
 - allow_forking: true
   archive_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/{archive_format}{/ref}
@@ -3233,43 +3352,235 @@ repositories:
   watchers: 0
   watchers_count: 0
   web_commit_signoff_required: false
-repositories_title: Repositories
+repositories_airbus:
+  items:
+  - description: null
+    html_url: null
+    name: IFL
+  - description: null
+    html_url: null
+    name: DSD
+  - description: null
+    html_url: null
+    name: Airframe Certification Summary
+  - description: null
+    html_url: null
+    name: Airbus Google Workspace Wrapper
+  title: Repositories
+repositories_title: Open Source Repositories
 roles:
-- color: white
-  enddate: ''
-  startdate: ''
-  title: Google Champion
-- color: black!90
-  enddate: ''
-  startdate: ''
-  title: Airbus Cloud Champion
-- color: black!90
-  enddate: ''
-  startdate: ''
-  title: Apps Script Developer
-- color: black!90
-  enddate: ''
-  startdate: ''
-  title: Appsheet Tester
-- color: black!90
-  enddate: ''
-  startdate: ''
-  title: Connected Sheet Tester
-- color: black!90
-  enddate: ''
-  startdate: ''
-  title: Microsoft Retirement Champion
+  current:
+  - details: null
+    name: Senior Fatigue and Damage Tolerance Engineer
+    project: null
+  - details: null
+    name: Senior Stress Engineer
+    project: null
+  - details: null
+    name: Senior Finite Element Engineer
+    project: null
+  - details: null
+    name: Head of Function
+    project: null
+  - details: null
+    name: Team Leader
+    project: null
+  - details: null
+    name: Project Manager
+    project: null
+  - color: white
+    details: null
+    duration: null
+    name: Google Champion
+    project: null
+  - color: black!90
+    details: null
+    duration: null
+    name: Airbus Cloud Champion
+    project: null
+  - color: black!90
+    details: null
+    duration: null
+    name: Apps Script Developer
+    project: null
+  - color: black!90
+    details: null
+    duration: null
+    name: Appsheet Tester
+    project: null
+  - color: black!90
+    details: null
+    duration: null
+    name: Connected Sheet Tester
+    project: null
+  - color: black!90
+    details: null
+    duration: null
+    name: Microsoft Retirement Champion
+    project: null
+  title: Roles
 show_about: false
-show_analytics: true
+show_analytics: false
+show_conferences: true
+show_contact: true
+show_contributions: true
+show_dashboards: true
 show_education: true
-show_picture: false
+show_education_compact: false
+show_experiences: true
+show_hackathons: true
+show_interests: true
+show_languages: true
+show_picture: true
+show_profile: true
+show_projects: true
 show_publications: false
-version_controls:
-- level: 4
-  name: git
-- level: 3
-  name: github
-- level: 3
-  name: jenkins
-version_controls_maxlevel: 5
-version_controls_title: Version Control
+show_qualifications: true
+show_qualifications_compact: false
+show_repositories: true
+show_repositories_airbus: true
+show_roles: true
+show_sidebar: true
+show_skills_analyst: true
+show_skills_developer: true
+show_skills_engineer: true
+show_trainings: true
+skills:
+  analyst:
+    items:
+    - level: 4
+      name: Pandas
+    - level: 4
+      name: GeoPandas
+    - level: 4
+      name: Dask
+    - level: 4
+      name: Bokeh
+    - level: 4
+      name: Panel
+    - level: 4
+      name: HoloViews
+    - level: 4
+      name: Flask
+    - level: 4
+      name: SKLearn
+    - level: 3
+      name: Tensorflow
+    - level: 4
+      name: Keras
+    max_level: 5
+    title: Packages
+  developer:
+    languages:
+      items:
+      - level: 5
+        name: python
+      - level: 4
+        name: javascript
+      - level: 4
+        name: bash
+      - level: 4
+        name: VBA
+      - level: 3
+        name: C/C++
+      - level: 3
+        name: java
+      - level: 4
+        name: SQL
+      max_level: 5
+      title: Programming Skills
+    platforms:
+      items:
+      - details:
+        - Lambda
+        - S3
+        level: 3
+        name: GCP
+      - details:
+        - Lambda
+        - S3
+        level: 2
+        name: AWS
+      - details:
+        - Functions
+        - Blob Storage
+        level: 1
+        name: Azure
+      max_level: 5
+      title: Cloud Platforms
+    version_controls:
+      items:
+      - level: 4
+        name: git
+      - level: 3
+        name: github
+      - level: 3
+        name: plm
+      - level: 3
+        name: jenkins
+      max_level: 5
+      title: Version Control
+  engineer:
+    items:
+    - level: 5
+      name: MSC.Nastran
+    - level: 3
+      name: Abaqus
+    - level: 2
+      name: Ls-dyna3D
+    - level: 3
+      name: MSC.Patran
+    - level: 4
+      name: Altair Hyperworks
+    - level: 3
+      name: DS CATIA V5
+    - level: 3
+      name: DS 3DEXPERIENCE
+    - level: 5
+      name: Various Proprietary Engineering Tools by Airbus, Ricardo and Atkins
+    max_level: 5
+    title: Engineering Skills
+src: https://github.com/emanuelecannizzaro/cv
+trainings:
+  items:
+  - courses:
+    - Data Analyst for Airbus
+    name: Udacity Nanodegree
+  - courses:
+    - Advanced Data Analyst and Foundry experts
+    name: Skywise
+  - courses:
+    - App Script Advanced Modules
+    - Google Cloud Functions Fundamentals
+    - Getting Started With Application Development on Google Cloud
+    - Google Cloud Platform Fundamentals Core Infrastructure
+    - Essential Google Cloud Infrastructure Foundation
+    name: Google
+  - courses:
+    - AWS Developer Getting Started
+    name: AWS
+  - courses: ISAMI
+    dates: 2011
+    name: Airbus
+  - courses: PRIMES 3
+    dates: 2008
+    name: Airbus
+  - courses: CATIA V5 interrogation Course and DMU Navigator
+    dates: 2008
+    name: Airbus
+  - courses: MSC.Fatigue Introduction Course
+    dates: May 2004
+    name: Ricardo
+  - courses: HyperWorks Update Training Course
+    dates: May 2004
+    name: Altair Engineering
+  - courses: Basic Training Course
+    dates: Jan 2002
+    name: Sysnoise
+  - courses: Practical Finite Element Modeling Techniques using MSC.Nastran
+    dates: Sept 2001
+    name: MSC.Software
+  - courses: Standard Training Course
+    dates: Sept 1999
+    name: Abaqus
+  title: Trainings

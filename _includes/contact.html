@@ -1,120 +1,128 @@
+{% assign basic = site.data.data.basic %}
+{% if basic %}
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
 
 
-    {% if site.data.data.basic.citizenships %}
+    {% if basic.citizenships %}
     <li class="phone"><i class="fas fa-passport"></i>
-{% for citizenship in site.data.data.basic.citizenships %}      <img src="./assets/images/flags/{{ citizenship.flag }}.png" width="20px;"> {{ citizenship.name }}{% if forloop.last == false %}, {% endif %}{% endfor %}
+{% for citizenship in basic.citizenships %}      <img src="./assets/images/flags/{{ citizenship.flag }}.png" width="20px;"> {{ citizenship.name }}{% if forloop.last == false %}, {% endif %}{% endfor %}
     </li>
     {% endif %}
 
-    {% if site.data.data.basic.address %}
-    <li class="address"><i class="fas fa-address"></i>
-      {{ site.data.data.basic.address.streetOne }}, {{ site.data.data.basic.address.streetTwo }}, {{ site.data.data.basic.address.city }}, {{ site.data.data.basic.address.postcode }}, {{ site.data.data.basic.address.country }}
+    {% if basic.date_of_birth %}
+    <li class="date_of_birth"><i class="fas fa-birthday-cake"></i>
+      {{ basic.date_of_birth }}
+    </li>
+    {% endif %} 
+
+    {% if basic.address %}
+    <li class="address"><i class="fas fa-address-card"></i>
+      {{ basic.address.street }}, {{ basic.address.city }}, {{ basic.address.postcode }}, {{ basic.address.country }}
     </li>
     {% endif %} 
   
-    {% if site.data.data.basic.contact.email %}
+    {% if basic.contact.email %}
     <li class="email"><i class="fas fa-envelope"></i>
-      <a href="mailto:{{ site.data.data.basic.email }}">{{ site.data.data.basic.contact.email }}</a>
+      <a href="mailto:{{ basic.email }}">{{ basic.contact.email }}</a>
     </li>
     {% endif %}
 
-    {% if site.data.data.basic.contact.mobile %}
+{% if basic.contact.mobiles %}{% for mobile in basic.contact.mobiles %}    <li class="phone"><i class="fas fa-mobile"></i>
+      <img src="./assets/images/flags/{{ mobile.flag }}.png" width="20px;"><a href="tel:{{ mobile.number }}">  {{ mobile.number }}</a>
+    </li>{% endfor %}
+    {% endif %}
+
+    {% if basic.contact.phone %}
     <li class="phone"><i class="fas fa-phone"></i>
-      <a href="tel:{{ site.data.data.basic.contact.mobile }}">{{ site.data.data.basic.contact.mobile }}</a>
+      <a href="tel:{{ basic.contact.phone }}">{{ basic.contact.phone }}</a>
     </li>
     {% endif %}
 
-    {% if site.data.data.basic.contact.phone %}
-    <li class="phone"><i class="fas fa-phone"></i>
-      <a href="tel:{{ site.data.data.basic.contact.phone }}">{{ site.data.data.basic.contact.phone }}</a>
-    </li>
-    {% endif %}
-
-    {% if site.data.data.basic.timezone %}
+    {% if basic.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="">{{ site.data.data.basic.timezone }}</a>
+      <a href="{{ basic.timezone.url }}">{{ basic.timezone.name }}, {{ basic.timezone.offset }}</a>
     </li>
     {% endif %}
 
-    {% if site.data.data.basic.website %}
+    {% if basic.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
-      <a href="http://{{ site.data.data.basic.website }}" target="_blank">{{ site.data.data.basic.website }}</a>
+      <a href="http://{{ basic.website }}" target="_blank">{{ basic.website }}</a>
     </li>
     {% endif %}
   
-    {% if site.data.data.basic.social.bitbucket %}
+    {% if basic.social.bitbucket %}
     <li class="bitbucket"><i class="fab fa-bitbucket"></i>
-      <a href="http://bitbucket.com/{{ site.data.data.basic.social.bitbucket }}" target="_blank">{{ site.data.data.basic.social.bitbucket }}</a>
+      <a href="http://bitbucket.com/{{ basic.social.bitbucket }}" target="_blank">{{ basic.social.bitbucket }}</a>
     </li>
     {% endif %}
 
-    {% if site.data.data.basic.social.codewars %}
+    {% if basic.social.codewars %}
     <li class="codewars"><i class="fas fa-code"></i>
-      <a href="https://www.codewars.com/users/{{ site.data.data.basic.social.codewars }}/completed_solutions" target="_blank">{{ site.data.data.basic.social.codewars }}</a>
+      <a href="https://www.codewars.com/users/{{ basic.social.codewars }}/completed_solutions" target="_blank">{{ basic.social.codewars }}</a>
     </li>
     {% endif %}
 
-    {% if site.data.data.basic.social.github %}
+    {% if basic.social.github %}
     <li class="github"><i class="fab fa-github"></i>
-      <a href="http://github.com/{{ site.data.data.basic.social.github }}" target="_blank">{{ site.data.data.basic.social.github }}</a>
+      <a href="http://github.com/{{ basic.social.github }}" target="_blank">{{ basic.social.github }}</a>
     </li>
     {% endif %}
 
-    {% if site.data.data.basic.social.gitlab %}
+    {% if basic.social.gitlab %}
     <li class="gitlab"><i class="fab fa-gitlab"></i>
-      <a href="http://gitlab.com/{{ site.data.data.basic.social.gitlab }}" target="_blank">{{ site.data.data.basic.social.gitlab }}</a>
+      <a href="http://gitlab.com/{{ basic.social.gitlab }}" target="_blank">{{ basic.social.gitlab }}</a>
     </li>
     {% endif %}
 
-    {% if site.data.data.basic.social.goodreads %}
+    {% if basic.social.goodreads %}
     <li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
-      <a href="https://www.goodreads.com/user/show/{{ site.data.data.basic.social.goodreads }}" target="_blank">{{ site.data.data.basic.social.goodreads }}</a>
+      <a href="https://www.goodreads.com/user/show/{{ basic.social.goodreads }}" target="_blank">{{ basic.social.goodreads }}</a>
     </li>
     {% endif %}
 
-    {% if site.data.data.basic.social.linkedin %}
+    {% if basic.social.linkedin %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ site.data.data.basic.social.linkedin }}" target="_blank">{{ site.data.data.basic.social.linkedin }}</a>
+      <a href="https://linkedin.com/in/{{ basic.social.linkedin }}" target="_blank">{{ basic.social.linkedin }}</a>
     </li>
     {% endif %}
 
-    {% if site.data.data.basic.social.scholarly %}
+    {% if basic.social.scholarly %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ site.data.data.basic.social.scholarly }}" target="_blank">{{ site.data.data.basic.social.scholarly }}</a>
+      <a href="https://linkedin.com/in/{{ basic.social.scholarly }}" target="_blank">{{ basic.social.scholarly }}</a>
     </li>
     {% endif %}
     
-    {% if site.data.data.basic.social.stack-overflow %}
+    {% if basic.social.stack-overflow %}
     <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
-      <a href="https://stackoverflow.com/users/{{ site.data.data.basic.social.stack-overflow }}" target="_blank">{{ site.data.data.basic.social.stack-overflow }}</a>
+      <a href="https://stackoverflow.com/users/{{ basic.social.stack-overflow }}" target="_blank">{{ basic.social.stack-overflow }}</a>
     </li>
     {% endif %}
 
-    {% if site.data.data.basic.social.telegram %}
+    {% if basic.social.telegram %}
     <li class="telegram"><i class="fab fa-telegram"></i>
-      <a href="https://t.me/{{ site.data.data.basic.social.telegram }}" target="_blank">{{ site.data.data.basic.social.telegram }}</a>
+      <a href="https://t.me/{{ basic.social.telegram }}" target="_blank">{{ basic.social.telegram }}</a>
     </li>
     {% endif %}
     
-    {% if site.data.data.basic.social.twitter %}
+    {% if basic.social.twitter %}
     <li class="twitter"><i class="fab fa-twitter"></i>
-      <a href="https://twitter.com/{{ site.data.data.basic.social.twitter }}" target="_blank">{{ site.data.data.basic.social.twitter }}</a>
+      <a href="https://twitter.com/{{ basic.social.twitter }}" target="_blank">{{ basic.social.twitter }}</a>
     </li>
     {% endif %}
     
-    {% if site.data.data.social.basic.xing %}
+    {% if basic.social.xing %}
     <li class="xing"><i class="fab fa-xing"></i>
-      <a href="https://www.xing.com/profile/{{ site.data.data.basic.social.xing }}" target="_blank">{{ site.data.data.basic.social.xing }}</a>
+      <a href="https://www.xing.com/profile/{{ basic.social.xing }}" target="_blank">{{ basic.social.xing }}</a>
     </li>
     {% endif %}
 
-    {% if site.data.data.basic.pdf %}
+    {% if pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <a href="{{ site.data.data.basic.pdf }}" target="_blank">Resume PDF</a>
+      <a href="{{ basic.pdf }}" target="_blank">Resume PDF</a>
     </li>
     {% endif %}
 
   </ul>
 </div><!--//contact-container-->
+{% endif %}

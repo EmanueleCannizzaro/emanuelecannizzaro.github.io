@@ -1,11 +1,14 @@
 ---
 #Add "layout: compress" here to compress the html code
 ---
+
+{% assign data = site.data.data %}
+
 <!DOCTYPE html>
 {% include head.html %}
   <body>
     <div class="wrapper">
-      {% include sidebar.html %}
+{% if data.show_sidebar %}      {% include sidebar.html %}{% endif %}
       <div class="main-wrapper">
           {{ content }}
       </div>

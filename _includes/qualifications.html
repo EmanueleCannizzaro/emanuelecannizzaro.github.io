@@ -1,0 +1,64 @@
+  {% assign qualifications = site.data.data.qualifications %}
+  {% if site.data.data.show_qualifications_compact %}
+  <div class="qualification-container container-block">
+
+    <h2 class="container-block-title">
+      Qualifications
+    </h2>
+
+    {% for qualification in qualifications %}
+    <div class="item">
+      <h4 class="degree">{{ qualification.name }}</h4>
+      <h5 class="meta"><a href={{ qualification.institution_url }}>{{ qualification.institution }}</a></h5>
+      <div class="time">{{ qualification.duration }}</div>
+    </div>
+    {% endfor %}
+
+  </div>
+  {% else %}
+  <section class="section qualification-section">
+
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-qualification-cap fa-stack-1x fa-inverse"></i>
+      </span>
+      Qualifications
+    </h2>
+
+    {% for qualification in qualifications %}
+    <div class="item">
+
+      <div class="meta">
+
+        <div class="upper-row">
+          <h3 class="degree">{{ qualification.name }}</h3>
+          <div class="time">{{ qualification.duration }}</div>
+        </div><!--//upper-row-->
+
+        <div class="university"><a href={{ qualification.institution_url }}>{{ qualification.institution }}</a></div>
+      </div><!--//meta-->
+
+      {% if qualification.details %}
+      <div class="details">
+        {{ qualification.details | markdownify }}
+      </div><!--//details-->
+      <table class="table">
+        <tbody>
+          <tr>
+            <td width="25%" scope="row"><b>Mark: </b></td>
+            <td width="75%">{{ qualification.gpa }}</td>
+          </tr>
+          <tr>
+            <td width="25%" scope="row"> <b>Thesis: </b></td>
+            <td width="75%">{{ qualification.thesis }}</td>
+          </tr>
+        </tbody>
+      </table>
+      {% endif %}
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </section><!--//section-->
+  {% endif %}

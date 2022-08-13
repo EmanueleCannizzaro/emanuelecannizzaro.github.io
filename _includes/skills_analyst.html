@@ -1,0 +1,25 @@
+{% assign analyst = site.data.data.skills.analyst %}
+
+{% if analyst %}
+<section class="skills-section section">
+
+  <h3 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-wrench fa-stack-1x"></i>
+    </span>
+    {{ analyst.title }}
+  </h3>
+
+  <div class="skillset">
+  <table class="table">
+  <tbody>
+{% for item in analyst.items %}    <tr>
+      <td width="25%" scope="row">{{ item.name }}</td>
+      {% assign p = item.level | times: 100 | divided_by: analyst.max_level %}
+      <td width="75%"><div class="progress"><div class="progress-bar" role="progressbar" style="width: {{ p }}%;" aria-valuenow="{{ item.level }}" aria-valuemin="0" aria-valuemax="{{ analyst.max_level }}">{{ item.level }} / {{ analyst.max_level }}</div></div></td>
+    </tr>
+{% endfor %}
+  </tbody>
+</table>
+</section><!--//skills-section-->
+{% endif %}

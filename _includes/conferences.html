@@ -1,0 +1,25 @@
+{% assign conferences = site.data.data.conferences %}
+
+{% if conferences %}
+<section class="skills-section conferences-section">
+
+  <h3 class="section-title">
+    <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ conferences.title }}
+  </h3>
+
+  <div class="skillset">
+  <table class="table">
+  <tbody>
+{% for conference in conferences.items %}    <tr>
+      <td width="25%" scope="row"><a href="{{ item.html_url }}">{{ conference.name }}</a></td>
+      <td width="75%">{{ conference.description }}</td>
+  </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</section><!--//skills-section-->
+{% endif %}
