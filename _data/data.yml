@@ -1,3 +1,11 @@
+airbus:
+  contact:
+    email: Emanuele.Cannizzaro@airbus.com
+    mobiles:
+    - country: France
+      flag: FR
+      number: +33 7 824 833 651
+  website: EmanueleCannizzaro.github.io
 baseurl: .
 basic:
   address:
@@ -33,7 +41,7 @@ basic:
     github: EmanueleCannizzaro
     gitlab: null
     goodreads: null
-    linkedin: EmanueleCannizzaro
+    linkedin: emanuele-cannizzaro-0a85961b
     scholarly: null
     stack-overflow: null
     telegram: null
@@ -46,39 +54,262 @@ basic:
   website: EmanueleCannizzaro.github.io
 conferences:
   items:
-  - name: Pycon UK 2018
+  - image: https://2018.pyconuk.org/
+    name: Pycon UK 2018
+    url: https://2018.pyconuk.org/
   - dates: June 28 - 29, 2022 (Virtual Event)
     name: Future.AI Hosted by Altair
+    url: https://app.hopin.com/events/altair-event-template-ec2f5ac3-72a4-4644-96b5-b7df6adf8618/reception
   - name: Several PyData (Virtual Event)
+    url: null
   - name: Several PyData Bristol Meetup
+    url: https://www.python.org/events/python-user-group/791/
   - dates: 7th-13th September
     name: Akademy 2019 - Milan, Italy
+    url: https://akademy.kde.org/2019
   title: Conferences
 contributions:
   items:
   - name: Aero2Stress
-    url: null
+    url: https://drive.google.com/a/airbus.com/open?id=1xc7IRgKkUP4wRwds0h5VmRJI18osUy8m8aC1jgicrcM
   - name: Airframe Digital Twin Platform and Services
-    url: null
-  - name: Quasar andDigital Stress Dossier
-    url: null
+    url: https://sites.google.com/airbus.com/iacam/our-activities/airframe-digital-twin-platform-and-services
+  - details: "The concept of Airframe digital twin consists in capturing and digitalizing\
+      \ real life events happening on a physical product with a particular focus on\
+      \ the A/C event management (quality issue, non-conformity, in-service incidents,\
+      \ ...) to compare them with virtual representations of the product. Its purpose\
+      \ is to propose end to end harmonized solutions to manage A/C events during\
+      \ manufacturing and in-service operations.        \n"
+    name: Quasar and Digital Stress Dossier
+    other: https://sites.google.com/airbus.com/iacam/our-activities/airframe-digital-twin-platform-and-services
+      https://sites.google.com/airbus.com/adt/roadmap
+    url: https://sites.google.com/airbus.com/1acsdbairframemtdeploymentbos/quasar
   - name: 3DExperience One Platform
-    url: null
-  - name: Airframe Fatigue Twin
-    url: null
-  - name: Time-Series Analytics Studio
-    url: null
+    url: https://dashboard.3dxplatform.eu.airbus.corp:9090/3ddashboard/
+  - details: 'AF-Twin Data Analyst is an advanced fatigue spectrum analysis and visualization
+      software. It has been designed to ease fatigue spectrum analyses, visualization
+      and sensitivity analysis tasks.
+
+      '
+    name: Airframe Fatigue Twin
+    url: https://sites.google.com/airbus.com/af-twin/home
+  - details: "The Time Series Analytics Studio (TSAS) is an integrated collaborative\
+      \ tool suite that enables business oriented time series data exploration and\
+      \ analysis. \n"
+    name: Time-Series Analytics Studio
+    url: https://confluence.airbus.corp/display/IEG22TSASPD/TSAS+Products+documentation
   title: Contributions
+cover_letter:
+  centre:
+    Dependable: 'I am an experienced Software Developer with demonstrated skills in
+      software development, data analysis and [Skill 3]. I am a dependable asset to
+      the team, always punctual and determined to get the job done. I never waiver
+      in my contribution to my team as I am always ready to help out my co-workers
+      to achieve the end result.
+
+      I am a quick study with a dedication to keep learning and improving on what
+      I know. Being highly organized and detail-oriented makes it easier to manage
+      my own time for the success of the team.
+
+      '
+    Life-Long Learner: 'It is my goal to continue to learn and grow throughout my
+      career, which is why I would like to work at your company. While I have developed
+      a level of expertise in software development, data analysis and [Skill 3], there
+      is so much more I want to explore and learn.
+
+      '
+    People-Person: 'At my previous company, I had a reputation for being able to work
+      with everyone. I enjoy figuring out what motivates people, finding common ground
+      and getting things done. I am also good at software development, data analysis
+      and [Skill 3] which helps me to build productive relationships and achieve solid
+      results.
+
+      '
+    Problem Solver: 'My unique combination of education, skills and work experience
+      has allowed me to develop my strengths in software development, data analysis
+      and [Skill 3]. Because of my varied background, I am a resourceful and creative
+      problem solver. I can always find multiple solutions to even the most complex
+      problems.
+
+      '
+    Qualified: "Skilled Software Developer with 10 years of experience in the industry.\
+      \ Highly adept at handling various responsibilities by prioritizing my tasks,\
+      \ establishing clear deadlines and finding creative solutions to eliminate obstacles.\
+      \ My experience has equipped me with the necessary tools to succeed in this\
+      \ position:\n  \u2022 Software Development\n  \u2022 Data Analysis\n  \u2022\
+      \ [Skill 3]\n\nWhile I am grateful for the opportunities afforded to me in my\
+      \ prior position, I am ready to embark on a new career path that offers new\
+      \ challenges for me to put my skills to use.\n"
+    Read Your Advertisement: 'Upon reviewing your job ad, I believe that my skills
+      in software development, data analysis and [Skill 3] fit well for this position.
+      My time at AECS4U allowed me to hone my abilities and take on more challenging
+      opportunities. I plan to take what I have learned and apply it to this position
+      with the dedication to constantly improve and exceed expectations.
+
+      '
+    Results-Oriented: 'Throughout my career, I have been recognized for achieving
+      results. I enjoy problem-solving and utilize my abilities in software development,
+      data analysis and [Skill 3] to ensure that I meet my goals.
+
+      '
+    Simple: 'In my Software Developer position with AECS4U, I handled tasks very similar
+      to what you outlined in your job ad. With my ability to learn, I know I can
+      quickly close any knowledge gaps to become an asset to your team.
+
+      I have effective communication skills and the motivation to take on challenging
+      work. I''m also skilled at software development, data analysis and [Skill 3].
+      I am confident that I have the drive, knowledge and experience you need.
+
+      '
+    Strong Communicator: 'In addition to my years of experience, I have strong interpersonal
+      and communication skills that allow me to adapt to any group or situation. Abilities
+      in software development, data analysis and [Skill 3] have also helped me to
+      build relationships and achieve results.
+
+      '
+  closing:
+    Follow Up: 'Thank you for your time. It would be a pleasure to speak with you
+      and discuss this opportunity with Google. I look forward to hearing from you
+      soon.
+
+      '
+    Let's Talk: "Would you be open for a quick chat over the phone? Please let me\
+      \ know.            \n  \n"
+    Looking forward to a response: 'I would greatly appreciate your review of my enclosed
+      resume and outlined credentials. I believe that I can be a valuable addition
+      to Google and your business goals. At your convenience, I am available for an
+      interview or further discussion. I look forward to your response.
+
+      '
+    Professional: 'I''ve attached my resume with additional details of my work experience
+      and qualifications. If you have any questions, please feel free to contact me.
+
+      '
+    Simple: 'Please take a look at my enclosed resume for more details about my work
+      experience and qualifications. I''d really like to speak with you more about
+      the position, and I look forward to hearing from you soon.
+
+      '
+  engineer:
+    about: "I am familiar with the methods and tools used in Computer Aided Engineering\
+      \ and Design Office departments of both Automotive and  Aeronautical industry\
+      \ in both static strength and fatigue and damage tolerance calculations.\nI\
+      \ offer an unique blend of integrated engineering, quality and strategic consulting\
+      \ services for digital transformation. \nProviding expertise in F&DT of airframe\
+      \ structures like concept and detail design, sizing, certification and production\
+      \ ramp up, definition etc. and fosters a strong internal/external co-work throughout\
+      \ project phases.\nOverseeing complete strength evaluations regarding stress,\
+      \ fatigue and damage tolerance criteria, as well as responsibility in overseeing,\
+      \ planning and executing the tasks according the overall program schedule to\
+      \ secure the deliverables\nDefinition and proposal of program code routines\
+      \ for analysis processes, methods & tools like FEM pre- & postprocesses, automatic\
+      \ calculation, digital data process etc.\nImproving, defining and adapting stress\
+      \ and F&DT methods, assumptions, data and procedures for metallic and composite\
+      \ structures\nEstablish the required check procedures and progress monitoring\
+      \ aligned with the program process to ensure deliverables at time and quality\
+      \ \n"
+    education: 'Master degree in materials, aeronautics, aviation or mechanics with
+      several years'' expertise in aircraft development and airframe throughout the
+      development phases and lifecycle of several aircraft
+
+      Qualified leadership and product development experience within aircraft programs
+
+      Expert in field of stress, fatigue & damage tolerance for metal and composite
+      components
+
+      Definition of specifications and structure analysis Means of Compliance
+
+      Lead the compilation of fatigue & damage tolerance analysis reports and certification
+      documents in line with relevant regulations
+
+      Assess and proof of production non-conformities, concession
+
+      Open minded personality with excellent communication skills, written and spoken
+      in English
+
+      Structured and result orientated with strong team spirit
+
+      '
+    experience: I have extensive experience working in large and complex engineering
+      environments. I have a significant aircraft conceptual and preliminary design
+      experience on a CS-25. Proficiency coordinating activities of engineers in partner
+      supplier companies. Working knowledge of FEM. 15+ years experience in an engineering
+      leadership position within an aerospace OEM company environment, including the
+      conceptual and preliminary design phase. Experience with aircraft development
+      programs through the entire design, development & certification lifecycle (EASA/FAA
+      Part 25). Experience working in an EASA Part 21J Design Organization, or international
+      equivalent. Direct experience with the role of the Head of Structures within
+      an approved design organization. Proficiency in Finite Element, Static Strength
+      and Fatigue and Damage Tolerance analyses. 20+ years of professional experience
+      in stress analysis and structural optimization of primary and secondary aircraft
+      structures 15+ years of professional experience in successfully leading stress
+      engineering activities of aircraft structures Excellent verbal & written communication
+      skills in English
+    targets: Great Place to Work Growth Opportunities Inclusive atmosphere Relocation
+      support Be part of the electric aviation revolution! International environment
+  opening:
+    All Purpose: 'I am an experienced Software Developer seeking an opportunity at
+      your company. I have a strong track record and am looking forward to bringing
+      my skills and abilities to the team.
+
+      '
+    Driven: 'I am writing to express my interest in the Software Developer position.
+      I am a self-motivated and progress-driven [Previous Job Title] with an extensive
+      background in this industry. I have developed and executed strategies that I
+      believe will bring value to Google.
+
+      '
+    Found Your Advertisement: 'I''m applying for the Software Developer position,
+      which I saw advertised on [Referral Source or Job Board] website. I believe
+      I meet all the essential criteria for the role and feel I can make an effective
+      and immediate contribution to your team.
+
+      '
+    Friend Referral: '[Friend Name] told me about your opening for a new Software
+      Developer, and they suggested I apply. Here''s a little bit about my background.
+
+      '
+    Good Match: 'Please consider my application for the Software Developer position.
+      I believe that my skillset and experience match well with your needs. I have
+      included my resume for your review and look forward to learning more about Google.
+
+      '
+    Great Company: 'I have been following Google for years now. When I saw your opening
+      for a Software Developer, I knew that this was my chance to join a great company.
+      I''m confident that, with my industry knowledge and experience, I can be a strong
+      member of your team.
+
+      '
+    Mission-Driven: 'I am applying for a position at Google because your mission and
+      vision align with my values. As you''ll see from my resume, what motivates me
+      is working for organizations, like yours, that serve a higher purpose. I would
+      love to bring my skills and experience to support your cause.
+
+      '
+    Qualified: 'I am excited to apply for the Software Developer position you recently
+      posted on [Referral Source or Job Board]. Having read through the job requirements,
+      I believe I am qualified for the role and will be able to exceed your expectations.
+
+      '
+    Replying to an Opening: 'I wanted to reach out to you with my interest in joining
+      the Google as a Software Developer.
+
+      '
+    Simple: 'I heard that Google was looking to hire a new Software Developer and
+      wanted to send you my application. Based on my background, I believe I would
+      make a great addition to your team.
+
+      '
 dashboards:
   items:
   - name: A351 NCF Struct-Assy Fatigue
-    url: null
+    url: https://datastudio.google.com/reporting/1416e150-f51c-49ca-95d4-4737527a7b4b/page/p_2aryq29brc
   - name: A350 NCF Struct-Assy Team
-    url: null
+    url: https://datastudio.google.com/reporting/12Bw4-LaxSawGYbULMyLzOtCjdXN-47fh/page/tdBGB
   - name: Analysis Tools
-    url: null
+    url: https://datastudio.google.com/reporting/0ec26478-99f8-4e3a-a274-0c3f5f23f383/page/p2SiB
   - name: Double Torque Tightening
-    url: null
+    url: https://datastudio.google.com/reporting/1IPa5SHBzTGIddE4V9R_qTD4CziBCqEck/page/6mfWB
   title: Dashboards
 educations:
 - country: Italy
@@ -87,7 +318,7 @@ educations:
     United Kingdom
 
     '
-  duration: 1992 -- 1998
+  duration: September 1992 - November 1998
   enddate: Spring 1999
   extra_curriculum_activities: Erasmus Student (EU mobility program) at the University
     of Nottingham from Feb to Jun 96
@@ -121,20 +352,40 @@ experiences:
     - A350
     role: Technical Team Leader
     summary: null
-    tags: null
+    tags:
+    - flask
+    - mongodb
+    - redis
+    - pytest
+    - scrum
+    - django
+    - mysql
+    - jenkins
     tasks: null
     website: https://www.airbus.com
   previous:
   - company: Airbus
-    details: '- Responsible of A350 Nose and Center Fuselage Structural Assembly F&DT
-      Team in Toulouse with direct reporting to the Head of
+    details: '- Responsible for A321 LR Outer Wingbox F&DT Team
 
       '
     duration: 2015 to 2019
     location: Bristol, United Kingdom
-    projects:
-    - A350
-    role: Senior F&DT Engineer
+    projects: '- ACJ319neo Certification
+
+      - ACJ320neo Certification
+
+      - A380XWB EAC Repair
+
+      - A350XWB-900 ULR Certification
+
+      - A321neo ACF Certification
+
+      - A350XWB-900 Certification
+
+      - A350XWB-900 Batch3 Design
+
+      '
+    role: Senior Fatigue and Damage Tolerance Engineer
     summary: null
     tags: null
     tasks: null
@@ -147,12 +398,32 @@ experiences:
 
       - Management of the F&DT Teams in UK and Germany
 
+      - Responsible for the technical delivery of Assystem F&DT work package.
+
+      - Responsible for setting the analysis requirements, planning the tasks and
+      deliverables, defining the loads standards, drawings and methods to be used,
+      demonstrating traceability and ensuring consistency across the work packages.
+
       '
     duration: 2011 to 2015
     location: Bristol, United Kingdom
-    projects:
-    - A350, A320, A400M
-    role: Head of Fatigue and Damage Tolerance, Principal Engineer
+    other_roles: '- Principal Engineer
+
+      - F&DT Lead Engineer for Wingtip and Winglet
+
+      - F&DT Lead Engineer of Onsite Work Packages
+
+      - F&DT Lead Engineer of the Airbus Integration Team
+
+      '
+    projects: '- A350XWB
+
+      - A320 NEO
+
+      - A400M
+
+      '
+    role: Head of Fatigue and Damage Tolerance
     summary: null
     tags: null
     tasks: null
@@ -167,13 +438,21 @@ experiences:
       '
     department: Aerospace and Defense System
     details: '- Direct focal point of the Airbus Team for the Outer Wingbox Work packages
-      delivered produced internally and externally for A400M and A380
+      delivered produced internally and externally
 
       - Project Manager of contracts outsourced to companies in UK, Europe and India
+
+      - Responsible for technical delivery of Atkins F&DT work packages and act as
+      Airbus delegated F&DT Signatory for the Ribs and Engine Attachments Work Packages.
 
       '
     duration: 2004 to 2011
     location: Bristol, United Kingdom
+    other_roles:
+    - Stress Engineer
+    - Finite Element Method Owner
+    - Team Leader
+    - Project Manager
     projects:
     - A350, A320, A400M
     role: Senior Fatigue and Damage Tolerance Engineer
@@ -187,38 +466,46 @@ experiences:
       design, development and strategic services to the world''s car manufacturers
 
       '
-    department: Computer Aided Engineering Department of Driveline and Transmission
-      System
-    details: '- Perform numerical simulation of powertrain units on vehicles including
-      Bugatti Veyron, Chrysler ME 4-12 and Ford GT
+    department: Driveline and Transmission System CAE
+    details: '- Perform numerical simulation of powertrain units
 
       '
-    duration: 2001 to 2004
-    location: Bristol, United Kingdom
+    duration: April 2001 to July 2004
+    location: Leamington Spa, United Kingdom
     projects:
     - Bugatti Veyron, Chrysler ME 4-12 and Ford GT
-    role: Computer Aided Engineer
+    role: Senior Computer Aided Engineer
     summary: null
     tags: null
-    tasks: null
-    website: https://www.ricardo.com
-  - company: Atkins
-    company_description: 'ATKINS, one of the world''s leading providers of professional,
-      technologically-based consultancy and support services, works with public and
-      private sector clients in a range of markets, including aerospace, transportation,
-      telecommunication, power and defence
+    tasks: '- Performed detailed analysis to assess integrity, reliability and durability
+      of assembly and components; analysis types include topology, static, dynamic,
+      response, thermal and contact
+
+      - Led, supervised and coordinated a team of stress engineers
+
+      - Supported the design team by providing recommendations for concept improvement
+
+      - Liaise with external and internal customers
 
       '
-    department: Science and Technology Division
-    details: ''
+    website: https://www.ricardo.com
+  - company: Atkins
+    company_description: null
+    department: Advanced Engineering Solutions
+    details: '- Project engineer supporting many engineering tasks.
+
+      '
     duration: 1999 to 2001
     location: Bristol, United Kingdom
-    projects:
-    - A350, A320, A400M
-    role: Senior Fatigue and Damage Tolerance Engineer
+    projects: null
+    role: Prooject Engineer
     summary: null
     tags: null
-    tasks: null
+    tasks:
+    - Performed simulation of mechanical structures and vehicles under complex dynamic
+      loads
+    - Wrote software tools to help parts manufacture
+    - Designed components according to British Standards
     website: https://www.atkins.com
   title: Work Experience
 footer:
@@ -227,12 +514,35 @@ footer:
 hackathons:
   items:
   - dates: "1 October \u2013 2 October 2018"
+    details: null
     name: Product Safety Hackathon
+    other: https://docs.google.com/presentation/d/1xc7IRgKkUP4wRwds0h5VmRJI18osUy8m8aC1jgicrcM/edit#slide=id.g5c1b2b7b8a_2_624
+    url: https://api.momindum.com/watch/uD3ia9PaDsqRcABtOyM9xXwRgXKKYRGfwi-bLQOVPLI.?
   - dates: "31 October \u2013 2 November 2019"
+    details: null
     name: ADS-B Hackathon
-  - name: 'MS Decommissioning Hackathon #1 and #2'
-  - name: AppSheet Workshop with Google
+    url: null
+  - dates: null
+    details: "Airbus is moving to Google Workspace and MS Office has been identified\
+      \ as a legacy tools that has to be decommissioned. Valid blockers prevent this\
+      \ process. \nHackathons have been organised to accelerate the blockers remediation\
+      \ and enable the Google Workspace adoption through a cross-function collaboration\n\
+      The objectives of the Hackathons are:\n  - Reinforce the momentum around the\
+      \ decommissioning project and bring together key focal points;\n  - Emphasize\
+      \ the choice to move to Google Workspace and its added value for Airbus;\n \
+      \ - Boost people in this journey;\n  - Unlock blockers to remove as many Microsoft\
+      \ Office licenses as possible this year;\n  - Promote cross-function collaboration.\n"
+    name: 'MS Decommissioning Hackathon #1 and #2'
+    other: https://docs.google.com/presentation/d/1vfeNvU-Khftq1-D2ZLgWmE8RY0L36V7xOIosiTASobc/edit#slide=id.g1096cf46bc0_0_1654
+    url: https://sites.google.com/airbus.com/decommissioning-hackathon/airbus-hackathon/context-objectives
+  - dates: null
+    details: null
+    name: AppSheet Workshop with Google
+    url: null
   title: Hackathons
+hobbies:
+- details: Biking, Windsurfing, Sailing
+  name: Sports
 languages:
   items:
   - flag: UK
@@ -262,33 +572,49 @@ objectives: "- To contribute to the development and improvement of new advanced 
   \  \n"
 pdf: http://EmanueleCannizzaro.github.io/ec_fortysecondscv.pdf
 profile:
-  description: "Business-minded engineer that provides data-driven and customer-oriented\
-    \ solutions\nto challenging problems with a demonstrated ability to deliver valuable\
-    \ insights \nvia analytics and advanced big data tools.\n"
+  description: 'Business-minded engineer that provides data-driven and customer-oriented
+    solutions to challenging problems with a demonstrated ability to deliver valuable
+    insights via analytics and advanced big data tools.
+
+    '
   summary: Aerospace Engineer, Software Developer, Data Analyst, Open-Source Evangelist
     and Business Transformer
   title: Career Profile
 projects:
   current:
   - details: null
-    name: A350XWB Wingtip and Winglet
-    role: F&DT Lead Engineer
-  - details: '- F&DT Lead Engineer of the Assystem Onsite Work Packages
-
-      - F&DT Lead Engineer of the Airbus Integration Team
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/9V-SMR_A350-900_Singapore_Airlines_LHR_1.12.20.jpg/300px-9V-SMR_A350-900_Singapore_Airlines_LHR_1.12.20.jpg
+    name: Airbus A350
+    programmes: "- A400M Checkstress \u2013 F&DT Lead Engineer of the Airbus Integration\
+      \ Team\n- A400M First Flight \u2013 F&DT Support to Airbus First Flight Engineering\
+      \ Project Manager\n- A380-800 MSN7 Checkstress \u2013 Wing Landing Gear Support\
+      \ Structure\n- A380-800 MSN7 Checkstress \u2013 Inner Front Spar Root Joint\n\
+      - A380-800 MSN7 Checkstress \u2013 Fixed Trailing Edge Miscellaneous Items\n\
+      - A380-800 MSN7 Checkstress \u2013 Structural Repair Manual\n- A380-800 MSN7\
+      \ Checkstress \u2013 Technical Integration Team\n- A380-800 MSN7 Checkstress\
+      \ \u2013 Centre Spar F&DT Lead Engineer\n- A380-800 MSN7 Checkstress \u2013\
+      \ Pylon Attachment F&DT Lead Engineer\n"
+    responsibilities: '- Contribute to the successful achievement of Type Certification
+      for Airbus aircrafts.
 
       '
-    name: SA NEO MG5
+    role: F&DT Lead Engineer
+    wikipedia_url: https://en.wikipedia.org/wiki/Airbus_A350
+  - details_: '- F&DT Lead Engineer of Onsite Work Packages
+
+      - F&DT Lead Engineer of Integration Team
+
+      '
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/4X-AGK_Independence_Day_09-05-2019b.jpg/220px-4X-AGK_Independence_Day_09-05-2019b.jpg
+    name: Airbus A321LR
     role: null
-  - details:
-    - F&DT Lead Engineer of the Atkins Offload Work Packages
-    - F&DT Lead Engineer of the Airbus Integration Team
-    name: A400M Checkstress
-    role: null
+    wikipedia_url: https://en.wikipedia.org/wiki/Airbus_A320neo_family#A321LR
   - details: null
-    name: A400M First Flight
-    role: F&DT Support to Airbus First Flight Engineering Project Manager
-  - details: '- Wing Landing Gear Support Structure
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/German_Air_Force_Airbus_A400M_%28out_cropped%29.jpg/300px-German_Air_Force_Airbus_A400M_%28out_cropped%29.jpg
+    name: Airbus A400M
+    role: null
+    wikipedia_url: https://en.wikipedia.org/wiki/Airbus_A400M_Atlas
+  - details_: '- Wing Landing Gear Support Structure
 
       - Inner Front Spar Root Joint
 
@@ -303,23 +629,211 @@ projects:
       - Pylon Attachment F&DT Lead Engineer
 
       '
-    name: A380-800 MSN7 Checkstress
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg/300px-A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg
+    name: Airbus A380
     role: null
-  - name: Bugatti Veyron, the world's fastest production car
-  - name: Chrysler ME 4-12, the highest power to weight ratio production car
-  - name: Ford GT, the remake of high successful Le Mans winner
-  - name: WRC and Paris Dakar car
-  - name: Train Accident Injury Prediction
-  - name: "Beagle2 Mars Lander \u2013 Composite Panel Assembly"
-  - name: "Oldbury Power Station \u2013 Masonry Wall Assessment"
-  - name: "Dungeness A Power Station \u2013 Seismic Modifications to Essential Equipment"
-  - name: Offshore Structure Analysis
-  - name: "Sizewell A Power Station \u2013 Lower Duct Restraint"
-  - name: "Hartlepool and Heysham Power Station \u2013 Seismic Modifications to Electrical\
-      \ Cabinets"
+    wikipedia_url: https://en.wikipedia.org/wiki/Airbus_A380
+  - description: the world's fastest production car
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Red_Bugatti_Veyron_on_the_road_%287559997596%29.jpg/280px-Red_Bugatti_Veyron_on_the_road_%287559997596%29.jpg
+    name: Bugatti Veyron
+    responsibilities: 'Perform the static and dynamic structural analysis and topology
+      optimisation to support the design of Driveline and Transmission System.
+
+      Stress and Frequency Response Analysis of Powertrain Unit
+
+      Stress Analysis of Differential Housing
+
+      Topology Optimization and Stress Analysis of Gear Bodies
+
+      Modal Analysis of Clutch Disk
+
+      '
+    role: null
+    wikipedia_url: https://en.wikipedia.org/wiki/Bugatti_Veyron
+  - description: the highest power to weight ratio production car
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Chrysler_ME_Four-Twelve_Concept.jpg/280px-Chrysler_ME_Four-Twelve_Concept.jpg
+    name: Chrysler ME 4-12
+    responsibilities: 'Stress Analysis of Synchro Ring
+
+      Modal and Stress Analysis of Clutch Disk
+
+      Stress Analysis of Oil Pump
+
+      '
+    wikipedia_url: https://en.wikipedia.org/wiki/Chrysler_ME_Four-Twelve
+  - description: the remake of high successful Le Mans winner
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Ford_GT_2018_and_Ford_GT_1968_at_Legendy_2019_in_Prague_%28cropped%29.jpg/280px-Ford_GT_2018_and_Ford_GT_1968_at_Legendy_2019_in_Prague_%28cropped%29.jpg
+    name: Ford GT
+    responsibilities: 'Stress Analysis of Transmission Casings
+
+      Topology Optimization and Stress Analysis of Bulkhead
+
+      Stress Analysis of Forks
+
+      '
+    wikipedia_url: https://en.wikipedia.org/wiki/Ford_GT
+  - description: null
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Gilles_Panizzi.jpg/220px-Gilles_Panizzi.jpg
+    name: Mitsubishi Lancer WRC
+    responsibilities: 'Stress Analysis of Differential Housing
+
+      Transmission for production cars
+
+      Topology Optimization and Stress Analysis of Transmission Casing
+
+      Stress and Fatigue Analysis of Shafts and Forks
+
+      '
+    wikipedia_url: https://en.wikipedia.org/wiki/Mitsubishi_Lancer_WRC
+  - image: null
+    name: Transmission for off-highway vehicles
+    responsibilities: 'Topology Optimization, Stress, Frequency Response and NVH Analysis
+      of Transmission Casings
+
+      Topology Optimization and Stress Analysis of Forks
+
+      '
+    wikipedia_url: null
+  - image: null
+    name: Transmission for motorbikes
+    responsibilities: 'Topology Optimization and Stress Analysis of Powertrain Unit
+
+      '
+    wikipedia_url: null
+  - image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/07-11-05_Hatfield_50.jpg/300px-07-11-05_Hatfield_50.jpg
+    name: Hatfield rail crash investigation
+    responsibilities: 'Project engineer tasked to develop a tool to calculate train
+      accident injuries for different vehicle types and speeds. The tool used results
+      from finite element crash analysis.
+
+      '
+    wikipedia_url: https://en.wikipedia.org/wiki/Hatfield_rail_crash
+  - image: https://upload.wikimedia.org/wikipedia/en/0/0a/Cullen-report-part-1.jpg
+    name: Ladbroke Grove rail crash investigation
+    responsibilities: 'Project engineer tasked to develop a tool to calculate train
+      accident injuries for different vehicle types and speeds. The tool used results
+      from finite element crash analysis.
+
+      '
+    wikipedia_url: https://en.wikipedia.org/wiki/Ladbroke_Grove_rail_crash
+  - image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Beagle_2_replica.jpg/300px-Beagle_2_replica.jpg
+    name: "Beagle2 Mars Lander \u2013 Composite Panel Assembly"
+    responsibilities: '- Project engineer tasked to design a tool to calculate the
+      shape and size of composite panels to cover the spacecraft.
+
+      '
+    wikipedia_url: https://en.wikipedia.org/wiki/Beagle_2
+  - image: null
+    name: Wylfa Power Station Superheater Closure Weld Failure
+    responsibilities: '- Task engineer for assessing residual strength of existing
+      structure using contact analysis simulation in Abaqus.
+
+      - Task engineer for external energy absorber restraint system to prove that
+      design is capable to stop the released superheater when it would be ejected
+      under weld failure. Analysis was carried out using LS-Dyna.
+
+      '
+    wikipedia_url: null
+  - image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Oldbury_Nuclear_Power_Station.jpg/300px-Oldbury_Nuclear_Power_Station.jpg
+    name: Oldbury Power Station Masonry Wall Assessment
+    responsibilities: '- Task engineer responsible to develop a detailed FE model
+      to assess wall strength under seismic event. Analysis was carried out using
+      Abaqus.
+
+      '
+    wikipedia_url: https://en.wikipedia.org/wiki/Oldbury_nuclear_power_station
+  - image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Dungeness_Nuclear_Power_Station_UK_2012.jpg/289px-Dungeness_Nuclear_Power_Station_UK_2012.jpg
+    name: "Dungeness A Power Station \u2013 Seismic Modifications to Essential Equipment"
+    responsibilities: '- Task engineer responsible to assess essential equipment behaviour
+      under seismic event and design modifications. Analysis was carried out using
+      hand calculation and Ansys.
+
+      '
+    wikipedia_url: https://en.wikipedia.org/wiki/Dungeness_nuclear_power_stations
+  - image: null
+    name: Offshore Structure Analysis
+    responsibilities: '- Project engineer responsible to perform finite element stress
+      analysis of marine components such as riser and  pin-socket arrangement.
+
+      '
+    wikipedia_url: null
+  - image: https://maps.wikimedia.org/img/osm-intl,5,52.215,1.61972,300x200.png?lang=en&domain=en.wikipedia.org&title=Sizewell+C+nuclear+power+station&groups=_c50451f09948bb4e44ee0cfd275f8280c13afad9
+    name: "Sizewell A Power Station \u2013 Lower Duct Restraint"
+    responsibilities: '- Task engineer responsible to assess critical structures behaviour
+      under seismic event and design modifications. Analysis was carried out using
+      hand calculation.
+
+      '
+    wikipedia_url: https://en.wikipedia.org/wiki/Sizewell_C_nuclear_power_station
+  - image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Hartlepool_nuclear_power_station_2022.JPG/300px-Hartlepool_nuclear_power_station_2022.JPG
+    name: Hartlepool Power Station Seismic Modifications to Electrical Cabinets
+    responsibilities: '- Responsible engineer for the seismic assessment of a set
+      of electrical cabinets and the design of restraints. Analysis was carried out
+      using hand calculation.
+
+      '
+    wikipedia_url: https://en.wikipedia.org/wiki/Hartlepool_nuclear_power_station
+  - image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Heysham_Power_Station%2C_from_dockside.jpg/300px-Heysham_Power_Station%2C_from_dockside.jpg
+    name: Heysham Power Station Seismic Modifications to Electrical Cabinets
+    responsibilities: '- Responsible engineer for the seismic assessment of a set
+      of electrical cabinets and the design of restraints. Analysis was carried out
+      using hand calculation.
+
+      '
+    wikipedia_url: https://en.wikipedia.org/wiki/Heysham_nuclear_power_station
+  - image: null
+    name: Thermal Analysis of Composite Wings
+    responsibilities: "- Task engineer for thermal analysis of a CFRP wing section.\
+      \  Analysis was carried out using the FEAT code. \n"
+    role: null
+    wikipedia_url: null
   - details: null
+    image: null
     name: Turbine Housing Containment Prediction
+    responsibilities: '- Task engineer worked on impact analysis of fragmented turbine
+      disk impacting a turbo-charger wall. Analysis was carried out using LS-Dyna.
+
+      '
     role: null
+    wikipedia_url: null
+  - details: null
+    image: null
+    name: Fatigue Workflow Automation
+    responsibilities: 'Improve and automate the Fatigue and Damage Tolerance Analysis
+      workflow process.
+
+      '
+    role: null
+    wikipedia_url: null
+  - description: "Aero2Stress is a g Data Analytics project which aims to accelerate\
+      \ the Airframe design process through the use of statistical machine learning\
+      \ models. \nThe project Aero2Stress has demonstrated the ability to create Surrogate\
+      \ model for variation of superstringer geometry and/or load variation. The aim\
+      \ is to have a process to create surrogate models of Stress to estimate in seconds\
+      \ Reserve Factors.\n"
+    details: null
+    image: null
+    name: Aero2Stress
+    responsibilities: 'Implement the Airframe Stress Analysis driven by Machine Learning
+      with Tensorflow and Keras.
+
+      Production of ISAMI surrogate models for quick structural component analysis
+
+      Lead the work performed by a MSc Student within an internship with CORMSIS*
+      Summer Placements 2019
+
+      '
+    role: null
+    wikipedia_url: null
+  - details: null
+    image: null
+    name: QuASAR
+    responsibilities: 'Contribute to the digital design transformation from spreadsheet
+      based calculations to E2E 3DExperience platform.
+
+      '
+    role: null
+    wikipedia_url: null
   title: Projects
 qualifications:
 - duration: 2005 - 2017
@@ -330,19 +844,21 @@ qualifications:
   institution: IMEchE
   institution_url: https://www.imeche.org/
   name: Member of IMechE
-- duration: 2010 - 2019
+- duration: 2006 - 2015
   institution: Engineering Integrity Society
   institution_url: https://e-i-s.org.uk/
   name: Fatigue and Durability Committee Member
-- duration: 2012 - 2019
+- details: Level 2 Approver and Authoriser
+  duration: 2015 - 2019
   institution: Airbus Operation Ltd
   institution_url: https://www.airbus.com/en
-  name: Fatigue and Damage Tolerance Signatory (Approver and Authoriser)
-- duration: 2012 - 2019
+  name: Airbus Signatory in Fatigue and Damage Tolerance
+- details: Level 1 Approver and Authoriser
+  duration: 2015 - 2019
   institution: Airbus Operation Ltd
   institution_url: https://www.airbus.com/en
-  name: Finite Element Signatory (Approver and Authoriser)
-references: available on request
+  name: Airbus Signatory in Finite Element Analysis
+references: References will be provided upon request.
 repositories:
 - allow_forking: true
   archive_url: https://api.github.com/repos/EmanueleCannizzaro/AFEM/{archive_format}{/ref}
@@ -3355,68 +3871,302 @@ repositories:
 repositories_airbus:
   items:
   - description: null
-    html_url: null
+    html_url: https://github.airbus.corp/emanuele-cannizzaro/ifl#readme
     name: IFL
   - description: null
-    html_url: null
+    html_url: https://github.airbus.corp/emanuele-cannizzaro/ifl#readme
     name: DSD
   - description: null
-    html_url: null
+    html_url: https://github.airbus.corp/emanuele-cannizzaro/Airframe_Certification_Summary#readme
     name: Airframe Certification Summary
   - description: null
-    html_url: null
+    html_url: https://github.airbus.corp/Airbus/airbus_google_workspace_wrapper#readme
     name: Airbus Google Workspace Wrapper
   title: Repositories
 repositories_title: Open Source Repositories
 roles:
   current:
-  - details: null
+  - details: "- Responsible for setting the analysis requirements, planning the tasks\
+      \ and deliverables, defining the loads standards, drawings and methods to be\
+      \ used, demonstrating traceability and ensuring consistency across the work\
+      \ packages. On behalf of the Outer Wing Certification Team I interact with engineers\
+      \ from Airbus, Risk Sharing Partners (RSP) and suppliers involved in Checkstress\
+      \ activities.\n- I was reporting directly to the Airbus Outer Wing F&DT Lead\
+      \ Engineer. My tasks included to write justification documents and technical\
+      \ reports, track the delivery, review the quality of calculation files from\
+      \ the suppliers and perform fatigue and crack propagation analysis.\n- Project\
+      \ Manager in charge of delivery to AUK of work contracted to supply chain.\n\
+      - Coordinator across all Atkins Work Packages.\n- F&DT TIT Member responsible\
+      \ of quality standard review and technical acceptance of supply chain deliverables.\n\
+      - Responsible Engineer in charge of production and delivery of F&DT documents\
+      \ such as Airframe Certification Document (ACD), Airworthiness Justification\
+      \ Document (AJD), Stress Dossier (SD), Load Interface Report and Structural\
+      \ Repair Manual (SRM).\n- My involvement included load and stress calculations,\
+      \ development of methods, Fatigue and Crack Growth analyses and write up of\
+      \ document and calculation files for both standard fatigue and Sustained Engine\
+      \ Imbalance (SEI) loads.\n- The calculations were performed using a mixture\
+      \ of hand calculations in Mathcad and spreadsheet format, programming code,\
+      \ industry standard finite element software such as Patran, Nastran and Franc2d\
+      \ and Airbus UK proprietary tools such as DAMTOL, FESPS and Collection Programs.\n\
+      - Contribute to the design and manufacturing of the most innovative aircraft\
+      \ in the world.\n- Perform fatigue and damage tolerance analyses as well detailed\
+      \ stress analysis (hand-calculation and FEM)\n- Develop stress intensity solutions\
+      \ and perform residual strength analyses\n- Evaluation of fatigue test results\
+      \ (full scale, component, coupon etc..) and support of qualification testing\n\
+      - Preparation of formal engineering analysis reports, test plans and test reports\n\
+      - Potential for direct liaison/support with the airworthiness authorities\n\
+      - Leading and analyzing/validating Wing Midbox structures (including Wingtip/Winglet)\
+      \ from Fatigue and Damage Tolerance (F&DT) perspective using Airbus methods\
+      \ and tools.\n- Detailed creation of milestones and deliveries planning and\
+      \ the associated resource planning in collaboration with the Head of Engineering.\
+      \ \n- Ensure adherence to airworthiness regulations, relevant design principles,\
+      \ processes, methods and manufacturing capabilities guidelines.\n- Lead Integration\
+      \ activities with all stakeholders, Risk Sharing Partners and External Engineering\
+      \ Service companies.\n- Communicate with relevant stakeholders, i.e. Chief Engineers,\
+      \ Programme, Procurement, FAL, Plant, etc.\n- Defining, interpreting and validating\
+      \ any fatigue test, from coupon testing to major full-scale testing and assessing\
+      \ the fleet impact.\n- Provide relevant input to design for the creation of\
+      \ drawings for manufacture and support to other functions (i.e. production,\
+      \ customer service) as needed.\n- Come up with innovative ideas and new ways\
+      \ of working with customers or suppliers.\n- Continuous quality monitoring of\
+      \ all inputs and where applicable instigate processes to recover quality\n-\
+      \ Develop new initiatives to weight optimize and reduce costs on the product\
+      \ through innovation\n- Initiate and provide support to Continuous Improvement\
+      \ and Lean projects to minimize waste and ensure maximum functional and operational\
+      \ efficiency.\n- Develop team members to improve their technical and leadership\
+      \ skills. Encourage Fatigue learning to Design and Stress Engineers as a part\
+      \ of Multi Skill initiatives of the company.\n- Proven track record in checking\
+      \ and approving stress engineering work in an aerospace design organization\
+      \ \n- Experience in defining and actively contributing to V&V activities  \n\
+      - Clear communicator and team player \n- Strong motivation to help build and\
+      \ shape your organization, structures and processes \n- Proven track record\
+      \ in successfully managing engineering suppliers as a focal point for stress\
+      \ analysis and on-time delivery of high quality engineering work \n- Excellent\
+      \ knowledge of stress and fatigue analysis methods following established standards\
+      \ for CFRP and metallic structures \n- In-depth understanding of the loading\
+      \ scenarios and mechanical behavior of aircraft structures  throughout the entire\
+      \ flight envelope \n- Extensive working experience with the FEM solver OptiStruct\
+      \ and pre- and post-processing tools HyperMesh and HyperView \n- Ability and\
+      \ willingness to thrive in a fast-paced, rapidly changing work environment \n\
+      - Strong project management and technical leadership skills \n- High level of\
+      \ self-reliance with the ability to work in a team, as well as autonomously\
+      \ \n"
     name: Senior Fatigue and Damage Tolerance Engineer
     project: null
-  - details: null
+    url: https://www.airbus.com/en/products-services/commercial-aircraft/the-life-cycle-of-an-aircraft/test-and-certification
+  - details: "A multi disciplinary Engineer with both Static Strength and Fatigue\
+      \ and Damage Tolerance experience in Aeronautical and Automotive structures.\n\
+      Typical performed tasks include: \n  - Carry out the dimensioning of primary\
+      \ structures on serial programs;\n  - Accompany the progress of the design in\
+      \ accordance with the results of the calculations and the methods of execution;\n\
+      \  - Assist in updating maintenance calculations on structural changes.\n\n\
+      Depending on the phase of the project, I participated in the pre-sizing calculations,\
+      \ justification and certification.\nI created robust and strong business case\
+      \ proposals, realization of the studies according to the expectations in terms\
+      \ of quality, cost and time\nI performed or managed the development of the calculation\
+      \ methods and ensure the validation of the deliverables.\n"
     name: Senior Stress Engineer
     project: null
-  - details: null
+  - achievements: '- I have positively contributed to the design and development of
+      transmissions for super cars such as Bugatti Veyron, Chrysler ME Four-Twelve,
+      Ford GT
+
+      - I have worked at some successful motosport projects with tight timescales
+
+      - I have contributed to the enhancement of result quality by increasing the
+      complexity and accuracy of simulation techniques
+
+      - I have contributed to the development of department capability by delivering
+      training modules and introducing state-of-the-art methodologies
+
+      '
+    details: "- Sizing and stress analysis of the fuselage and its various interfaces\
+      \ by means of hand calculations, numerical simulations (FEM) and optimization\
+      \ techniques. \n- Sizing and stress analysis of the CFRP flap structure and\
+      \ interfaces to the engines and the wings by means of hand calculations, numerical\
+      \ simulations (FEM) and optimization techniques. \n- Hold responsibility for\
+      \ numerical modelling, simulations, post-processing and reporting of the simulation\
+      \ results. \n- Close collaboration with engineers from interfacing discipline,\
+      \ e.g., mechanical design, materials & processes, manufacturing and testing.\
+      \ \n- Act as supplier focal point for outsourced stress analysis work packages\
+      \ (preparation of input data, definition of analysis details, review of results,\
+      \ etc.) and ensure that high-quality engineering data are delivered on time.\
+      \ \n- Author and review of high-quality technical documentation. \n- Actively\
+      \ support improving team efficiency by shaping processes and building methods\
+      \ and guidelines of the department. \n- Take a leading role in the design of\
+      \ the Lilium Jet, with a focus on the structural analysis and design of the\
+      \ airframe \n- Represent all stress engineers in the project team as a focal\
+      \ point to all relevant stakeholders, e.g., Principle and Chief Engineers, Head\
+      \ of Engineering Functions, Lead Stress Engineers of other project teams \n\
+      - Review and approve stress engineering work, e.g., analysis data, FE models\
+      \ and stress reports \n- Manage interfaces with the project team as well as\
+      \ to neighboring systems from a stress engineering perspective \n- Hold responsibility\
+      \ for all stress analyses, post-processing and reporting prepared by the project\
+      \ team for milestone reviews  \n- Actively contribute to categorization of aircraft\
+      \ structures, planning and execution of V&V activities and project planning\
+      \ from a stress engineering perspective \n- Highlight existing gaps in processes\
+      \ and guidelines and actively propose solutions \n- Work closely with engineers\
+      \ from Mechanical Engineering, Crashworthiness, Design, Manufacturing and Testing\
+      \ throughout the entire program to develop an airframe with exceptional performance\
+      \ \n"
     name: Senior Finite Element Engineer
     project: null
-  - details: null
+  - details: "- Delivered presentations to technical and non-technical audiences.\n\
+      - Established and maintained strong relationships with multiple teams and stakeholders\
+      \ to ensure alignment during projects execution.      \n"
     name: Head of Function
     project: null
-  - details: null
+  - details: "- I was responsible for providing technical leadership of the stress\
+      \ team. \n- I was responsible for performing and leading the analysis, test,\
+      \ certification and support of the aircraft airframe, Interiors, and its structural\
+      \ systems within the program and defining the certification program for structures.\
+      \ \n- I assisted with organizing and hiring the stress team.\n- I represented\
+      \ the stress department at program/technical reviews as well as customers/supplier\
+      \ meetings, ensuring the engineering definition meets all stakeholder requirements.\
+      \ \n- I ensured adherence to all engineering processes/standards, and participatde\
+      \ in design reviews to meet certification, cost, schedule and manufacturability\
+      \ goals. \n"
     name: Team Leader
     project: null
   - details: null
     name: Project Manager
     project: null
+  - details: "- Create Dashboards for quick data visualization.\n- Develop interactive\
+      \ dashboards and web applications to support decision making, to ease the visualization\
+      \ of data, to discover hidden insights and to monitor Key Performance Indexs.\
+      \       \n- Implementation of Data Analytics and Machine learning to Airframe\
+      \ Engineering design domain.\n- Developed, tested and deployed machine learning\
+      \ models for prediction analysis based on open ource libraries such as Scikit-learn,\
+      \ Keras and Tensorflow.\n- Created workflow for feature engineering of large\
+      \ datasets using Python Pandas like libraries.\n- Worked with Agile methodologies\
+      \ for Minimum Viable Product on code version control systems.\n- Built a data\
+      \ science model that predict the impact of aircraft requirements on structural\
+      \ modification based on static strength analysis.\n- Lead the business-goal\
+      \ and definition of projects, development and implementation of data-science\
+      \ models, data-visualization and orienting technical and functional evolution\
+      \ of the big-data platform and tools.\n- I am responsible for delivery of digital\
+      \ solutions to improve business performance, automation of data gathering and\
+      \ representation, and development of digital applications and digital control\
+      \ rooms primarily via the Skywise platform.\n- Focal point for data analytics\
+      \ and programming best practices, and support the development of others.\n-\
+      \ Part of Digital transformation and product development with mix of roles as\
+      \ Product or Business owner delegate.\n- Drive positive business outcomes by\
+      \ defining and validating technical and functional specifications for product\
+      \ development through the engagement with multiple stakeholders in Digital Transformation\
+      \ at Airbus through Digitalization of Design and Manufacturing Services Project.\n\
+      - Function as senior quality assurance analyst and perform business acceptance\
+      \ testing by validating business requirements.\n- Function as a part of team\
+      \ aimed at defining and validating business acceptance testing of behalf of\
+      \ clients.\n- Developed dashboards with data to get overview of process, no\
+      \ manual creation.\n- Developed MVP(s) and worked on industrialization of different\
+      \ tools in 2D/3D/F3D Automation;\n- Combined aircraft data and aircraft engineering\
+      \ expertise to deliver predictive maintenance models to airlines.\n- Performed\
+      \ ad hoc analysis of in-flight events.\n- Developed big data algorithms running\
+      \ across the entire fleet of aircraft.\n- Develop python libraries, web applications,\
+      \ and models to support the development of new aircraft and systems.\n"
+    name: Data Analyst
+    project: null
+  - accomplishment:
+    - Provided digital solutions by engaging multiple stakeholders across different
+      countries.
+    details: '- Automate existing processes with digital solutions like Skywise and
+      Python.
+
+      - Lead a Proof of Concept to quick visualization of Stress Data.
+
+      - Spearhead wide range of operations, including developing and implementing
+      Digitalization/Automation opportunities in design, stress, and manufacturing
+      streams for various OEMs in Aerospace and Automotive industries.
+
+      - Define automation requirements and feasibility studies (as-is & to-be process)
+      by analyzing current process and methods, as well as organizing workshops with
+      key stakeholders.
+
+      - Experience in Software Development Life Cycle (SDLC) from project conception
+      through post-delivery & maintenance in Waterfall/Agile/SAFe methodology (including
+      project planning, resource management , budgeting, Offshore management, Pre/technical
+      sales)
+
+      - Utilized C#, VB.Net, Python, VBScripts with a keen focus on defining solutions,
+      Tools architecture definition, UX/UI design, and detailed technical work specification
+      for application development on PLM tools.
+
+      - Technical supervising and supporting students on their master thesis topics
+
+      - Implemented best practices, recognizing and developing CATIA Macros aimed
+      at automating design/check activities.
+
+      - Performed various tasks comprising Automatic generation and reporting of KPIs
+      with VBA macros,
+
+      - 3D design check of electric systems installation, and change management tracking
+      and design fixes in 3D for issues identified.
+
+      '
+    name: Automation Engineer
+    project: null
+  - details: '- Define for new apps, repository management, authentication integration,
+      API management, sup-port during the deployment and upskilling and coaching of
+      engineers
+
+      - Implement and promote Python best practices: clean and pragmatic code, unit
+      tests, version control, packaging, etc.
+
+      '
+    name: Full Stack Software Developer
+    project: null
   - color: white
-    details: null
+    details: '- Support colleagues during the migration
+
+      - Promote collaboration within Google Workspace
+
+      - Provide Awareness Sessions
+
+      '
     duration: null
     name: Google Champion
     project: null
   - color: black!90
-    details: null
+    details: '- Contribute to define the Airbus Cloud deployment strategy
+
+      '
     duration: null
     name: Airbus Cloud Champion
     project: null
   - color: black!90
-    details: null
+    details: "- Propose & Develop Digital solutions to transform legacy tools.   \
+      \     \n"
     duration: null
     name: Apps Script Developer
     project: null
   - color: black!90
-    details: null
+    details: '- Share awareness of the tool
+
+      - Support the familiarisation for new users
+
+      '
     duration: null
     name: Appsheet Tester
-    project: null
+    project: https://www.easa.europa.eu/downloads/136694/en
   - color: black!90
-    details: null
+    details: '- Remove blockers linked to limitations of table size in Google Sheets
+      versus MS Excel
+
+      - Demonstrate the capacities of the tool to work with large datasets
+
+      - Enable new leaner workflows
+
+      '
     duration: null
     name: Connected Sheet Tester
     project: null
   - color: black!90
-    details: null
+    details: '- Support the MS Office users to migrate the usecases to Google Workspace
+      with no negative impact to the business operations
+
+      '
     duration: null
-    name: Microsoft Retirement Champion
+    name: MS Decommissioning Champion
     project: null
   title: Roles
 show_about: false
@@ -3447,7 +4197,7 @@ show_skills_engineer: true
 show_trainings: true
 skills:
   analyst:
-    items:
+  - items:
     - level: 4
       name: Pandas
     - level: 4
@@ -3469,118 +4219,269 @@ skills:
     - level: 4
       name: Keras
     max_level: 5
+    name: data
     title: Packages
   developer:
-    languages:
-      items:
-      - level: 5
-        name: python
-      - level: 4
-        name: javascript
-      - level: 4
-        name: bash
-      - level: 4
-        name: VBA
-      - level: 3
-        name: C/C++
-      - level: 3
-        name: java
-      - level: 4
-        name: SQL
-      max_level: 5
-      title: Programming Skills
-    platforms:
-      items:
-      - details:
-        - Lambda
-        - S3
-        level: 3
-        name: GCP
-      - details:
-        - Lambda
-        - S3
-        level: 2
-        name: AWS
-      - details:
-        - Functions
-        - Blob Storage
-        level: 1
-        name: Azure
-      max_level: 5
-      title: Cloud Platforms
-    version_controls:
-      items:
-      - level: 4
-        name: git
-      - level: 3
-        name: github
-      - level: 3
-        name: plm
-      - level: 3
-        name: jenkins
-      max_level: 5
-      title: Version Control
+  - items:
+    - level: 5
+      name: python
+    - level: 4
+      name: javascript
+    - level: 4
+      name: bash
+    - level: 4
+      name: VBA
+    - level: 3
+      name: C/C++
+    - level: 3
+      name: java
+    max_level: 5
+    name: languages
+    title: Programming Skills
+  - items:
+    - level: 4
+      name: SQLite
+    - level: 2
+      name: MongoDB
+    - level: 4
+      name: PostgreSQL
+    max_level: 5
+    name: databases
+    title: Databases
+  - items:
+    - level: 4
+      name: Flask
+    - level: 3
+      name: Tornado
+    - level: 3
+      name: Django
+    - level: 3
+      name: Scrapy
+    - level: 3
+      name: FastAPI
+    max_level: 5
+    name: web_frameworks
+    title: Web Frameworks
+  - items:
+    - level: 3
+      name: AngularJS
+    - level: 3
+      name: Bootstrap
+    - level: 3
+      name: D3.js
+    - level: 3
+      name: Leaflet
+    - level: 3
+      name: Babylon.js
+    - level: 3
+      name: Three.js
+    - level: 3
+      name: Plotly
+    - level: 3
+      name: jQuery UI
+    - level: 3
+      name: jQWidgets
+    - level: 3
+      name: React.js
+    - level: 3
+      name: Vue.js
+    - level: 3
+      name: TensorFlow.js
+    max_level: 5
+    name: javascript_libraries
+    title: JS Libraries
+  - items:
+    - level: 4
+      name: Git
+    - level: 3
+      name: Github/Gitlab
+    - level: 3
+      name: Jenkins
+    - level: 3
+      name: Jira
+    - level: 3
+      name: Confluence
+    max_level: 5
+    name: version_controls
+    title: Version Control
+  - items:
+    - details:
+      - Lambda
+      - S3
+      level: 3
+      name: GCP
+    - details:
+      - Lambda
+      - S3
+      level: 2
+      name: AWS
+    - details:
+      - Functions
+      - Blob Storage
+      level: 1
+      name: Azure
+    - level: 1
+      name: OpenShift
+    - level: 2
+      name: Kubernetes
+    - level: 2
+      name: Kubeflow
+    - level: 3
+      name: Docker
+    max_level: 5
+    name: platforms
+    title: Cloud Platforms
   engineer:
-    items:
+  - items:
     - level: 5
       name: MSC.Nastran
     - level: 3
       name: Abaqus
     - level: 2
       name: Ls-dyna3D
-    - level: 3
-      name: MSC.Patran
     - level: 4
       name: Altair Hyperworks
+    - level: 3
+      name: MSC.Patran
+    - level: 5
+      name: Various Proprietary Engineering Tools by Airbus, Ricardo and Atkins
+    max_level: 5
+    name: cae
+    title: CAE
+  - items:
     - level: 3
       name: DS CATIA V5
     - level: 3
       name: DS 3DEXPERIENCE
-    - level: 5
-      name: Various Proprietary Engineering Tools by Airbus, Ricardo and Atkins
+    - level: 3
+      name: PLM
     max_level: 5
-    title: Engineering Skills
+    name: design
+    title: CAD / PLM
+  - items:
+    - level: 4
+      name: ISAMI
+    max_level: 5
+    name: stress
+    title: Stress
+  - items:
+    - level: 4
+      name: AFGROW
+    - level: 4
+      name: NASGRO
+    - level: 4
+      name: FRANC3D
+    max_level: 5
+    name: fatigue
+    title: F&DT
+  - items:
+    - level: 4
+      name: CS-25 Large Aeroplanes
+      url: https://www.easa.europa.eu/downloads/136694/en
+    max_level: 5
+    name: certification
+    title: Airframe Certification
+  soft:
+  - items:
+    - level: 4
+      name: Agile, curious and adaptability
+    - level: 4
+      name: An innovative approach; looks for new ways of doing things.
+    - level: 4
+      name: Strong practical problem solving ability.
+    - level: 4
+      name: Systematic and organized way of working.
+    - level: 4
+      name: Flexible to changing customer needs.
+    - level: 4
+      name: A team player with a high regard for internal and external customers,
+        whilst maintaining personal integrity as the over-riding principle is expected.
+    - name: Eagerness to work with others.
+    - name: Autonomy, analytical capacity, proactivity.
+    - name: I have a strong problem solving mindset.
+    - name: I am independent and pro-active but also committed to delivery and cost.
+    - name: I enjoy to work in team and foster innovation and collaboration aimed
+        at solving the engineering challenges.
+    max_level: 5
+    name: global
+    title: Soft
+  title: Skills
 src: https://github.com/emanuelecannizzaro/cv
+tags:
+- Aircraft Design
+- Artificial intelligence
+- Big Data
+- Big Data Queries
+- Business Intelligence
+- Data Analysis
+- Data Visualization
+- Dashboards
+- Data Scientist
+- Decision Analytics
+- Digitalisation
+- Engineering
+- Fatigue and Damage Tolerance
+- Finite Element Analysis
+- Key Performance Indicators
+- Machine Learning
+- Numerical and Analytical Structural Analysis
+- Predictive Analysis
+- Predictive Modeling
+- Programming
+- Project and Programme Management
+- Quantitative Analysis
+- Stress
 trainings:
   items:
   - courses:
     - Data Analyst for Airbus
+    dates: May 2018 - January 2019
     name: Udacity Nanodegree
+    url: https://www.udacity.com/nanodegree
   - courses:
-    - Advanced Data Analyst and Foundry experts
+    - Advanced Data Analyst
+    - Foundry experts
     name: Skywise
+    url: https://aircraft.airbus.com/en/services/enhance/skywise
   - courses:
     - App Script Advanced Modules
     - Google Cloud Functions Fundamentals
     - Getting Started With Application Development on Google Cloud
     - Google Cloud Platform Fundamentals Core Infrastructure
     - Essential Google Cloud Infrastructure Foundation
+    courses+url: https://sites.google.com/airbus.com/collaborationmadeawesome/training/apps-script-training
     name: Google
+    url: https://learndigital.withgoogle.com/digitalworkshop-eu/courses
   - courses:
     - AWS Developer Getting Started
     name: AWS
-  - courses: ISAMI
-    dates: 2011
+  - courses:
+    - ISAMI
+    - PRIMES 3
+    - CATIA V5 interrogation Course and DMU Navigator
+    dates:
+    - 2011
+    - 2008
+    - 2008
     name: Airbus
-  - courses: PRIMES 3
-    dates: 2008
-    name: Airbus
-  - courses: CATIA V5 interrogation Course and DMU Navigator
-    dates: 2008
-    name: Airbus
-  - courses: MSC.Fatigue Introduction Course
+  - courses:
+    - MSC.Fatigue Introduction Course
     dates: May 2004
     name: Ricardo
-  - courses: HyperWorks Update Training Course
+  - courses:
+    - HyperWorks Update Training Course
     dates: May 2004
     name: Altair Engineering
-  - courses: Basic Training Course
+  - courses:
+    - Basic Training Course
     dates: Jan 2002
     name: Sysnoise
-  - courses: Practical Finite Element Modeling Techniques using MSC.Nastran
+  - courses:
+    - Practical Finite Element Modeling Techniques using MSC.Nastran
     dates: Sept 2001
     name: MSC.Software
-  - courses: Standard Training Course
+  - courses:
+    - Standard Training Course
     dates: Sept 1999
     name: Abaqus
   title: Trainings

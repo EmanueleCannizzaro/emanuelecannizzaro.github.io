@@ -15,8 +15,8 @@
   <table class="table">
   <tbody>
 {% for conference in conferences.items %}    <tr>
-      <td width="25%" scope="row"><a href="{{ item.html_url }}">{{ conference.name }}</a></td>
-      <td width="75%">{{ conference.description }}</td>
+      <td scope="row"><a href="{{ item.html_url }}">{{ conference.name }}</a></td>
+      <td>{{ conference.description }}</td>
   </tr>
     {% endfor %}
   </tbody>

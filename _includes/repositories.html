@@ -16,8 +16,8 @@
   <table class="table">
   <tbody>
 {% for repository in repositories_airbus.items %}    <tr>
-      <td width="25%" scope="row"><a href="{{ repo.html_url }}">{{ repository.name }}</a></td>
-      <td width="75%">{{ repository.description }}</td>
+      <td scope="row"><a href="{{ repo.html_url }}">{{ repository.name }}</a></td>
+      <td>{{ repository.description }}</td>
   </tr>
     {% endfor %}
   </tbody>
@@ -40,8 +40,8 @@
   <table class="table">
   <tbody>
 {% for repository in repositories %}{% if repository.fork == false %}    <tr>
-      <td width="25%" scope="row"><a href="{{ repo.html_url }}">{{ repository.name }}</a></td>
-      <td width="75%">{{ repository.description }}</td>
+      <td scope="row"><a href="{{ repo.html_url }}">{{ repository.name }}</a></td>
+      <td>{{ repository.description }}</td>
   </tr>{% endif %}
     {% endfor %}
   </tbody>

@@ -15,8 +15,8 @@
   <table class="table">
   <tbody>
 {% for item in dashboards.items %}    <tr>
-      <td width="25%" scope="row"><a href="{{ item.html_url }}">{{ item.name }}</a></td>
-      <td width="75%">{{ item.description }}</td>
+      <td scope="row"><a href="{{ item.html_url }}">{{ item.name }}</a></td>
+      <td>{{ item.description }}</td>
   </tr>
     {% endfor %}
   </tbody>

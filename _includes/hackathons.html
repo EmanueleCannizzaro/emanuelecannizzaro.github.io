@@ -12,14 +12,27 @@
   </h3>
 
   <div class="skillset">
-  <table class="table">
-  <tbody>
-{% for hackathon in hackathons.items %}    <tr>
-      <td width="25%" scope="row"><a href="{{ item.html_url }}">{{ hackathon.name }}</a></td>
-      <td width="75%">{{ hackathon.description }}</td>
-  </tr>
-    {% endfor %}
-  </tbody>
-</table>
+    <table class="table">
+      <tbody>
+{% for item in hackathons.items %}        <tr>
+          <td scope="row">
+            <div class="item">
+              <div class="meta">
+                <div class="upper-row">
+                  <h3 class="degree"><a href="{{ item.url }}">{{ item.name }}</a></h3>
+{% if item.duration %}              <div class="time">{{ item.duration }}</div>{% endif %}
+                </div>
+                <div class="university">{{ item.description }}</div>
+              </div><!--//meta-->
+    
+{% if item.details %}              <div class="details">
+                {{ item.details | markdownify }}
+              </div><!--//details-->{% endif %}
+            </div>
+          </td>
+        </tr>{% endfor %}
+      </tbody>
+    </table>
+  </div>
 </section><!--//skills-section-->
 {% endif %}

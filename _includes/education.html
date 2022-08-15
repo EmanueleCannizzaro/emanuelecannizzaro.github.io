@@ -1,23 +1,16 @@
   {% assign educations = site.data.data.educations %}
   {% if site.data.data.show_education_compact %}
   <div class="education-container container-block">
-
     <h2 class="container-block-title">
       Education
     </h2>
-
-    {% for education in educations %}
-    <div class="item">
+{% for education in educations %}    <div class="item">
       <h4 class="degree">{{ education.degree }}</h4>
       <h5 class="meta"><a href={{ education.institution_url }}>{{ education.institution }}</a></h5>      
       <div class="time">{{ education.duration }}</div>
-    </div>
-    {% endfor %}
-
+    </div>{% endfor %}
   </div>{{ education.institution }}
-  {% else %}
-  <section class="section education-section">
-
+{% else %}  <section class="section education-section">
     <h2 class="section-title">
       <span class="fa-stack fa-xs">
         <i class="fas fa-circle fa-stack-2x"></i>
@@ -26,11 +19,8 @@
       Education
     </h2>
 
-    {% for education in educations %}
-    <div class="item">
-
+{% for education in educations %}    <div class="item">
       <div class="meta">
-
         <div class="upper-row">
           <h3 class="degree">{{ education.degree }}</h3>
           <div class="time">{{ education.duration }}</div>
@@ -54,11 +44,8 @@
             <td width="75%">{{ education.thesis }}</td>
           </tr>
         </tbody>
-      </table>
-      {% endif %}
+      </table>{% endif %}
 
-    </div><!--//item-->
-    {% endfor %}
+    </div><!--//item-->{% endfor %}
 
-  </section><!--//section-->
-  {% endif %}
+  </section><!--//section-->{% endif %}

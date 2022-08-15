@@ -1,0 +1,110 @@
+{% assign basic = site.data.data.basic %}
+{% if basic %}
+<div class="contact-container container-block">
+  <ul class="list-unstyled contact-list">
+
+
+    {% if basic.address %}
+    <li class="address"><i class="fas fa-address-card"></i>
+      {{ basic.address.street }}, {{ basic.address.city }}, {{ basic.address.postcode }}, {{ basic.address.country }}
+    </li>
+    {% endif %} 
+  
+    {% if basic.contact.email %}
+    <li class="email"><i class="fas fa-envelope"></i>
+      <a href="mailto:{{ basic.email }}">{{ basic.contact.email }}</a>
+    </li>
+    {% endif %}
+
+{% if basic.contact.mobiles %}{% for mobile in basic.contact.mobiles %}    <li class="phone"><i class="fas fa-mobile"></i>
+      <img src="./assets/images/flags/{{ mobile.flag }}.png" width="20px;"><a href="tel:{{ mobile.number }}">  {{ mobile.number }}</a>
+    </li>{% endfor %}
+    {% endif %}
+
+    {% if basic.contact.phone %}
+    <li class="phone"><i class="fas fa-phone"></i>
+      <a href="tel:{{ basic.contact.phone }}">{{ basic.contact.phone }}</a>
+    </li>
+    {% endif %}
+
+    {% if basic.website %}
+    <li class="website"><i class="fas fa-globe-americas"></i>
+      <a href="http://{{ basic.website }}" target="_blank">{{ basic.website }}</a>
+    </li>
+    {% endif %}
+  
+    {% if basic.social.bitbucket %}
+    <li class="bitbucket"><i class="fab fa-bitbucket"></i>
+      <a href="http://bitbucket.com/{{ basic.social.bitbucket }}" target="_blank">{{ basic.social.bitbucket }}</a>
+    </li>
+    {% endif %}
+
+    {% if basic.social.codewars %}
+    <li class="codewars"><i class="fas fa-code"></i>
+      <a href="https://www.codewars.com/users/{{ basic.social.codewars }}/completed_solutions" target="_blank">{{ basic.social.codewars }}</a>
+    </li>
+    {% endif %}
+
+    {% if basic.social.github %}
+    <li class="github"><i class="fab fa-github"></i>
+      <a href="http://github.com/{{ basic.social.github }}" target="_blank">{{ basic.social.github }}</a>
+    </li>
+    {% endif %}
+
+    {% if basic.social.gitlab %}
+    <li class="gitlab"><i class="fab fa-gitlab"></i>
+      <a href="http://gitlab.com/{{ basic.social.gitlab }}" target="_blank">{{ basic.social.gitlab }}</a>
+    </li>
+    {% endif %}
+
+    {% if basic.social.goodreads %}
+    <li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
+      <a href="https://www.goodreads.com/user/show/{{ basic.social.goodreads }}" target="_blank">{{ basic.social.goodreads }}</a>
+    </li>
+    {% endif %}
+
+    {% if basic.social.linkedin %}
+    <li class="linkedin"><i class="fab fa-linkedin"></i>
+      <a href="https://linkedin.com/in/{{ basic.social.linkedin }}" target="_blank">{{ basic.social.linkedin }}</a>
+    </li>
+    {% endif %}
+
+    {% if basic.social.scholarly %}
+    <li class="linkedin"><i class="fab fa-linkedin"></i>
+      <a href="https://linkedin.com/in/{{ basic.social.scholarly }}" target="_blank">{{ basic.social.scholarly }}</a>
+    </li>
+    {% endif %}
+    
+    {% if basic.social.stack-overflow %}
+    <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
+      <a href="https://stackoverflow.com/users/{{ basic.social.stack-overflow }}" target="_blank">{{ basic.social.stack-overflow }}</a>
+    </li>
+    {% endif %}
+
+    {% if basic.social.telegram %}
+    <li class="telegram"><i class="fab fa-telegram"></i>
+      <a href="https://t.me/{{ basic.social.telegram }}" target="_blank">{{ basic.social.telegram }}</a>
+    </li>
+    {% endif %}
+    
+    {% if basic.social.twitter %}
+    <li class="twitter"><i class="fab fa-twitter"></i>
+      <a href="https://twitter.com/{{ basic.social.twitter }}" target="_blank">{{ basic.social.twitter }}</a>
+    </li>
+    {% endif %}
+    
+    {% if basic.social.xing %}
+    <li class="xing"><i class="fab fa-xing"></i>
+      <a href="https://www.xing.com/profile/{{ basic.social.xing }}" target="_blank">{{ basic.social.xing }}</a>
+    </li>
+    {% endif %}
+
+    {% if pdf %}
+    <li class="pdf"><i class="fas fa-file-pdf"></i>
+      <a href="{{ basic.pdf }}" target="_blank">Resume PDF</a>
+    </li>
+    {% endif %}
+
+  </ul>
+</div><!--//contact-container-->
+{% endif %}

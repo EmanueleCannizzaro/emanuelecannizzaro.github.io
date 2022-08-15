@@ -1,77 +1,23 @@
-{% assign languages = site.data.data.skills.developer.languages %}
-{% assign version_controls = site.data.data.skills.developer.version_controls %}
-{% assign platforms = site.data.data.skills.developer.platforms %}
+{% assign developer = site.data.data.skills.developer %}
 
-{% if languages %}
-<section class="items-section section">
+{% if developer %}<section class="skills-section section">
 
-  <h3 class="section-title">
+{% for group in developer %}  <h3 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
     </span>
-    {{ languages.title }}
+    {{ group.title }}
   </h3>
 
   <div class="itemset">
-  <table class="table">
-  <tbody>
-{% for item in languages.items %}    <tr>
-      <td width="25%" scope="row">{{ item.name }}</td>
-      {% assign p = item.level | times: 100 | divided_by: languages.max_level %}
-      <td width="75%"><div class="progress"><div class="progress-bar" role="progressbar" style="width: {{ p }}%;" aria-valuenow="{{ item.level }}" aria-valuemin="0" aria-valuemax="{{ languages.max_level }}">{{ item.level }} / {{ languages.max_level }}</div></div></td>
-    </tr>
-{% endfor %}
-  </tbody>
-</table>
-</section><!--//items-section-->
-{% endif %}
-
-
-{% if version_controls %}
-<section class="items-section section">
-
-  <h3 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ version_controls.title }}
-  </h3>
-
-  <div class="itemset">
-  <table class="table">
-  <tbody>
-{% for item in version_controls.items %}    <tr>
-      <td width="25%" scope="row">{{ item.name }}</td>
-      {% assign p = item.level | times: 100 | divided_by: version_controls.max_level %}
-      <td width="75%"><div class="progress"><div class="progress-bar" role="progressbar" style="width: {{ p }}%;" aria-valuenow="{{ item.level }}" aria-valuemin="0" aria-valuemax="{{ version_controls.max_level }}">{{ item.level }} / {{ version_controls.max_level }}</div></div></td>
-    </tr>
-{% endfor %}
-  </tbody>
-</table>
-</section><!--//items-section-->
-{% endif %}
-
-
-{% if platforms %}
-<section class="items-section section">
-
-  <h3 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ platforms.title }}
-  </h3>
-
-  <div class="itemset">
-  <table class="table">
-  <tbody>
-{% for item in platforms.items %}    <tr>
-      <td width="25%" scope="row">{{ item.name }}</td>
-      {% assign p = item.level | times: 100 | divided_by: platforms.max_level %}
-      <td width="75%"><div class="progress"><div class="progress-bar" role="progressbar" style="width: {{ p }}%;" aria-valuenow="{{ item.level }}" aria-valuemin="0" aria-valuemax="{{ platforms.max_level }}">{{ item.level }} / {{ platforms.max_level }}</div></div></td>
-    </tr>
-{% endfor %}
-  </tbody>
-</table>
-</section><!--//items-section-->
-{% endif %}
+    <table class="table">
+      <tbody>
+{% for item in group.items %}    <tr>
+          <td width="25%" scope="row">{{ item.name }}</td>
+          {% assign p = item.level | times: 100 | divided_by: group.max_level %}
+          <td width="75%"><div class="progress"><div class="progress-bar" role="progressbar" style="width: {{ p }}%;" aria-valuenow="{{ item.level }}" aria-valuemin="0" aria-valuemax="{{ group.max_level }}">{{ item.level }} / {{ group.max_level }}</div></div></td>
+        </tr>{% endfor %}
+      </tbody>
+    </table>
+  </div>{% endfor %}
+</section><!--//skills-section-->{% endif %}
