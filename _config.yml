@@ -1,8 +1,15 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
+plugins:
+  - jekyll-feed
+  - jekyll-multiple-languages-plugin
+
 # Site Settings
 title: 
 url: ''
+
+languages: ["en", "it", "fr", "es"]
+exclude_from_localizations: ["assets"]
 
 #change it according to your repository name
 # disabling since we are using a custom domain
