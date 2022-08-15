@@ -1,7 +1,7 @@
 ---
-layout: cover_default
+layout: default_cover
 ---
 
-{% assign data = site.data.data %}
+{% assign data = site.translations[site.lang] %}
 
 {% if data.show_cover_letter %}{% include cover_letter.html %}{% endif %}

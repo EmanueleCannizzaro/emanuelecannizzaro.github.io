@@ -1,0 +1,30 @@
+---
+layout: default_cover
+title: Developer - Italian
+permalink: /it/
+---
+
+{% for item in site.translations[site.lang].contact %}
+    <p>{{ item[0] }} -> {{ item[1] }}</p>
+{% endfor %}
+
+{% for lang in site.languages %}
+  <p>{% tl about {{ lang }} %}</p>
+{% endfor %}
+
+{% for lang in site.languages %}
+  <p>{% tl {{ page.namespace }} {{ lang }} %}</p>
+{% endfor %}
+
+{% for lang in site.languages %}
+  {% if forloop.index0 == 0 %}
+    <a href="{{ page.url }}" class="footer__link">{{ lang }}</a>
+  {% else %}
+    |<a href="/{{ lang }}{{ page.url }}" class="footer__link">{{ lang }}</a>
+  {% endif %}
+{% endfor %}
+
+{{ site.languages }}
+{{ page.title }}
+{{ page.language }}
+{{ page.permalink }}

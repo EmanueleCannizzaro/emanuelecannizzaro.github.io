@@ -1,7 +1,6 @@
-{% assign roles = site.data.data.roles %}
-{% if roles %}
-{% if roles.current %}
-<section class="section roles-section">
+{% assign roles = site.translations[site.lang].roles %}
+
+{% if roles %}{% if roles.current %}<section class="section roles-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>

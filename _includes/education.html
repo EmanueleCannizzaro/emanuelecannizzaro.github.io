@@ -1,6 +1,6 @@
-  {% assign educations = site.data.data.educations %}
-  {% if site.data.data.show_education_compact %}
-  <div class="education-container container-block">
+{% assign educations = site.translations[site.lang].educations %}
+
+{% if site.translations[site.lang].show_education_compact %}  <div class="education-container container-block">
     <h2 class="container-block-title">
       Education
     </h2>

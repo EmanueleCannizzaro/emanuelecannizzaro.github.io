@@ -1,8 +1,8 @@
-{% assign data = site.data.data %}
+{% assign data = site.translations[site.lang] %}
 
 <div class="sidebar-wrapper">
   <div class="profile-container">
-    {% if data.show_picture %}<img class="avatar" src="{{ .data.baseurl }}/images/{{ data.basic.avatar }}" alt="profile picture" />{% endif %}
+    {% if data.show_picture %}<img class="avatar" src="/images/{{ data.basic.avatar }}" alt="profile picture" />{% endif %}
 
   </div>
 {% if data.show_contact %}{% include contact.html %}{% endif %}

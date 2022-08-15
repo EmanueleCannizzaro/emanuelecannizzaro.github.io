@@ -6,15 +6,11 @@ import sys
 class Loader(yaml.SafeLoader):
 
     def __init__(self, stream):
-
         self._root = os.path.split(stream.name)[0]
-
         super(Loader, self).__init__(stream)
 
     def include(self, node):
-
         filename = os.path.join(self._root, self.construct_scalar(node))
-
         with open(filename, 'r') as f:
             return yaml.load(f, Loader)
 
@@ -28,10 +24,10 @@ def main():
     if _extension.lower() in ['.yaml', '.yml']:
         with open(_filename, 'r') as f:
             data = yaml.load(f, Loader)
-            _ofilename = os.path.join(os.path.dirname(_filename), sys.argv[2])
+            _ofilename = sys.argv[2]
             print(_ofilename)
             with open(_ofilename, 'w') as of:
-                of.write(yaml.dump(data, default_flow_style=False))
+                of.write(yaml.dump(data, default_flow_style=False, sort_keys=False))
 
     
 if __name__ == '__main__':

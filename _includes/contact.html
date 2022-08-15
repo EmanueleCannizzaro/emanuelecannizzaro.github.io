@@ -1,4 +1,5 @@
-{% assign basic = site.data.data.basic %}
+{% assign basic = site.translations[site.lang].basic %}
+
 {% if basic %}
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
@@ -6,7 +7,7 @@
 
     {% if basic.citizenships %}
     <li class="phone"><i class="fas fa-passport"></i>
-{% for citizenship in basic.citizenships %}      <img src="./assets/images/flags/{{ citizenship.flag }}.png" width="20px;"> {{ citizenship.name }}{% if forloop.last == false %}, {% endif %}{% endfor %}
+{% for citizenship in basic.citizenships %}      <img src="/assets/images/flags/{{ citizenship.flag }}.png" width="20px;"> {{ citizenship.name }}{% if forloop.last == false %}, {% endif %}{% endfor %}
     </li>
     {% endif %}
 
@@ -29,7 +30,7 @@
     {% endif %}
 
 {% if basic.contact.mobiles %}{% for mobile in basic.contact.mobiles %}    <li class="phone"><i class="fas fa-mobile"></i>
-      <img src="./assets/images/flags/{{ mobile.flag }}.png" width="20px;"><a href="tel:{{ mobile.number }}">  {{ mobile.number }}</a>
+      <img src="/assets/images/flags/{{ mobile.flag }}.png" width="20px;"><a href="tel:{{ mobile.number }}">  {{ mobile.number }}</a>
     </li>{% endfor %}
     {% endif %}
 

@@ -1,7 +1,6 @@
-  {% assign experiences = site.data.data.experiences %}
-  {% if experiences %}
-  {% if experiences.current %}
-  <section class="section experiences-section">
+{% assign experiences = site.translations[site.lang].experiences %}
+
+{% if experiences %}{% if experiences.current %}  <section class="section experiences-section">
     <h2 class="section-title">
       <span class="fa-stack fa-xs">
         <i class="fas fa-circle fa-stack-2x"></i>
@@ -67,6 +66,4 @@
     </div><!--//item-->
     {% endfor %}
   
-  </section><!--//section-->
-  {% endif %}
-{% endif %}
+  </section><!--//section-->{% endif %}{% endif %}

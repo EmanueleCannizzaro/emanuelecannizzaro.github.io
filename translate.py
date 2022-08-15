@@ -38,8 +38,8 @@ class JobApplication():
         with open(filename, 'w') as of:
             of.write(yaml.dump(self.data, default_flow_style=False, sort_keys=False))
 
+    ###
     def replace(self, data:dict, match:str, repl:str):
-        #_data = {}
         for k, v in data.items():
             if type(v) is dict:
                 self.replace(v, match, repl)
@@ -51,29 +51,51 @@ class JobApplication():
             elif type(v) is str:
                 if v == match:
                     data[k] = repl
-            #_data[k] = v
-        #return _data
+    ###
 
-    def replace_with_translation(self, data:dict, verbose_flag:bool=False, **kwargs):
-        #_data = {}
-        for k, v in data.items():
-            if type(v) is dict:
-                self.replace_with_translation(v, verbose_flag, **kwargs)
-            elif type(v) is list:
-                for ix in range(len(v)):
-                    if type(v[ix]) is str:
-                        _translated = self.translate_string(v[ix], **kwargs)
-                        if _translated != v[ix]:
-                            print(f"{_translated} vs. {v[ix]}")
-                            data[k][ix] = _translated
-            elif type(v) is str:
-                _translated = self.translate_string(v, **kwargs)
-                if _translated != v:
-                    if verbose_flag:
-                        print(f"{_translated} vs. {v}")
-                    data[k] = _translated
-            #_data[k] = v
-        #return _data
+    def replace_with_translation(self, data:dict, vocabulary:dict, verbose_flag:bool=False, **kwargs):
+        if isinstance(data, dict):
+            for k, v in data.items():
+                if v:
+                    if type(v) is dict:
+                        self.replace_with_translation(v, vocabulary, verbose_flag, **kwargs)
+                    elif type(v) is bool:
+                        pass
+                    elif type(v) is int:
+                        pass
+                    elif type(v) is float:
+                        pass
+                    elif type(v) is list:
+                        for ix in range(len(v)):
+                            if type(v[ix]) is dict:
+                                self.replace_with_translation(v[ix], vocabulary, verbose_flag, **kwargs)
+                            elif type(v[ix]) is bool:
+                                pass
+                            elif type(v[ix]) is int:
+                                pass
+                            elif type(v[ix]) is float:
+                                pass
+                            elif type(v[ix]) is str:
+                                if v[ix] in vocabulary['enforce'].keys():
+                                    data[k][ix] = vocabulary['enforce'][v[ix]]
+                                elif v[ix] not in vocabulary['ignore']:
+                                    _translated = self.translate_string(v[ix], **kwargs)
+                                    if _translated != v[ix]:
+                                        print(f"{_translated} vs. {v[ix]}")
+                                        data[k][ix] = _translated
+                            else:
+                                raise ValueError(f"Found unknown type, that is type({v[ix]}) = {type(v[ix])}.")
+                    elif type(v) is str:
+                        if v in vocabulary['enforce'].keys():
+                            data[k] = vocabulary['enforce'][v]
+                        elif v not in vocabulary['ignore']:
+                            _translated = self.translate_string(v, **kwargs)
+                            if _translated != v:
+                                if verbose_flag:
+                                    print(f"{_translated} vs. {v}")
+                                data[k] = _translated
+                    else:
+                        raise ValueError(f"Found unknown type, that is type({v}) = {type(v)}.")
 
     @staticmethod
     def print_keyword_args(**kwargs):
@@ -81,8 +103,8 @@ class JobApplication():
         for key, value in kwargs.items():
             print(f"{key} = {value}")
 
-    def translate_dictionary(self, data:dict, **kwargs):
-        _data = self.replace_with_translation(data, **kwargs)
+    def translate_dictionary(self, data:dict, vocabulary:dict, **kwargs):
+        _data = self.replace_with_translation(data, vocabulary, **kwargs)
         return _data
 
     def translate_string(self, text, speech_flag:bool=False, vebose_flag:bool=False, **kwargs):
@@ -141,11 +163,19 @@ def main():
     filename = os.path.abspath(sys.argv[1])
     print(filename)
 
+    source = "en"
     dest = sys.argv[2]
+
+    tfilename = sys.argv[3]
+
+    with open(tfilename, 'r') as f:
+        vocabularies = json.load(f)
+    vocabulary = vocabularies[source][dest]
 
     if dest not in languages:
         raise ValueError(f"The defined language {googletrans.LANGUAGES[dest]} is not an available language.")
     kwargs = {}
+    kwargs['src'] = source
     kwargs['dest'] = dest
 
     #for text in texts:
@@ -159,7 +189,7 @@ def main():
     ofilename = os.path.join(os.path.dirname(filename), f"{rootname}_{dest}{extension}")
     print(ofilename)
     #application.data =
-    application.translate_dictionary(application.data, **kwargs)
+    application.translate_dictionary(application.data, vocabulary, **kwargs)
     #print(json.dumps(application.data, sort_keys=True, indent=4))
     application.to_jaml(ofilename)
 

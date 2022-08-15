@@ -1,15 +1,14 @@
-{% assign repositories = site.data.data.repositories %}
-{% assign repositories_airbus = site.data.data.repositories_airbus %}
+{% assign repositories = site.translations[site.lang].repositories %}
+{% assign repositories_title = site.translations[site.lang].repositories_title %}
+{% assign repositories_airbus = site.translations[site.lang].repositories_airbus %}
 
-{% if repositories_airbus %}
-<section class="skills-section repositories-section">
-
+{% if repositories_airbus %}<section class="skills-section repositories-section">
   <h3 class="section-title">
     <span class="fa-stack fa-xs">
         <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
     </span>
-    {{ site.data.data.repositories_airbus.title }}
+    {{ repositories_airbus.title }}
   </h3>
 
   <div class="skillset">
@@ -33,7 +32,7 @@
         <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
     </span>
-    {{ site.data.data.repositories_title }}
+    {{ repositories_title }}
   </h3>
 
   <div class="skillset">

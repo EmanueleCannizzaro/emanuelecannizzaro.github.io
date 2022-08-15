@@ -1,6 +1,7 @@
-  {% assign qualifications = site.data.data.qualifications %}
-  {% if site.data.data.show_qualifications_compact %}
-  <div class="qualification-container container-block">
+{% assign data = site.translations[site.lang] %}
+{% assign qualifications = site.translations[site.lang].qualifications %}
+
+{% if data.show_qualifications_compact %}  <div class="qualification-container container-block">
     <h2 class="container-block-title">
       Qualifications
     </h2>

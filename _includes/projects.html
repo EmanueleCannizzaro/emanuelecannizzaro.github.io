@@ -1,7 +1,6 @@
-{% assign projects = site.data.data.projects %}
-{% if projects %}
-  {% if projects.current %}
-  <section class="section projects-section">
+{% assign projects = site.translations[site.lang].projects %}
+
+{% if projects %}{% if projects.current %}  <section class="section projects-section">
     <h2 class="section-title">
       <span class="fa-stack fa-xs">
         <i class="fas fa-circle fa-stack-2x"></i>
@@ -30,6 +29,4 @@
         </tr>{% endfor %}
       </tbody>
     </table>
-  </section><!--//section-->
-  {% endif %}
-{% endif %}
+  </section><!--//section-->{% endif %}{% endif %}

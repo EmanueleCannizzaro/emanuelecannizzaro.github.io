@@ -1,4 +1,5 @@
-{% assign data = site.data.data %}
+{% assign data = site.translations[site.lang] %}
+
 <div class="sidebar-wrapper">
   <h1 class="name">{{ data.basic.name }}</h1><br>
 {% if data.show_contact %}{% include cover_letter_contact.html %}{% endif %}

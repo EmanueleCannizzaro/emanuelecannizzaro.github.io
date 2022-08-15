@@ -1,7 +1,6 @@
-{% assign languages = site.data.data.languages %}
+{% assign languages = site.translations[site.lang].languages %}
 
-{% if languages %}
-<section class="skills-section section">
+{% if languages %}<section class="skills-section section">
 
   <h3 class="section-title">
     <span class="fa-stack fa-xs">
@@ -15,7 +14,7 @@
   <tbody>
 {% for item in languages.items %}    <tr>
       <td width="24%" scope="row">{{ item.name }}</td>
-      <td width="4%"><img src="./assets/images/flags/{{ item.flag }}.png" width="20px;"></td>
+      <td width="4%"><img src="/assets/images/flags/{{ item.flag }}.png" width="20px;"></td>
       {% assign p = item.level | times: 100 | divided_by: languages.max_level %}
       <td width="36%"><div class="progress"><div class="progress-bar" role="progressbar" style="width: {{ p }}%;" aria-valuenow="{{ item.level }}" aria-valuemin="0" aria-valuemax="{{ languages.max_level }}">{{ item.reference_level }}</div></div></td>
       <td width="36%">{{ item.reference_level_title }}</td>
@@ -23,6 +22,5 @@
 {% endfor %}
   </tbody>
 </table>
-</section><!--//skills-section-->
-{% endif %}
+</section><!--//skills-section-->{% endif %}
  

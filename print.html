@@ -3,8 +3,8 @@ layout: print
 permalink: /print
 ---
 
-{% assign data = site.data.data %}
-{% assign profile = site.data.data.profile %}
+{% assign data = site.translations[site.lang] %}
+{% assign profile = site.translations[site.lang].profile %}
 
 {% if data.show_profile %}{% include profile.html %}{% endif %}
 {% if data.show_experiences %}{% include experiences.html %}{% endif %}

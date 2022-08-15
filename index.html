@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% assign data = site.data.data %}
-{% assign profile = site.data.data.profile %}
+{% assign data = site.translations[site.lang] %}
+{% assign profile = site.translations[site.lang].profile %}
 
 <h1 class="name">{{ data.basic.name }}</h1><br>
 
@@ -28,3 +28,5 @@ layout: default
 {% if data.show_repositories %}{% include repositories.html %}{% endif %}
 
 {% if data.show_analytics %}{% include analytics.html %}{% endif %}
+
+{% include date.html %}

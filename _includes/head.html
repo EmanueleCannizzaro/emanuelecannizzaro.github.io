@@ -1,5 +1,7 @@
+{% assign data = site.translations[site.lang] %}
+
   <head>
-    <title>{{ site.data.data.title }}</title>
+    <title>{{ data.title }}</title>
   
     <!-- Meta -->
     <meta charset="utf-8">
@@ -13,11 +15,11 @@
     <link rel="shortcut icon" href="favicon.ico">
   
     <!-- Global CSS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">
   
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/font-awesome/css/all.css">
+    <link rel="stylesheet" href="/assets/plugins/font-awesome/css/all.css">
   
     <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+    <link id="theme-style" rel="stylesheet" href="/assets/css/main.css">
   </head>

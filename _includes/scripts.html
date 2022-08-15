@@ -1,8 +1,10 @@
-    <!-- Javascript -->
-    <script type="text/javascript" src="{{site.data.data.baseurl}}/assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="{{site.data.data.baseurl}}/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+{% assign data = site.translations[site.lang] %}
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="/assets/plugins/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
   
-    <!-- custom js -->
-    <script type="text/javascript" src="{{site.data.data.baseurl}}/assets/js/main.js"></script>
+  <!-- custom js -->
+  <script type="text/javascript" src="/assets/js/main.js"></script>
   
-{% if site.data.data.show_analytics %}{% include analytics.html %}{% endif %}
+{% if data.show_analytics %}{% include analytics.html %}{% endif %}

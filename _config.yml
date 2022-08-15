@@ -9,7 +9,7 @@ title:
 url: ''
 
 languages: ["en", "it", "fr", "es"]
-exclude_from_localizations: ["assets"]
+exclude_from_localizations: ["assets", "images"]
 
 #change it according to your repository name
 # disabling since we are using a custom domain

@@ -2,8 +2,8 @@
 layout: default_engineer
 ---
 
-{% assign data = site.data.data %}
-{% assign profile = site.data.data.profile %}
+{% assign data = site.translations[site.lang] %}
+{% assign profile = site.translations[site.lang].profile %}
 
 <h1 class="name">{{ data.basic.name }}</h1><br>
 
