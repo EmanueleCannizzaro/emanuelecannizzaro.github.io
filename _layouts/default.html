@@ -2,11 +2,20 @@
 #Add "layout: compress" here to compress the html code
 ---
 
-{% assign data = site.data.data %}
+{% assign data = site.translations[site.lang] %}
 
 <!DOCTYPE html>
+  <head>
 {% include head.html %}
+  </head>
+
   <body>
+    <div class="site-container">
+      <header class="site-header">
+        {% include header.html %}
+      </header>
+      {% include navigation.html %}
+    </div>
     <div class="wrapper">
 {% if data.show_sidebar %}      {% include sidebar.html %}{% endif %}
       <div class="main-wrapper">

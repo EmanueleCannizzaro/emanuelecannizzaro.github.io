@@ -5,6 +5,16 @@ Personal website powered by [Jekyll](https://github.com/jekyll/jekyll).
 ## Tutorial
 
 [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+
+To use the translator, googletrans needs to be installed.
+There is a [known bug](https://stackoverflow.com/questions/52455774/googletrans-stopped-working-with-error-nonetype-object-has-no-attribute-group) with the version of gooletrans available in pypy.
+The work around consists of:
+
+1. pip uninstall googletrans
+1. pip install googletrans==3.1.0a0
+
+
 ```
 
 ## TODO
