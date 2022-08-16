@@ -1,32 +1,8 @@
 ---
 layout: clarence_default
+template: clarence
+profile: all
 ---
 
 {% assign data = site.translations[site.lang] %}
 {% assign profile = site.translations[site.lang].profile %}
-
-<h1 class="name">{{ data.basic.name }}</h1><br>
-
-{% if profile %}<div class="tagline">
-  {{ profile.summary | markdownify }}
-</div><!--//summary-->
-{% endif %}<br>
-
-{% if data.show_about %}{% include about.html %}{% endif %}
-{% if data.show_profile %}{% include profile.html %}{% endif %}
-{% if data.show_experiences %}{% include experiences.html %}{% endif %}
-{% if data.show_projects %}{% include projects.html %}{% endif %}
-{% if data.show_roles %}{% include roles.html %}{% endif %}
-{% if data.show_qualifications %}{% include qualifications.html %}{% endif %}
-{% if data.show_education %}{% include education.html %}{% endif %}
-{% if data.show_dashboards %}{% include dashboards.html %}{% endif %}
-{% if data.show_contributions %}{% include contributions.html %}{% endif %}
-{% if data.show_trainings %}{% include trainings.html %}{% endif %}
-{% if data.show_hackathons %}{% include hackathons.html %}{% endif %}
-{% if data.show_conferences %}{% include conferences.html %}{% endif %}
-{% if data.show_publications %}{% include publications.html %}{% endif %}
-{% if data.show_repositories %}{% include repositories.html %}{% endif %}
-
-{% if data.show_analytics %}{% include analytics.html %}{% endif %}
-
-{% include date.html %}
