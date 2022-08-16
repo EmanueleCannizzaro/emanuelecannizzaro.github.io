@@ -24,9 +24,11 @@
                 <div class="university"><a href={{ item.url }}>{{ item.description }}</a></div>
               </div><!--//meta-->
     
-{% if item.details %}              <div class="details">
-                {{ item.details | markdownify }}
-              </div><!--//details-->{% endif %}
+{% if item.details %}                <div class="details">
+                  <ul>
+{% for detail in item.details %}                  <li>{{ detail }}</li>{% endfor %}
+                  </ul>
+                </div><!--//details-->{% endif %}
             </div>
           </td>
         </tr>{% endfor %}

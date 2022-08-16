@@ -10,9 +10,7 @@
     </h2>
   
     <div class="item">
-  
       <div class="meta">
-  
         <div class="upper-row">
           <h3 class="job-title">{{ experiences.current.role }}</h3>
           <div class="time">{{ experiences.current.duration }}</div>
@@ -21,17 +19,14 @@
         <div class="company">{{ experiences.current.company }}, {{ experiences.current.location }}</div>
   
       </div><!--//meta-->
-  
-      {% if experiences.current.details %}
-      <div class="details">
-        {{ experiences.current.details | markdownify }}
-      </div><!--//details-->
-      {% endif %}
-  
+{% if experiences.current.details %}                <div class="courses">
+                  <ul>
+{% for detail in experiences.current.details %}                  <li>{{ detail }}</li>{% endfor %}
+                  </ul>
+                </div><!--//details-->{% endif %}
     </div><!--//item-->
   
-  </section><!--//section-->
-  {% endif %}
+  </section><!--//section-->{% endif %}
 
   {% if experiences.previous %}
   <section class="section experiences-section">
@@ -56,14 +51,12 @@
         <div class="company">{{ experience.company }}, {{ experience.location }}</div>
   
       </div><!--//meta-->
-  
-      {% if experience.details %}
-      <div class="details">
-        {{ experience.details | markdownify }}
-      </div><!--//details-->
-      {% endif %}
-  
+{% if experience.details %}                <div class="courses">
+                  <ul>
+{% for detail in experience.details %}                  <li>{{ detail }}</li>{% endfor %}
+                  </ul>
+                </div><!--//details-->{% endif %}
     </div><!--//item-->
-    {% endfor %}
+{% endfor %}
   
   </section><!--//section-->{% endif %}{% endif %}

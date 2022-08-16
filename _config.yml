@@ -74,5 +74,7 @@ kramdown:
   footnote_nr       : 1
   show_warnings     : false
 
+profiles: ["all", "analyst", "developer", "engineer"]
+templates: ["orbit", "kelly", "myresume", "clarence"]#, "simpsons"]
 languages: ["en", "it", "fr", "es"]
 exclude_from_localizations: ["assets", "images", "orbit", "kelly", "myresume", "clarence"]
