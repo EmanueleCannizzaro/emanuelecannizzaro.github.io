@@ -914,6 +914,19 @@ section {
     z-index: 1;
 }
 
+.timeline-content .description a {
+    color: #6366f1;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: var(--transition-smooth);
+    font-weight: 500;
+}
+
+.timeline-content .description a:hover {
+    color: #8b5cf6;
+    border-bottom-color: #8b5cf6;
+}
+
 .timeline-header {
     display: flex;
     justify-content: space-between;
@@ -1343,6 +1356,19 @@ section {
     font-size: 1.05rem;
 }
 
+.project-card p a {
+    color: #6366f1;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: var(--transition-smooth);
+    font-weight: 500;
+}
+
+.project-card p a:hover {
+    color: #8b5cf6;
+    border-bottom-color: #8b5cf6;
+}
+
 .project-tags {
     display: flex;
     flex-wrap: wrap;
@@ -1398,6 +1424,16 @@ section {
 
 .program-item:hover i {
     -webkit-text-fill-color: white;
+}
+
+.program-item a {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--transition-smooth);
+}
+
+.program-item:hover a {
+    color: white;
 }
 
 /* ===========================
