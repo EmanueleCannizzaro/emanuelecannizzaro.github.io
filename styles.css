@@ -69,7 +69,7 @@
     --border-radius-2xl: 40px;
     --border-radius-full: 9999px;
 
-    --max-width: 1320px;
+    --max-width: 1440px;
     --spacing-unit: 8px;
 
     /* Professional Typography Scale */
@@ -108,6 +108,19 @@ body {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 2rem;
+    width: 100%;
+}
+
+@media (min-width: 1536px) {
+    .container {
+        padding: 0 3rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1600px;
+    }
 }
 
 section {
