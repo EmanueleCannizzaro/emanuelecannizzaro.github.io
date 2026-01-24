@@ -2,6 +2,8 @@
 // Premium Portfolio Enhancements
 // ===========================
 
+const enablePremiumMotion = false;
+
 // ===========================
 // Navigation & Scroll Handling
 // ===========================
@@ -252,9 +254,11 @@ function addTiltEffect(selector) {
 }
 
 // Apply tilt effect to various cards
-addTiltEffect('.project-card');
-addTiltEffect('.skill-category');
-addTiltEffect('.contact-item');
+if (enablePremiumMotion) {
+    addTiltEffect('.project-card');
+    addTiltEffect('.skill-category');
+    addTiltEffect('.contact-item');
+}
 
 // ===========================
 // Modern Scroll Progress Indicator
@@ -269,10 +273,10 @@ const createScrollProgress = () => {
         left: 0;
         width: 0;
         height: 4px;
-        background: linear-gradient(90deg, #6366f1, #8b5cf6, #d946ef);
+        background: linear-gradient(90deg, #b88442, #0f2a4a);
         z-index: 9999;
         transition: width 0.1s ease;
-        box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
+        box-shadow: 0 0 16px rgba(11, 23, 36, 0.35);
     `;
     document.body.appendChild(progressBar);
 
@@ -307,9 +311,9 @@ const createBackToTopButton = () => {
         right: 32px;
         width: 58px;
         height: 58px;
-        background: linear-gradient(135deg, #6366f1, #8b5cf6);
+        background: linear-gradient(135deg, #0f2a4a, #1f3b63);
         color: white;
-        border: 2px solid rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(15, 42, 74, 0.2);
         border-radius: 14px;
         font-size: 1.25rem;
         cursor: pointer;
@@ -317,7 +321,7 @@ const createBackToTopButton = () => {
         visibility: hidden;
         transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         z-index: 999;
-        box-shadow: 0 8px 24px rgba(99, 102, 241, 0.35);
+        box-shadow: 0 8px 24px rgba(11, 23, 36, 0.3);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -325,12 +329,12 @@ const createBackToTopButton = () => {
 
     button.addEventListener('mouseenter', () => {
         button.style.transform = 'translateY(-6px) scale(1.08)';
-        button.style.boxShadow = '0 12px 32px rgba(99, 102, 241, 0.45)';
+        button.style.boxShadow = '0 12px 32px rgba(11, 23, 36, 0.4)';
     });
 
     button.addEventListener('mouseleave', () => {
         button.style.transform = 'translateY(0) scale(1)';
-        button.style.boxShadow = '0 8px 24px rgba(99, 102, 241, 0.35)';
+        button.style.boxShadow = '0 8px 24px rgba(11, 23, 36, 0.3)';
     });
 
     button.addEventListener('click', () => {
@@ -490,7 +494,9 @@ function createParticleEffect() {
 }
 
 // Initialize particle effect after a short delay
-setTimeout(createParticleEffect, 500);
+if (enablePremiumMotion) {
+    setTimeout(createParticleEffect, 500);
+}
 
 // ===========================
 // Cursor Trail Effect (Optional Premium Touch)
@@ -499,7 +505,7 @@ setTimeout(createParticleEffect, 500);
 function createCursorTrail() {
     const coords = { x: 0, y: 0 };
     const circles = [];
-    const colors = ['#667eea', '#764ba2', '#f093fb'];
+    const colors = ['#0f2a4a', '#1f3b63', '#b88442'];
 
     for (let i = 0; i < 12; i++) {
         const circle = document.createElement('div');
@@ -585,10 +591,12 @@ function addMagneticEffect(selector) {
     });
 }
 
-addMagneticEffect('.btn');
-addMagneticEffect('.social-links a');
-addMagneticEffect('.project-icon');
-addMagneticEffect('.contact-icon');
+if (enablePremiumMotion) {
+    addMagneticEffect('.btn');
+    addMagneticEffect('.social-links a');
+    addMagneticEffect('.project-icon');
+    addMagneticEffect('.contact-icon');
+}
 
 // ===========================
 // Text Animation on Scroll
@@ -717,7 +725,7 @@ if (window.performance && window.performance.timing) {
             const connectTime = perfData.responseEnd - perfData.requestStart;
             const renderTime = perfData.domComplete - perfData.domLoading;
 
-            console.log('%c⚡ Performance Metrics', 'font-size: 14px; font-weight: bold; color: #667eea;');
+    console.log('%c⚡ Performance Metrics', 'font-size: 14px; font-weight: bold; color: #0f2a4a;');
             console.log(`Page Load Time: ${pageLoadTime}ms`);
             console.log(`Server Response: ${connectTime}ms`);
             console.log(`DOM Render: ${renderTime}ms`);
@@ -729,11 +737,11 @@ if (window.performance && window.performance.timing) {
 // Console Branding
 // ===========================
 
-console.log('%c👋 Welcome to Emanuele\'s Portfolio!', 'font-size: 24px; font-weight: bold; background: linear-gradient(135deg, #6366f1, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent;');
-console.log('%c🚀 Built with modern design & premium interactions', 'font-size: 14px; color: #6366f1;');
+console.log('%c👋 Welcome to Emanuele\'s Portfolio!', 'font-size: 24px; font-weight: bold; color: #0f2a4a;');
+console.log('%c🚀 Built with modern design & focused interactions', 'font-size: 14px; color: #2f3e4d;');
 console.log('%c💼 Check out my work on GitHub:', 'font-size: 14px; color: #475569;');
-console.log('%chttps://github.com/emanuelecannizzaro', 'font-size: 14px; color: #6366f1; font-weight: bold;');
-console.log('%c✈️ Aerospace Engineer | Software Developer | Data Analyst', 'font-size: 12px; color: #64748b;');
+console.log('%chttps://github.com/emanuelecannizzaro', 'font-size: 14px; color: #0f2a4a; font-weight: bold;');
+console.log('%c✈️ Aerospace Engineer | Software Developer | Data Analyst', 'font-size: 12px; color: #566575;');
 
 // ===========================
 // Easter Egg - Konami Code
@@ -747,8 +755,8 @@ document.addEventListener('keydown', (e) => {
     konamiCode = konamiCode.slice(-10);
 
     if (konamiCode.join(',') === konamiPattern.join(',')) {
-        console.log('%c🎮 KONAMI CODE ACTIVATED!', 'font-size: 20px; font-weight: bold; color: #f093fb;');
-        console.log('%c🎊 You found the secret! Thanks for exploring!', 'font-size: 14px; color: #667eea;');
+        console.log('%c🎮 KONAMI CODE ACTIVATED!', 'font-size: 20px; font-weight: bold; color: #b88442;');
+        console.log('%c🎊 You found the secret! Thanks for exploring!', 'font-size: 14px; color: #0f2a4a;');
 
         // Add fun animation
         document.body.style.animation = 'rainbow 2s ease infinite';
@@ -778,7 +786,7 @@ function createLoadingScreen() {
     loader.style.cssText = `
         position: fixed;
         inset: 0;
-        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        background: linear-gradient(135deg, #0b1724 0%, #0f2a4a 100%);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -790,8 +798,8 @@ function createLoadingScreen() {
     spinner.style.cssText = `
         width: 60px;
         height: 60px;
-        border: 4px solid rgba(99, 102, 241, 0.2);
-        border-top-color: #6366f1;
+        border: 4px solid rgba(15, 42, 74, 0.2);
+        border-top-color: #0f2a4a;
         border-radius: 50%;
         animation: spin 1s linear infinite;
     `;
@@ -893,7 +901,7 @@ function initPremiumCursorEffect() {
 
     const coords = { x: 0, y: 0 };
     const circles = [];
-    const colors = ['#6366f1', '#8b5cf6', '#d946ef'];
+    const colors = ['#0f2a4a', '#1f3b63', '#b88442'];
 
     for (let i = 0; i < 12; i++) {
         const circle = document.createElement('div');
@@ -1079,17 +1087,19 @@ function initRippleEffect() {
 // Initialize all premium interactions
 window.addEventListener('load', () => {
     // Only init parallax on larger screens
-    if (window.innerWidth > 768) {
+    if (window.innerWidth > 768 && enablePremiumMotion) {
         initParallaxEffect();
         initPremiumCursorEffect();
     }
 
     initEnhancedRevealAnimations();
-    initAdvancedTiltEffect();
-    initRippleEffect();
+    if (enablePremiumMotion) {
+        initAdvancedTiltEffect();
+        initRippleEffect();
+    }
     animateNumbers();
 
-    console.log('%c✨ Premium interactions loaded', 'color: #6366f1; font-weight: bold; font-size: 12px;');
+    console.log('%c✨ Focused interactions loaded', 'color: #0f2a4a; font-weight: bold; font-size: 12px;');
 });
 
 // ===========================
