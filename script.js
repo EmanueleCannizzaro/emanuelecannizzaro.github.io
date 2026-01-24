@@ -833,6 +833,266 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // ===========================
+// Ultra-Modern Premium Interactions
+// ===========================
+
+// Sophisticated parallax effect for hero section
+function initParallaxEffect() {
+    const hero = document.querySelector('.hero');
+    if (!hero) return;
+
+    let rafId = null;
+    window.addEventListener('scroll', () => {
+        if (rafId) cancelAnimationFrame(rafId);
+
+        rafId = requestAnimationFrame(() => {
+            const scrolled = window.pageYOffset;
+            const parallaxSpeed = 0.5;
+
+            if (scrolled < window.innerHeight) {
+                hero.style.transform = `translateY(${scrolled * parallaxSpeed}px)`;
+                hero.style.opacity = 1 - (scrolled / window.innerHeight) * 0.7;
+            }
+        });
+    });
+}
+
+// Enhanced intersection observer with stagger animation
+function initEnhancedRevealAnimations() {
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+
+                // Add stagger effect to child elements
+                const children = entry.target.querySelectorAll('.skill-item, .project-tag, .tag');
+                children.forEach((child, index) => {
+                    setTimeout(() => {
+                        child.style.opacity = '1';
+                        child.style.transform = 'translateY(0)';
+                    }, index * 50);
+                });
+            }
+        });
+    }, observerOptions);
+
+    // Observe all sections and major elements
+    document.querySelectorAll('section, .timeline-item, .education-card').forEach(el => {
+        observer.observe(el);
+    });
+}
+
+// Premium cursor trail effect (desktop only)
+function initPremiumCursorEffect() {
+    if (window.innerWidth < 1024) return; // Skip on mobile/tablet
+
+    const coords = { x: 0, y: 0 };
+    const circles = [];
+    const colors = ['#6366f1', '#8b5cf6', '#d946ef'];
+
+    for (let i = 0; i < 12; i++) {
+        const circle = document.createElement('div');
+        circle.style.cssText = `
+            position: fixed;
+            top: -10px;
+            left: -10px;
+            width: ${6 - i * 0.3}px;
+            height: ${6 - i * 0.3}px;
+            border-radius: 50%;
+            background: ${colors[i % 3]};
+            pointer-events: none;
+            z-index: 9999;
+            opacity: ${1 - i * 0.07};
+            transition: opacity 0.3s ease;
+            mix-blend-mode: screen;
+        `;
+        document.body.appendChild(circle);
+        circles.push(circle);
+    }
+
+    let mouseMoving = false;
+    let hideTimeout;
+
+    document.addEventListener('mousemove', (e) => {
+        coords.x = e.clientX;
+        coords.y = e.clientY;
+        mouseMoving = true;
+
+        clearTimeout(hideTimeout);
+        circles.forEach(c => c.style.opacity = c.style.opacity.replace('0', ''));
+
+        hideTimeout = setTimeout(() => {
+            mouseMoving = false;
+            circles.forEach(c => c.style.opacity = '0');
+        }, 200);
+    });
+
+    function animateCircles() {
+        let x = coords.x;
+        let y = coords.y;
+
+        circles.forEach((circle, index) => {
+            circle.style.left = x - (6 - index * 0.3) / 2 + 'px';
+            circle.style.top = y - (6 - index * 0.3) / 2 + 'px';
+
+            const nextCircle = circles[index + 1] || circles[0];
+            x += (parseInt(nextCircle.style.left) - x) * 0.3;
+            y += (parseInt(nextCircle.style.top) - y) * 0.3;
+        });
+
+        requestAnimationFrame(animateCircles);
+    }
+
+    animateCircles();
+}
+
+// Sophisticated image/icon hover effect with tilt
+function initAdvancedTiltEffect() {
+    const elements = document.querySelectorAll('.project-icon, .contact-icon, .education-icon');
+
+    elements.forEach(element => {
+        element.addEventListener('mouseenter', () => {
+            element.style.transition = 'none';
+        });
+
+        element.addEventListener('mousemove', (e) => {
+            const rect = element.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+
+            const rotateX = (y - centerY) / 4;
+            const rotateY = (centerX - x) / 4;
+
+            element.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.05, 1.05, 1.05)`;
+        });
+
+        element.addEventListener('mouseleave', () => {
+            element.style.transition = 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)';
+            element.style.transform = '';
+        });
+    });
+}
+
+// Dynamic gradient animation for hero background
+function initDynamicGradient() {
+    const hero = document.querySelector('.hero');
+    if (!hero) return;
+
+    let hue = 220;
+
+    setInterval(() => {
+        hue = (hue + 0.5) % 360;
+        const before = document.querySelector('.hero::before');
+        // This will work through CSS animations instead
+    }, 50);
+}
+
+// Smooth count-up animation for numbers
+function animateNumbers() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const target = entry.target;
+                const value = parseInt(target.getAttribute('data-value') || target.textContent);
+                if (!isNaN(value)) {
+                    animateValue(target, 0, value, 2000);
+                    observer.unobserve(target);
+                }
+            }
+        });
+    });
+
+    document.querySelectorAll('[data-animate-number]').forEach(el => observer.observe(el));
+}
+
+function animateValue(element, start, end, duration) {
+    const range = end - start;
+    const increment = range / (duration / 16);
+    let current = start;
+
+    const timer = setInterval(() => {
+        current += increment;
+        if ((increment > 0 && current >= end) || (increment < 0 && current <= end)) {
+            current = end;
+            clearInterval(timer);
+        }
+        element.textContent = Math.floor(current);
+    }, 16);
+}
+
+// Premium ripple effect on buttons
+function initRippleEffect() {
+    const buttons = document.querySelectorAll('.btn, .badge, .tag');
+
+    buttons.forEach(button => {
+        button.addEventListener('click', function(e) {
+            const ripple = document.createElement('span');
+            const rect = this.getBoundingClientRect();
+            const size = Math.max(rect.width, rect.height);
+            const x = e.clientX - rect.left - size / 2;
+            const y = e.clientY - rect.top - size / 2;
+
+            ripple.style.cssText = `
+                position: absolute;
+                width: ${size}px;
+                height: ${size}px;
+                left: ${x}px;
+                top: ${y}px;
+                border-radius: 50%;
+                background: rgba(255, 255, 255, 0.5);
+                transform: scale(0);
+                animation: ripple-animation 0.6s ease-out;
+                pointer-events: none;
+            `;
+
+            const rippleStyle = document.createElement('style');
+            if (!document.querySelector('#ripple-style')) {
+                rippleStyle.id = 'ripple-style';
+                rippleStyle.textContent = `
+                    @keyframes ripple-animation {
+                        to {
+                            transform: scale(2);
+                            opacity: 0;
+                        }
+                    }
+                `;
+                document.head.appendChild(rippleStyle);
+            }
+
+            this.style.position = 'relative';
+            this.style.overflow = 'hidden';
+            this.appendChild(ripple);
+
+            setTimeout(() => ripple.remove(), 600);
+        });
+    });
+}
+
+// Initialize all premium interactions
+window.addEventListener('load', () => {
+    // Only init parallax on larger screens
+    if (window.innerWidth > 768) {
+        initParallaxEffect();
+        initPremiumCursorEffect();
+    }
+
+    initEnhancedRevealAnimations();
+    initAdvancedTiltEffect();
+    initRippleEffect();
+    animateNumbers();
+
+    console.log('%c✨ Premium interactions loaded', 'color: #6366f1; font-weight: bold; font-size: 12px;');
+});
+
+// ===========================
 // Service Worker (PWA Support)
 // ===========================
 
