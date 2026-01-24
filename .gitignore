@@ -1,0 +1,9 @@
+*.gem
+.bundle
+.sass-cache
+_site
+*.code-workspace
+_backup
+.DS_store
+.jekyll-cache
+.claude/

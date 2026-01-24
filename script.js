@@ -257,7 +257,7 @@ addTiltEffect('.skill-category');
 addTiltEffect('.contact-item');
 
 // ===========================
-// Premium Scroll Progress Indicator
+// Modern Scroll Progress Indicator
 // ===========================
 
 const createScrollProgress = () => {
@@ -269,10 +269,10 @@ const createScrollProgress = () => {
         left: 0;
         width: 0;
         height: 4px;
-        background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+        background: linear-gradient(90deg, #6366f1, #8b5cf6, #d946ef);
         z-index: 9999;
         transition: width 0.1s ease;
-        box-shadow: 0 0 10px rgba(102, 126, 234, 0.5);
+        box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
     `;
     document.body.appendChild(progressBar);
 
@@ -293,7 +293,7 @@ const createScrollProgress = () => {
 createScrollProgress();
 
 // ===========================
-// Premium Back to Top Button
+// Modern Back to Top Button
 // ===========================
 
 const createBackToTopButton = () => {
@@ -303,34 +303,42 @@ const createBackToTopButton = () => {
     button.setAttribute('aria-label', 'Back to top');
     button.style.cssText = `
         position: fixed;
-        bottom: 30px;
-        right: 30px;
-        width: 56px;
-        height: 56px;
-        background: linear-gradient(135deg, #667eea, #764ba2);
+        bottom: 32px;
+        right: 32px;
+        width: 58px;
+        height: 58px;
+        background: linear-gradient(135deg, #6366f1, #8b5cf6);
         color: white;
-        border: none;
-        border-radius: 50%;
+        border: 2px solid rgba(255, 255, 255, 0.15);
+        border-radius: 14px;
         font-size: 1.25rem;
         cursor: pointer;
         opacity: 0;
         visibility: hidden;
         transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         z-index: 999;
-        box-shadow: 0 8px 16px rgba(102, 126, 234, 0.3);
+        box-shadow: 0 8px 24px rgba(99, 102, 241, 0.35);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     `;
 
     button.addEventListener('mouseenter', () => {
-        button.style.transform = 'translateY(-8px) scale(1.1)';
-        button.style.boxShadow = '0 12px 24px rgba(102, 126, 234, 0.4)';
+        button.style.transform = 'translateY(-6px) scale(1.08)';
+        button.style.boxShadow = '0 12px 32px rgba(99, 102, 241, 0.45)';
     });
 
     button.addEventListener('mouseleave', () => {
         button.style.transform = 'translateY(0) scale(1)';
-        button.style.boxShadow = '0 8px 16px rgba(102, 126, 234, 0.3)';
+        button.style.boxShadow = '0 8px 24px rgba(99, 102, 241, 0.35)';
     });
 
     button.addEventListener('click', () => {
+        button.style.transform = 'translateY(-6px) scale(0.95)';
+        setTimeout(() => {
+            button.style.transform = 'translateY(-6px) scale(1.08)';
+        }, 150);
+
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
@@ -361,7 +369,7 @@ const createBackToTopButton = () => {
 createBackToTopButton();
 
 // ===========================
-// Hero Particle Effect (Subtle)
+// Modern Hero Particle Effect
 // ===========================
 
 function createParticleEffect() {
@@ -377,6 +385,7 @@ function createParticleEffect() {
         height: 100%;
         pointer-events: none;
         z-index: 1;
+        opacity: 0.8;
     `;
     hero.insertBefore(canvas, hero.firstChild);
 
@@ -385,16 +394,17 @@ function createParticleEffect() {
     canvas.height = hero.offsetHeight;
 
     const particles = [];
-    const particleCount = 50;
+    const particleCount = 60;
 
     class Particle {
         constructor() {
             this.x = Math.random() * canvas.width;
             this.y = Math.random() * canvas.height;
-            this.size = Math.random() * 3 + 1;
-            this.speedX = Math.random() * 1 - 0.5;
-            this.speedY = Math.random() * 1 - 0.5;
-            this.opacity = Math.random() * 0.5 + 0.2;
+            this.size = Math.random() * 2.5 + 0.8;
+            this.speedX = Math.random() * 0.8 - 0.4;
+            this.speedY = Math.random() * 0.8 - 0.4;
+            this.opacity = Math.random() * 0.4 + 0.2;
+            this.hue = Math.random() * 60 + 220; // Blue-purple range
         }
 
         update() {
@@ -408,10 +418,14 @@ function createParticleEffect() {
         }
 
         draw() {
-            ctx.fillStyle = `rgba(255, 255, 255, ${this.opacity})`;
+            ctx.fillStyle = `hsla(${this.hue}, 80%, 70%, ${this.opacity})`;
             ctx.beginPath();
             ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
             ctx.fill();
+
+            // Add glow
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = `hsla(${this.hue}, 80%, 70%, ${this.opacity * 0.5})`;
         }
     }
 
@@ -419,6 +433,7 @@ function createParticleEffect() {
         particles.push(new Particle());
     }
 
+    let animationId;
     function animate() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -427,15 +442,19 @@ function createParticleEffect() {
             particle.draw();
         });
 
-        // Draw connections
+        // Draw connections with gradient
         particles.forEach((a, i) => {
             particles.slice(i + 1).forEach(b => {
                 const dx = a.x - b.x;
                 const dy = a.y - b.y;
                 const distance = Math.sqrt(dx * dx + dy * dy);
 
-                if (distance < 120) {
-                    ctx.strokeStyle = `rgba(255, 255, 255, ${0.15 * (1 - distance / 120)})`;
+                if (distance < 150) {
+                    const gradient = ctx.createLinearGradient(a.x, a.y, b.x, b.y);
+                    gradient.addColorStop(0, `hsla(${a.hue}, 80%, 70%, ${0.1 * (1 - distance / 150)})`);
+                    gradient.addColorStop(1, `hsla(${b.hue}, 80%, 70%, ${0.1 * (1 - distance / 150)})`);
+
+                    ctx.strokeStyle = gradient;
                     ctx.lineWidth = 1;
                     ctx.beginPath();
                     ctx.moveTo(a.x, a.y);
@@ -445,15 +464,28 @@ function createParticleEffect() {
             });
         });
 
-        requestAnimationFrame(animate);
+        animationId = requestAnimationFrame(animate);
     }
 
     animate();
 
-    // Resize handler
+    // Resize handler with debounce
+    let resizeTimeout;
     window.addEventListener('resize', () => {
-        canvas.width = hero.offsetWidth;
-        canvas.height = hero.offsetHeight;
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+            canvas.width = hero.offsetWidth;
+            canvas.height = hero.offsetHeight;
+        }, 250);
+    });
+
+    // Cleanup on page hide
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+            cancelAnimationFrame(animationId);
+        } else {
+            animate();
+        }
     });
 }
 
@@ -515,22 +547,39 @@ function createCursorTrail() {
 // createCursorTrail();
 
 // ===========================
-// Magnetic Button Effect
+// Enhanced Magnetic Button Effect
 // ===========================
 
 function addMagneticEffect(selector) {
     const buttons = document.querySelectorAll(selector);
 
     buttons.forEach(button => {
-        button.addEventListener('mousemove', (e) => {
-            const rect = button.getBoundingClientRect();
-            const x = e.clientX - rect.left - rect.width / 2;
-            const y = e.clientY - rect.top - rect.height / 2;
+        let rafId = null;
 
-            button.style.transform = `translate(${x * 0.2}px, ${y * 0.2}px)`;
+        button.addEventListener('mouseenter', () => {
+            button.style.transition = 'none';
+        });
+
+        button.addEventListener('mousemove', (e) => {
+            if (rafId) {
+                cancelAnimationFrame(rafId);
+            }
+
+            rafId = requestAnimationFrame(() => {
+                const rect = button.getBoundingClientRect();
+                const x = e.clientX - rect.left - rect.width / 2;
+                const y = e.clientY - rect.top - rect.height / 2;
+
+                const strength = 0.15;
+                button.style.transform = `translate(${x * strength}px, ${y * strength}px)`;
+            });
         });
 
         button.addEventListener('mouseleave', () => {
+            if (rafId) {
+                cancelAnimationFrame(rafId);
+            }
+            button.style.transition = 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)';
             button.style.transform = '';
         });
     });
@@ -538,6 +587,8 @@ function addMagneticEffect(selector) {
 
 addMagneticEffect('.btn');
 addMagneticEffect('.social-links a');
+addMagneticEffect('.project-icon');
+addMagneticEffect('.contact-icon');
 
 // ===========================
 // Text Animation on Scroll
@@ -678,11 +729,11 @@ if (window.performance && window.performance.timing) {
 // Console Branding
 // ===========================
 
-console.log('%c👋 Welcome to Emanuele\'s Portfolio!', 'font-size: 24px; font-weight: bold; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent;');
-console.log('%c🚀 Built with premium design & animations', 'font-size: 14px; color: #667eea;');
-console.log('%c💼 Check out my work on GitHub:', 'font-size: 14px; color: #4a5568;');
-console.log('%chttps://github.com/emanuelecannizzaro', 'font-size: 14px; color: #667eea; font-weight: bold;');
-console.log('%c✈️ Aerospace Engineer | Software Developer | Data Analyst', 'font-size: 12px; color: #718096;');
+console.log('%c👋 Welcome to Emanuele\'s Portfolio!', 'font-size: 24px; font-weight: bold; background: linear-gradient(135deg, #6366f1, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent;');
+console.log('%c🚀 Built with modern design & premium interactions', 'font-size: 14px; color: #6366f1;');
+console.log('%c💼 Check out my work on GitHub:', 'font-size: 14px; color: #475569;');
+console.log('%chttps://github.com/emanuelecannizzaro', 'font-size: 14px; color: #6366f1; font-weight: bold;');
+console.log('%c✈️ Aerospace Engineer | Software Developer | Data Analyst', 'font-size: 12px; color: #64748b;');
 
 // ===========================
 // Easter Egg - Konami Code
@@ -718,19 +769,67 @@ rainbowStyle.textContent = `
 document.head.appendChild(rainbowStyle);
 
 // ===========================
+// Modern Loading Screen
+// ===========================
+
+function createLoadingScreen() {
+    const loader = document.createElement('div');
+    loader.id = 'page-loader';
+    loader.style.cssText = `
+        position: fixed;
+        inset: 0;
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        transition: opacity 0.6s ease, visibility 0.6s ease;
+    `;
+
+    const spinner = document.createElement('div');
+    spinner.style.cssText = `
+        width: 60px;
+        height: 60px;
+        border: 4px solid rgba(99, 102, 241, 0.2);
+        border-top-color: #6366f1;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    `;
+
+    const style = document.createElement('style');
+    style.textContent = `
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    `;
+    document.head.appendChild(style);
+
+    loader.appendChild(spinner);
+    document.body.appendChild(loader);
+
+    return loader;
+}
+
+// ===========================
 // Initialize Everything
 // ===========================
 
 document.addEventListener('DOMContentLoaded', () => {
+    const loader = createLoadingScreen();
+
     console.log('%c✅ Portfolio initialized successfully', 'color: #10b981; font-weight: bold;');
     highlightNavigation();
 
-    // Add loading animation
-    document.body.style.opacity = '0';
-    setTimeout(() => {
-        document.body.style.transition = 'opacity 0.6s ease';
-        document.body.style.opacity = '1';
-    }, 100);
+    // Hide loader after content is ready
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            loader.style.opacity = '0';
+            loader.style.visibility = 'hidden';
+            setTimeout(() => {
+                loader.remove();
+            }, 600);
+        }, 500);
+    });
 });
 
 // ===========================
