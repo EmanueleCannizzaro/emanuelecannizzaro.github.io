@@ -6,3 +6,4 @@ _site
 _backup
 .DS_store
 .jekyll-cache
+.claude/
