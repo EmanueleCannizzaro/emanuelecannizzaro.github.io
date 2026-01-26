@@ -1,0 +1,123 @@
+{{User sandbox}}
+<!-- PLEASE DO NOT REMOVE THIS LINE -->
+{{AFC submission|d|bio|u=Emanuele.cannizzaro|ns=118|decliner=AutoDecline|declinets=20260124000000|ts=20260124000000}} <!-- Do not remove this line! -->
+
+{{Infobox person
+| name               = Emanuele Cannizzaro
+| image              =
+| image_size         =
+| caption            =
+| birth_date         = <!-- {{Birth date and age|YYYY|MM|DD}} -->
+| birth_place        = Italy
+| residence          = Ravenna, Italy
+| nationality        = {{flagicon|Italy}} Italian<br>{{flagicon|United Kingdom}} British
+| education          = [[Università degli Studi di Palermo]]
+| alma_mater         = [[Università degli Studi di Palermo]]<br>[[University of Nottingham]] (Erasmus Exchange)
+| occupation         = Aerospace Engineer, Software Developer, Data Analyst
+| employer           = [[Airbus]]
+| known_for          = Digital twin platforms for aerospace structures, Open-source software contributions
+| website            = {{URL|https://emanuelecannizzaro.github.io/}}
+}}
+
+'''Emanuele Cannizzaro''' is an Italian-British aerospace engineer, software developer, and data analyst specializing in [[fatigue (material)|fatigue]] and [[damage tolerance]] analysis for aircraft structures. He currently serves as Technical Team Leader at [[Airbus]] in Toulouse, France, where he leads the A350 Nose and Center Fuselage Structural Assembly F&DT Team.{{cn|date=January 2026}}
+
+== Education ==
+
+Cannizzaro earned his Master of Engineering (MEng) degree in Aerospace Engineering from the [[Università degli Studi di Palermo]] in 1998, graduating with the highest honors (110/110 cum laude).{{cn|date=January 2026}} His thesis focused on "A Virtual Subsonic Wind Tunnel Simulator for Educational Purposes." During his studies, he participated in the [[Erasmus Programme]] with an exchange at the [[University of Nottingham]].{{cn|date=January 2026}}
+
+== Career ==
+
+=== Early Career (1999-2004) ===
+
+Cannizzaro began his professional career in 1999 as a Project Engineer at [[Atkins (company)|Atkins]] in Bristol, UK, where he worked on diverse projects including rail crash investigations ([[Hatfield rail crash]], [[Ladbroke Grove rail crash]]) and the [[Beagle 2]] Mars Lander mission.{{cn|date=January 2026}}
+
+From 2001 to 2004, he worked as a Senior CAE Engineer at [[Ricardo plc|Ricardo]] in Leamington Spa, UK, contributing to high-performance vehicle programs including the [[Bugatti Veyron]], [[Ford GT]], and [[Mitsubishi Lancer WRC]].{{cn|date=January 2026}}
+
+=== Aerospace Engineering (2004-Present) ===
+
+Cannizzaro returned to Atkins from 2004 to 2011 as a Senior F&DT Engineer, performing structural analysis for both aerospace and nuclear sectors. He worked on multiple Airbus programs and UK nuclear facilities.{{cn|date=January 2026}}
+
+From 2011 to 2015, he served as Head of F&DT at Assystem UK in Bristol, leading a team supporting various Airbus programs including the [[Airbus A380|A380]] and [[Airbus A400M Atlas|A400M]].{{cn|date=January 2026}}
+
+Between 2015 and 2019, Cannizzaro worked as a Senior F&DT Engineer at Airbus in Bristol, UK, where he held the designation of Airbus Signatory for both F&DT (Fatigue and Damage Tolerance) and FEA ([[Finite Element Analysis]]). During this period, he contributed to the [[Airbus A350 XWB|A350]] and [[Airbus A321|A321LR]] programs.{{cn|date=January 2026}}
+
+Since 2019, he has served as Technical Team Leader at Airbus in Toulouse, France, overseeing fatigue analysis, damage tolerance assessments, and digital transformation initiatives for the A350 program.{{cn|date=January 2026}}
+
+== Technical Contributions ==
+
+=== Digital Twin Technology ===
+
+Cannizzaro has been involved in the development of [[digital twin]] platforms for aerospace applications, including:
+
+* '''Airframe Digital Twin Platform''': A comprehensive system for real-time monitoring and predictive maintenance of airframe structures{{cn|date=January 2026}}
+* '''Airframe Fatigue Twin (AF-Twin)''': A specialized digital twin for fatigue life prediction and monitoring of aircraft structures using [[machine learning]] techniques{{cn|date=January 2026}}
+
+=== Software Development ===
+
+He has developed several automation and analysis tools for the aerospace industry:
+
+* '''Time-Series Analytics Studio (TSAS)''': An advanced analytics platform for [[time series]] data analysis with interactive visualization capabilities{{cn|date=January 2026}}
+* '''QuASAR''': A digital stress dossier system for automated documentation and analysis of structural assessments{{cn|date=January 2026}}
+* '''Aero2Stress''': An automation tool for converting aerodynamic loads to stress analysis inputs{{cn|date=January 2026}}
+
+=== Open Source Contributions ===
+
+Cannizzaro is an active contributor to several [[open-source software]] projects in the scientific computing domain, including:
+
+* [[Armadillo (C++ library)|Armadillo]] - A C++ linear algebra library{{cn|date=January 2026}}
+* h5nastran - A HDF5-based format for [[Nastran]] files{{cn|date=January 2026}}
+* felyx - Finite element analysis software{{cn|date=January 2026}}
+* ferespost - Post-processing tools for finite element analysis{{cn|date=January 2026}}
+
+== Professional Qualifications ==
+
+* Airbus Signatory: F&DT (2015-2019){{cn|date=January 2026}}
+* Airbus Signatory: FEA (2015-2019){{cn|date=January 2026}}
+* Chartered Engineer (CEng), [[Institution of Mechanical Engineers|IMechE]] Member (1999-2017){{cn|date=January 2026}}
+* Udacity Data Analyst Nanodegree{{cn|date=January 2026}}
+* Skywise Advanced Data Analyst certification{{cn|date=January 2026}}
+* [[Google Cloud Platform]] certifications{{cn|date=January 2026}}
+
+== Technical Skills ==
+
+Cannizzaro has expertise in multiple programming languages including [[Python (programming language)|Python]], [[JavaScript]], [[Bash (Unix shell)|Bash]], and [[Visual Basic for Applications|VBA]], as well as engineering software such as [[MSC Nastran]], [[Altair HyperWorks]], [[CATIA]], and [[AFGROW]].{{cn|date=January 2026}} He is proficient in data science frameworks including [[pandas (software)|Pandas]], [[scikit-learn]], [[TensorFlow]], and [[Bokeh (visualization library)|Bokeh]].{{cn|date=January 2026}}
+
+== Community Engagement ==
+
+Cannizzaro has been active in the software development and open-source communities:
+
+* Participant at [[PyCon|PyConUK]] 2018 and PyData conferences{{cn|date=January 2026}}
+* Multiple hackathon participant (Product Safety, ADS-B, MS Decommissioning){{cn|date=January 2026}}
+* Attended [[Akademy]] 2019 ([[KDE]] community summit) in Milan{{cn|date=January 2026}}
+
+== Languages ==
+
+Cannizzaro is multilingual, with proficiency in:
+* Italian (Native - C2)
+* English (Advanced - C1)
+* Spanish (Intermediate - B1)
+* French (Elementary - A2){{cn|date=January 2026}}
+
+== References ==
+
+{{Reflist}}
+
+== External links ==
+
+* {{Official website|https://emanuelecannizzaro.github.io/}}
+* [https://github.com/emanuelecannizzaro GitHub profile]
+* [https://linkedin.com/in/emanuelecannizzaro LinkedIn profile]
+
+{{Authority control}}
+
+[[Category:Living people]]
+[[Category:Italian engineers]]
+[[Category:British engineers]]
+[[Category:Aerospace engineers]]
+[[Category:Software developers]]
+[[Category:Data scientists]]
+[[Category:Airbus people]]
+[[Category:Alumni of the University of Nottingham]]
+[[Category:Università degli Studi di Palermo alumni]]
+[[Category:Open-source advocates]]
+[[Category:Year of birth missing (living people)]]
